@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# Pickle files (large binary, regenerable from JSON)
+*.gpickle
+
+# Full network GEXF (19MB, regenerable — run phase5 + phase6)
+data/homeopathy_network_full.gexf
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

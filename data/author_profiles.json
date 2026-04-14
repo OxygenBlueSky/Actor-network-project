@@ -1,0 +1,5123 @@
+{
+  "metadata": {
+    "expansion_timestamp": "2026-04-14T19:27:27.857428",
+    "top_n_authors": 30,
+    "profiles_built": 30,
+    "disambiguation_warnings": 1
+  },
+  "author_profiles": [
+    {
+      "author_id": "https://openalex.org/A5039035887",
+      "author_name": "Stephan Baumgartner",
+      "seed_works_count": 31,
+      "total_works_in_openalex": 233,
+      "cited_by_count": 3081,
+      "orcid": "https://orcid.org/0000-0001-7945-6403",
+      "last_known_institutions": [
+        {
+          "institution_id": "https://openalex.org/I118564535",
+          "institution_name": "University of Bern",
+          "country_code": "CH"
+        },
+        {
+          "institution_id": "https://openalex.org/I130692619",
+          "institution_name": "Bern University of Applied Sciences",
+          "country_code": "CH"
+        },
+        {
+          "institution_id": "https://openalex.org/I155976169",
+          "institution_name": "Witten/Herdecke University",
+          "country_code": "DE"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210117739",
+          "institution_name": "Society for Clinical Research",
+          "country_code": "DE"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210131835",
+          "institution_name": "Integrative Medicine Institute",
+          "country_code": "US"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210146503",
+          "institution_name": "Verein für Krebsforschung",
+          "country_code": "CH"
+        },
+        {
+          "institution_id": "https://openalex.org/I4389424196",
+          "institution_name": "Deleted Institution",
+          "country_code": null
+        }
+      ],
+      "disambiguation_flag": false,
+      "year_range": [
+        1996,
+        2025
+      ],
+      "fetched_works_count": 200,
+      "top_topics": [
+        {
+          "topic_name": "Complementary and Alternative Medicine Studies",
+          "count": 91
+        },
+        {
+          "topic_name": "Toxin Mechanisms and Immunotoxins",
+          "count": 34
+        },
+        {
+          "topic_name": "Plant tissue culture and regeneration",
+          "count": 21
+        },
+        {
+          "topic_name": "Plant Parasitism and Resistance",
+          "count": 18
+        },
+        {
+          "topic_name": "Herbal Medicine Research Studies",
+          "count": 16
+        },
+        {
+          "topic_name": "Therapeutic Uses of Natural Elements",
+          "count": 14
+        },
+        {
+          "topic_name": "Transgenic Plants and Applications",
+          "count": 11
+        },
+        {
+          "topic_name": "Botanical Studies and Applications",
+          "count": 11
+        },
+        {
+          "topic_name": "Biofield Effects and Biophysics",
+          "count": 9
+        },
+        {
+          "topic_name": "Meta-analysis and systematic reviews",
+          "count": 9
+        },
+        {
+          "topic_name": "Ecology and Conservation Studies",
+          "count": 8
+        },
+        {
+          "topic_name": "Nanomaterials and Printing Technologies",
+          "count": 8
+        },
+        {
+          "topic_name": "Constructed Wetlands for Wastewater Treatment",
+          "count": 8
+        },
+        {
+          "topic_name": "Pain Management and Placebo Effect",
+          "count": 6
+        },
+        {
+          "topic_name": "Electrospun Nanofibers in Biomedical Applications",
+          "count": 5
+        },
+        {
+          "topic_name": "Plant and fungal interactions",
+          "count": 5
+        },
+        {
+          "topic_name": "Drug Solubulity and Delivery Systems",
+          "count": 4
+        },
+        {
+          "topic_name": "Phytochemistry Medicinal Plant Applications",
+          "count": 4
+        },
+        {
+          "topic_name": "Photosynthetic Processes and Mechanisms",
+          "count": 4
+        },
+        {
+          "topic_name": "Seed Germination and Physiology",
+          "count": 4
+        }
+      ],
+      "top_fields": [
+        {
+          "field_name": "Medicine",
+          "count": 148
+        },
+        {
+          "field_name": "Agricultural and Biological Sciences",
+          "count": 99
+        },
+        {
+          "field_name": "Biochemistry, Genetics and Molecular Biology",
+          "count": 56
+        },
+        {
+          "field_name": "Immunology and Microbiology",
+          "count": 36
+        },
+        {
+          "field_name": "Engineering",
+          "count": 23
+        },
+        {
+          "field_name": "Health Professions",
+          "count": 18
+        },
+        {
+          "field_name": "Environmental Science",
+          "count": 14
+        },
+        {
+          "field_name": "Pharmacology, Toxicology and Pharmaceutics",
+          "count": 13
+        },
+        {
+          "field_name": "Materials Science",
+          "count": 12
+        },
+        {
+          "field_name": "Arts and Humanities",
+          "count": 11
+        }
+      ],
+      "top_domains": [
+        {
+          "domain_name": "Life Sciences",
+          "count": 211
+        },
+        {
+          "domain_name": "Health Sciences",
+          "count": 168
+        },
+        {
+          "domain_name": "Physical Sciences",
+          "count": 61
+        },
+        {
+          "domain_name": "Social Sciences",
+          "count": 35
+        }
+      ]
+    },
+    {
+      "author_id": "https://openalex.org/A5059269851",
+      "author_name": "Leoni Villano Bonamin",
+      "seed_works_count": 28,
+      "total_works_in_openalex": 225,
+      "cited_by_count": 1412,
+      "orcid": "https://orcid.org/0000-0002-9850-9491",
+      "last_known_institutions": [
+        {
+          "institution_id": "https://openalex.org/I4210111188",
+          "institution_name": "Universidade Paulista",
+          "country_code": "BR"
+        }
+      ],
+      "disambiguation_flag": false,
+      "year_range": [
+        1993,
+        2024
+      ],
+      "fetched_works_count": 200,
+      "top_topics": [
+        {
+          "topic_name": "Complementary and Alternative Medicine Studies",
+          "count": 62
+        },
+        {
+          "topic_name": "Herbal Medicine Research Studies",
+          "count": 20
+        },
+        {
+          "topic_name": "Stress Responses and Cortisol",
+          "count": 11
+        },
+        {
+          "topic_name": "Phytochemistry Medicinal Plant Applications",
+          "count": 10
+        },
+        {
+          "topic_name": "Birth, Development, and Health",
+          "count": 9
+        },
+        {
+          "topic_name": "Research on Leishmaniasis Studies",
+          "count": 8
+        },
+        {
+          "topic_name": "Toxin Mechanisms and Immunotoxins",
+          "count": 8
+        },
+        {
+          "topic_name": "Diet and metabolism studies",
+          "count": 7
+        },
+        {
+          "topic_name": "Plant tissue culture and regeneration",
+          "count": 6
+        },
+        {
+          "topic_name": "Biofield Effects and Biophysics",
+          "count": 6
+        },
+        {
+          "topic_name": "Therapeutic Uses of Natural Elements",
+          "count": 6
+        },
+        {
+          "topic_name": "Environmental Toxicology and Ecotoxicology",
+          "count": 6
+        },
+        {
+          "topic_name": "Adipose Tissue and Metabolism",
+          "count": 6
+        },
+        {
+          "topic_name": "Trypanosoma species research and implications",
+          "count": 5
+        },
+        {
+          "topic_name": "Healthcare and Venom Research",
+          "count": 5
+        },
+        {
+          "topic_name": "Parasitic Infections and Diagnostics",
+          "count": 5
+        },
+        {
+          "topic_name": "Animal Behavior and Welfare Studies",
+          "count": 5
+        },
+        {
+          "topic_name": "Veterinary Oncology Research",
+          "count": 5
+        },
+        {
+          "topic_name": "Virus-based gene therapy research",
+          "count": 5
+        },
+        {
+          "topic_name": "Animal testing and alternatives",
+          "count": 4
+        }
+      ],
+      "top_fields": [
+        {
+          "field_name": "Medicine",
+          "count": 218
+        },
+        {
+          "field_name": "Biochemistry, Genetics and Molecular Biology",
+          "count": 46
+        },
+        {
+          "field_name": "Agricultural and Biological Sciences",
+          "count": 40
+        },
+        {
+          "field_name": "Immunology and Microbiology",
+          "count": 31
+        },
+        {
+          "field_name": "Environmental Science",
+          "count": 24
+        },
+        {
+          "field_name": "Neuroscience",
+          "count": 23
+        },
+        {
+          "field_name": "Veterinary",
+          "count": 14
+        },
+        {
+          "field_name": "Pharmacology, Toxicology and Pharmaceutics",
+          "count": 12
+        },
+        {
+          "field_name": "Health Professions",
+          "count": 11
+        },
+        {
+          "field_name": "Psychology",
+          "count": 8
+        }
+      ],
+      "top_domains": [
+        {
+          "domain_name": "Health Sciences",
+          "count": 253
+        },
+        {
+          "domain_name": "Life Sciences",
+          "count": 152
+        },
+        {
+          "domain_name": "Physical Sciences",
+          "count": 42
+        },
+        {
+          "domain_name": "Social Sciences",
+          "count": 26
+        }
+      ]
+    },
+    {
+      "author_id": "https://openalex.org/A5110304301",
+      "author_name": "Nirmal Chandra Sukul",
+      "seed_works_count": 28,
+      "total_works_in_openalex": 54,
+      "cited_by_count": 288,
+      "orcid": null,
+      "last_known_institutions": [
+        {
+          "institution_id": "https://openalex.org/I130291710",
+          "institution_name": "Visva-Bharati University",
+          "country_code": "IN"
+        }
+      ],
+      "disambiguation_flag": false,
+      "year_range": [
+        1982,
+        2025
+      ],
+      "fetched_works_count": 53,
+      "top_topics": [
+        {
+          "topic_name": "Complementary and Alternative Medicine Studies",
+          "count": 18
+        },
+        {
+          "topic_name": "Biofield Effects and Biophysics",
+          "count": 7
+        },
+        {
+          "topic_name": "Bee Products Chemical Analysis",
+          "count": 4
+        },
+        {
+          "topic_name": "Parasitic Diseases Research and Treatment",
+          "count": 3
+        },
+        {
+          "topic_name": "Plant-based Medicinal Research",
+          "count": 3
+        },
+        {
+          "topic_name": "Seed Germination and Physiology",
+          "count": 3
+        },
+        {
+          "topic_name": "Medicinal Plants and Bioactive Compounds",
+          "count": 3
+        },
+        {
+          "topic_name": "Enzyme Production and Characterization",
+          "count": 3
+        },
+        {
+          "topic_name": "Protein Interaction Studies and Fluorescence Analysis",
+          "count": 3
+        },
+        {
+          "topic_name": "Computational Drug Discovery Methods",
+          "count": 2
+        },
+        {
+          "topic_name": "Parasite Biology and Host Interactions",
+          "count": 2
+        },
+        {
+          "topic_name": "Mosquito-borne diseases and control",
+          "count": 2
+        },
+        {
+          "topic_name": "Medicinal Plants and Neuroprotection",
+          "count": 2
+        },
+        {
+          "topic_name": "Paranormal Experiences and Beliefs",
+          "count": 2
+        },
+        {
+          "topic_name": "Acupuncture Treatment Research Studies",
+          "count": 2
+        },
+        {
+          "topic_name": "Pharmacology and Obesity Treatment",
+          "count": 2
+        },
+        {
+          "topic_name": "Olfactory and Sensory Function Studies",
+          "count": 2
+        },
+        {
+          "topic_name": "Chemical Reactions and Isotopes",
+          "count": 2
+        },
+        {
+          "topic_name": "Herbal Medicine Research Studies",
+          "count": 2
+        },
+        {
+          "topic_name": "Nematode management and characterization studies",
+          "count": 2
+        }
+      ],
+      "top_fields": [
+        {
+          "field_name": "Medicine",
+          "count": 55
+        },
+        {
+          "field_name": "Agricultural and Biological Sciences",
+          "count": 27
+        },
+        {
+          "field_name": "Biochemistry, Genetics and Molecular Biology",
+          "count": 13
+        },
+        {
+          "field_name": "Pharmacology, Toxicology and Pharmaceutics",
+          "count": 7
+        },
+        {
+          "field_name": "Chemistry",
+          "count": 6
+        },
+        {
+          "field_name": "Psychology",
+          "count": 4
+        },
+        {
+          "field_name": "Neuroscience",
+          "count": 4
+        },
+        {
+          "field_name": "Computer Science",
+          "count": 2
+        },
+        {
+          "field_name": "Environmental Science",
+          "count": 2
+        },
+        {
+          "field_name": "Engineering",
+          "count": 2
+        }
+      ],
+      "top_domains": [
+        {
+          "domain_name": "Health Sciences",
+          "count": 58
+        },
+        {
+          "domain_name": "Life Sciences",
+          "count": 52
+        },
+        {
+          "domain_name": "Physical Sciences",
+          "count": 12
+        },
+        {
+          "domain_name": "Social Sciences",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "author_id": "https://openalex.org/A5082797612",
+      "author_name": "Raj Kumar Manchanda",
+      "seed_works_count": 25,
+      "total_works_in_openalex": 155,
+      "cited_by_count": 1240,
+      "orcid": "https://orcid.org/0000-0001-5589-9170",
+      "last_known_institutions": [
+        {
+          "institution_id": "https://openalex.org/I4210099750",
+          "institution_name": "Midnapore Homeopathic Medical College and Hospital",
+          "country_code": "IN"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210108780",
+          "institution_name": "Swami Pranavananda Homoeopathic Medical College and Hospital",
+          "country_code": "IN"
+        }
+      ],
+      "disambiguation_flag": false,
+      "year_range": [
+        1975,
+        2026
+      ],
+      "fetched_works_count": 155,
+      "top_topics": [
+        {
+          "topic_name": "Complementary and Alternative Medicine Studies",
+          "count": 73
+        },
+        {
+          "topic_name": "Mosquito-borne diseases and control",
+          "count": 11
+        },
+        {
+          "topic_name": "Meta-analysis and systematic reviews",
+          "count": 9
+        },
+        {
+          "topic_name": "Herbal Medicine Research Studies",
+          "count": 9
+        },
+        {
+          "topic_name": "Respiratory and Cough-Related Research",
+          "count": 8
+        },
+        {
+          "topic_name": "Pain Management and Placebo Effect",
+          "count": 7
+        },
+        {
+          "topic_name": "Health Systems, Economic Evaluations, Quality of Life",
+          "count": 7
+        },
+        {
+          "topic_name": "Malaria Research and Control",
+          "count": 6
+        },
+        {
+          "topic_name": "Pharmacological Effects of Natural Compounds",
+          "count": 6
+        },
+        {
+          "topic_name": "COVID-19 Clinical Research Studies",
+          "count": 5
+        },
+        {
+          "topic_name": "Phytochemicals and Medicinal Plants",
+          "count": 5
+        },
+        {
+          "topic_name": "Drug-Induced Hepatotoxicity and Protection",
+          "count": 5
+        },
+        {
+          "topic_name": "Plant-based Medicinal Research",
+          "count": 4
+        },
+        {
+          "topic_name": "Long-Term Effects of COVID-19",
+          "count": 4
+        },
+        {
+          "topic_name": "COVID-19 and Mental Health",
+          "count": 4
+        },
+        {
+          "topic_name": "Mental Health and Psychiatry",
+          "count": 4
+        },
+        {
+          "topic_name": "Traditional Chinese Medicine Studies",
+          "count": 3
+        },
+        {
+          "topic_name": "Viral Infections and Vectors",
+          "count": 3
+        },
+        {
+          "topic_name": "Psychology of Moral and Emotional Judgment",
+          "count": 3
+        },
+        {
+          "topic_name": "Thyroid Disorders and Treatments",
+          "count": 3
+        }
+      ],
+      "top_fields": [
+        {
+          "field_name": "Medicine",
+          "count": 229
+        },
+        {
+          "field_name": "Agricultural and Biological Sciences",
+          "count": 22
+        },
+        {
+          "field_name": "Biochemistry, Genetics and Molecular Biology",
+          "count": 17
+        },
+        {
+          "field_name": "Pharmacology, Toxicology and Pharmaceutics",
+          "count": 16
+        },
+        {
+          "field_name": "Neuroscience",
+          "count": 14
+        },
+        {
+          "field_name": "Decision Sciences",
+          "count": 10
+        },
+        {
+          "field_name": "Economics, Econometrics and Finance",
+          "count": 10
+        },
+        {
+          "field_name": "Health Professions",
+          "count": 10
+        },
+        {
+          "field_name": "Materials Science",
+          "count": 7
+        },
+        {
+          "field_name": "Arts and Humanities",
+          "count": 6
+        }
+      ],
+      "top_domains": [
+        {
+          "domain_name": "Health Sciences",
+          "count": 242
+        },
+        {
+          "domain_name": "Life Sciences",
+          "count": 74
+        },
+        {
+          "domain_name": "Social Sciences",
+          "count": 34
+        },
+        {
+          "domain_name": "Physical Sciences",
+          "count": 27
+        }
+      ]
+    },
+    {
+      "author_id": "https://openalex.org/A5042595951",
+      "author_name": "Anil Khurana",
+      "seed_works_count": 23,
+      "total_works_in_openalex": 163,
+      "cited_by_count": 911,
+      "orcid": "https://orcid.org/0000-0002-6141-2848",
+      "last_known_institutions": [
+        {
+          "institution_id": "https://openalex.org/I4210124368",
+          "institution_name": "Ministry of AYUSH",
+          "country_code": "IN"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210155405",
+          "institution_name": "Central Council for Research in Homoeopathy",
+          "country_code": "IN"
+        }
+      ],
+      "disambiguation_flag": false,
+      "year_range": [
+        1985,
+        2025
+      ],
+      "fetched_works_count": 163,
+      "top_topics": [
+        {
+          "topic_name": "Complementary and Alternative Medicine Studies",
+          "count": 57
+        },
+        {
+          "topic_name": "COVID-19 Clinical Research Studies",
+          "count": 12
+        },
+        {
+          "topic_name": "Long-Term Effects of COVID-19",
+          "count": 11
+        },
+        {
+          "topic_name": "Pain Management and Placebo Effect",
+          "count": 11
+        },
+        {
+          "topic_name": "Acupuncture Treatment Research Studies",
+          "count": 9
+        },
+        {
+          "topic_name": "Vitamin C and Antioxidants Research",
+          "count": 8
+        },
+        {
+          "topic_name": "Drug-Induced Hepatotoxicity and Protection",
+          "count": 7
+        },
+        {
+          "topic_name": "Mosquito-borne diseases and control",
+          "count": 6
+        },
+        {
+          "topic_name": "Malaria Research and Control",
+          "count": 6
+        },
+        {
+          "topic_name": "Plant-based Medicinal Research",
+          "count": 6
+        },
+        {
+          "topic_name": "Meta-analysis and systematic reviews",
+          "count": 5
+        },
+        {
+          "topic_name": "COVID-19 and Mental Health",
+          "count": 5
+        },
+        {
+          "topic_name": "Healthcare and Venom Research",
+          "count": 5
+        },
+        {
+          "topic_name": "Therapeutic Uses of Natural Elements",
+          "count": 4
+        },
+        {
+          "topic_name": "Berberine and alkaloids research",
+          "count": 4
+        },
+        {
+          "topic_name": "Herbal Medicine Research Studies",
+          "count": 4
+        },
+        {
+          "topic_name": "Ethnobotanical and Medicinal Plants Studies",
+          "count": 4
+        },
+        {
+          "topic_name": "Tumors and Oncological Cases",
+          "count": 4
+        },
+        {
+          "topic_name": "SARS-CoV-2 and COVID-19 Research",
+          "count": 3
+        },
+        {
+          "topic_name": "Viral Infections and Vectors",
+          "count": 3
+        }
+      ],
+      "top_fields": [
+        {
+          "field_name": "Medicine",
+          "count": 256
+        },
+        {
+          "field_name": "Biochemistry, Genetics and Molecular Biology",
+          "count": 27
+        },
+        {
+          "field_name": "Agricultural and Biological Sciences",
+          "count": 19
+        },
+        {
+          "field_name": "Pharmacology, Toxicology and Pharmaceutics",
+          "count": 18
+        },
+        {
+          "field_name": "Neuroscience",
+          "count": 14
+        },
+        {
+          "field_name": "Nursing",
+          "count": 12
+        },
+        {
+          "field_name": "Health Professions",
+          "count": 9
+        },
+        {
+          "field_name": "Economics, Econometrics and Finance",
+          "count": 8
+        },
+        {
+          "field_name": "Psychology",
+          "count": 6
+        },
+        {
+          "field_name": "Decision Sciences",
+          "count": 5
+        }
+      ],
+      "top_domains": [
+        {
+          "domain_name": "Health Sciences",
+          "count": 277
+        },
+        {
+          "domain_name": "Life Sciences",
+          "count": 82
+        },
+        {
+          "domain_name": "Physical Sciences",
+          "count": 25
+        },
+        {
+          "domain_name": "Social Sciences",
+          "count": 24
+        }
+      ]
+    },
+    {
+      "author_id": "https://openalex.org/A5051737075",
+      "author_name": "Anirban Sukul",
+      "seed_works_count": 21,
+      "total_works_in_openalex": 56,
+      "cited_by_count": 341,
+      "orcid": null,
+      "last_known_institutions": [
+        {
+          "institution_id": "https://openalex.org/I4210091141",
+          "institution_name": "Homeopathy Research Institute",
+          "country_code": "GB"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210099750",
+          "institution_name": "Midnapore Homeopathic Medical College and Hospital",
+          "country_code": "IN"
+        }
+      ],
+      "disambiguation_flag": false,
+      "year_range": [
+        1999,
+        2025
+      ],
+      "fetched_works_count": 56,
+      "top_topics": [
+        {
+          "topic_name": "Complementary and Alternative Medicine Studies",
+          "count": 20
+        },
+        {
+          "topic_name": "Biofield Effects and Biophysics",
+          "count": 8
+        },
+        {
+          "topic_name": "Bee Products Chemical Analysis",
+          "count": 5
+        },
+        {
+          "topic_name": "Enzyme Production and Characterization",
+          "count": 5
+        },
+        {
+          "topic_name": "Plant-based Medicinal Research",
+          "count": 4
+        },
+        {
+          "topic_name": "Nematode management and characterization studies",
+          "count": 4
+        },
+        {
+          "topic_name": "Traditional Chinese Medicine Analysis",
+          "count": 3
+        },
+        {
+          "topic_name": "Pharmacological Effects of Natural Compounds",
+          "count": 3
+        },
+        {
+          "topic_name": "Plant Disease Management Techniques",
+          "count": 3
+        },
+        {
+          "topic_name": "Insect and Pesticide Research",
+          "count": 3
+        },
+        {
+          "topic_name": "Seed Germination and Physiology",
+          "count": 3
+        },
+        {
+          "topic_name": "Medicinal Plants and Bioactive Compounds",
+          "count": 2
+        },
+        {
+          "topic_name": "Paranormal Experiences and Beliefs",
+          "count": 2
+        },
+        {
+          "topic_name": "Acupuncture Treatment Research Studies",
+          "count": 2
+        },
+        {
+          "topic_name": "Pharmacology and Obesity Treatment",
+          "count": 2
+        },
+        {
+          "topic_name": "Agricultural pest management studies",
+          "count": 2
+        },
+        {
+          "topic_name": "Herbal Medicine Research Studies",
+          "count": 2
+        },
+        {
+          "topic_name": "Protein Interaction Studies and Fluorescence Analysis",
+          "count": 2
+        },
+        {
+          "topic_name": "Drug Solubulity and Delivery Systems",
+          "count": 1
+        },
+        {
+          "topic_name": "Computational Drug Discovery Methods",
+          "count": 1
+        }
+      ],
+      "top_fields": [
+        {
+          "field_name": "Medicine",
+          "count": 51
+        },
+        {
+          "field_name": "Agricultural and Biological Sciences",
+          "count": 33
+        },
+        {
+          "field_name": "Biochemistry, Genetics and Molecular Biology",
+          "count": 15
+        },
+        {
+          "field_name": "Pharmacology, Toxicology and Pharmaceutics",
+          "count": 10
+        },
+        {
+          "field_name": "Chemistry",
+          "count": 3
+        },
+        {
+          "field_name": "Neuroscience",
+          "count": 3
+        },
+        {
+          "field_name": "Psychology",
+          "count": 2
+        },
+        {
+          "field_name": "Engineering",
+          "count": 2
+        },
+        {
+          "field_name": "Nursing",
+          "count": 2
+        },
+        {
+          "field_name": "Computer Science",
+          "count": 1
+        }
+      ],
+      "top_domains": [
+        {
+          "domain_name": "Life Sciences",
+          "count": 61
+        },
+        {
+          "domain_name": "Health Sciences",
+          "count": 54
+        },
+        {
+          "domain_name": "Physical Sciences",
+          "count": 7
+        },
+        {
+          "domain_name": "Social Sciences",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "author_id": "https://openalex.org/A5088204672",
+      "author_name": "George Vithoulkas",
+      "seed_works_count": 18,
+      "total_works_in_openalex": 110,
+      "cited_by_count": 639,
+      "orcid": "https://orcid.org/0000-0002-9118-8306",
+      "last_known_institutions": [
+        {
+          "institution_id": "https://openalex.org/I4210130733",
+          "institution_name": "Higher Ecclesiastical Academy of Athens",
+          "country_code": "GR"
+        },
+        {
+          "institution_id": "https://openalex.org/I98805295",
+          "institution_name": "University of the Aegean",
+          "country_code": "GR"
+        }
+      ],
+      "disambiguation_flag": false,
+      "year_range": [
+        1979,
+        2026
+      ],
+      "fetched_works_count": 110,
+      "top_topics": [
+        {
+          "topic_name": "Complementary and Alternative Medicine Studies",
+          "count": 51
+        },
+        {
+          "topic_name": "Therapeutic Uses of Natural Elements",
+          "count": 8
+        },
+        {
+          "topic_name": "Dermatology and Skin Diseases",
+          "count": 7
+        },
+        {
+          "topic_name": "Acupuncture Treatment Research Studies",
+          "count": 7
+        },
+        {
+          "topic_name": "Gut microbiota and health",
+          "count": 5
+        },
+        {
+          "topic_name": "Pain Management and Placebo Effect",
+          "count": 5
+        },
+        {
+          "topic_name": "Mental Health and Psychiatry",
+          "count": 5
+        },
+        {
+          "topic_name": "Inflammasome and immune disorders",
+          "count": 5
+        },
+        {
+          "topic_name": "Menstrual Health and Disorders",
+          "count": 4
+        },
+        {
+          "topic_name": "Psychosomatic Disorders and Their Treatments",
+          "count": 4
+        },
+        {
+          "topic_name": "Multiple Sclerosis Research Studies",
+          "count": 3
+        },
+        {
+          "topic_name": "Biofield Effects and Biophysics",
+          "count": 3
+        },
+        {
+          "topic_name": "Thermal Regulation in Medicine",
+          "count": 3
+        },
+        {
+          "topic_name": "COVID-19 Clinical Research Studies",
+          "count": 3
+        },
+        {
+          "topic_name": "Tryptophan and brain disorders",
+          "count": 3
+        },
+        {
+          "topic_name": "Healthcare cost, quality, practices",
+          "count": 3
+        },
+        {
+          "topic_name": "Spectroscopy Techniques in Biomedical and Chemical Research",
+          "count": 2
+        },
+        {
+          "topic_name": "Spectroscopy and Chemometric Analyses",
+          "count": 2
+        },
+        {
+          "topic_name": "Ovarian cancer diagnosis and treatment",
+          "count": 2
+        },
+        {
+          "topic_name": "Childhood Cancer Survivors' Quality of Life",
+          "count": 2
+        }
+      ],
+      "top_fields": [
+        {
+          "field_name": "Medicine",
+          "count": 166
+        },
+        {
+          "field_name": "Biochemistry, Genetics and Molecular Biology",
+          "count": 24
+        },
+        {
+          "field_name": "Health Professions",
+          "count": 22
+        },
+        {
+          "field_name": "Neuroscience",
+          "count": 14
+        },
+        {
+          "field_name": "Arts and Humanities",
+          "count": 9
+        },
+        {
+          "field_name": "Psychology",
+          "count": 4
+        },
+        {
+          "field_name": "Social Sciences",
+          "count": 4
+        },
+        {
+          "field_name": "Physics and Astronomy",
+          "count": 3
+        },
+        {
+          "field_name": "Chemistry",
+          "count": 3
+        },
+        {
+          "field_name": "Pharmacology, Toxicology and Pharmaceutics",
+          "count": 3
+        }
+      ],
+      "top_domains": [
+        {
+          "domain_name": "Health Sciences",
+          "count": 191
+        },
+        {
+          "domain_name": "Life Sciences",
+          "count": 45
+        },
+        {
+          "domain_name": "Social Sciences",
+          "count": 21
+        },
+        {
+          "domain_name": "Physical Sciences",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "author_id": "https://openalex.org/A5030085825",
+      "author_name": "Munmun Koley",
+      "seed_works_count": 18,
+      "total_works_in_openalex": 132,
+      "cited_by_count": 540,
+      "orcid": "https://orcid.org/0000-0002-4706-9692",
+      "last_known_institutions": [
+        {
+          "institution_id": "https://openalex.org/I109963156",
+          "institution_name": "Bidhan Chandra Krishi Viswavidyalaya",
+          "country_code": "IN"
+        },
+        {
+          "institution_id": "https://openalex.org/I226431899",
+          "institution_name": "West Bengal University of Health Sciences",
+          "country_code": "IN"
+        },
+        {
+          "institution_id": "https://openalex.org/I2801424531",
+          "institution_name": "Government of West Bengal",
+          "country_code": "IN"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210087792",
+          "institution_name": "Department of Health & Family Welfare",
+          "country_code": "IN"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210155405",
+          "institution_name": "Central Council for Research in Homoeopathy",
+          "country_code": "IN"
+        }
+      ],
+      "disambiguation_flag": false,
+      "year_range": [
+        2011,
+        2025
+      ],
+      "fetched_works_count": 132,
+      "top_topics": [
+        {
+          "topic_name": "Complementary and Alternative Medicine Studies",
+          "count": 83
+        },
+        {
+          "topic_name": "Pain Management and Placebo Effect",
+          "count": 13
+        },
+        {
+          "topic_name": "Meta-analysis and systematic reviews",
+          "count": 13
+        },
+        {
+          "topic_name": "Dermatology and Skin Diseases",
+          "count": 11
+        },
+        {
+          "topic_name": "Allergic Rhinitis and Sensitization",
+          "count": 9
+        },
+        {
+          "topic_name": "Health Systems, Economic Evaluations, Quality of Life",
+          "count": 6
+        },
+        {
+          "topic_name": "Plant-based Medicinal Research",
+          "count": 6
+        },
+        {
+          "topic_name": "Musculoskeletal pain and rehabilitation",
+          "count": 6
+        },
+        {
+          "topic_name": "Acupuncture Treatment Research Studies",
+          "count": 5
+        },
+        {
+          "topic_name": "Pharmacology and Obesity Treatment",
+          "count": 5
+        },
+        {
+          "topic_name": "Health Promotion and Cardiovascular Prevention",
+          "count": 4
+        },
+        {
+          "topic_name": "Anorectal Disease Treatments and Outcomes",
+          "count": 4
+        },
+        {
+          "topic_name": "Gout, Hyperuricemia, Uric Acid",
+          "count": 4
+        },
+        {
+          "topic_name": "Patient Satisfaction in Healthcare",
+          "count": 4
+        },
+        {
+          "topic_name": "Medical Malpractice and Liability Issues",
+          "count": 4
+        },
+        {
+          "topic_name": "Diabetes Management and Education",
+          "count": 3
+        },
+        {
+          "topic_name": "Nail Diseases and Treatments",
+          "count": 3
+        },
+        {
+          "topic_name": "melanin and skin pigmentation",
+          "count": 3
+        },
+        {
+          "topic_name": "Gastrointestinal motility and disorders",
+          "count": 3
+        },
+        {
+          "topic_name": "Pathogenesis and Treatment of Hiccups",
+          "count": 3
+        }
+      ],
+      "top_fields": [
+        {
+          "field_name": "Medicine",
+          "count": 234
+        },
+        {
+          "field_name": "Health Professions",
+          "count": 20
+        },
+        {
+          "field_name": "Neuroscience",
+          "count": 17
+        },
+        {
+          "field_name": "Decision Sciences",
+          "count": 14
+        },
+        {
+          "field_name": "Economics, Econometrics and Finance",
+          "count": 10
+        },
+        {
+          "field_name": "Pharmacology, Toxicology and Pharmaceutics",
+          "count": 10
+        },
+        {
+          "field_name": "Agricultural and Biological Sciences",
+          "count": 9
+        },
+        {
+          "field_name": "Biochemistry, Genetics and Molecular Biology",
+          "count": 7
+        },
+        {
+          "field_name": "Psychology",
+          "count": 7
+        },
+        {
+          "field_name": "Immunology and Microbiology",
+          "count": 6
+        }
+      ],
+      "top_domains": [
+        {
+          "domain_name": "Health Sciences",
+          "count": 258
+        },
+        {
+          "domain_name": "Life Sciences",
+          "count": 49
+        },
+        {
+          "domain_name": "Social Sciences",
+          "count": 35
+        }
+      ]
+    },
+    {
+      "author_id": "https://openalex.org/A5091354685",
+      "author_name": "Subhranil Saha",
+      "seed_works_count": 18,
+      "total_works_in_openalex": 154,
+      "cited_by_count": 572,
+      "orcid": "https://orcid.org/0000-0003-2308-5265",
+      "last_known_institutions": [
+        {
+          "institution_id": "https://openalex.org/I13511017",
+          "institution_name": "Texas State University",
+          "country_code": "US"
+        },
+        {
+          "institution_id": "https://openalex.org/I226431899",
+          "institution_name": "West Bengal University of Health Sciences",
+          "country_code": "IN"
+        },
+        {
+          "institution_id": "https://openalex.org/I2801424531",
+          "institution_name": "Government of West Bengal",
+          "country_code": "IN"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210089010",
+          "institution_name": "Tata Medical Center",
+          "country_code": "IN"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210133423",
+          "institution_name": "Father Muller Homoeopathic Medical College",
+          "country_code": "IN"
+        },
+        {
+          "institution_id": "https://openalex.org/I68428275",
+          "institution_name": "Medical College and Hospital, Kolkata",
+          "country_code": "IN"
+        }
+      ],
+      "disambiguation_flag": false,
+      "year_range": [
+        1996,
+        2025
+      ],
+      "fetched_works_count": 151,
+      "top_topics": [
+        {
+          "topic_name": "Complementary and Alternative Medicine Studies",
+          "count": 92
+        },
+        {
+          "topic_name": "Pain Management and Placebo Effect",
+          "count": 13
+        },
+        {
+          "topic_name": "Meta-analysis and systematic reviews",
+          "count": 13
+        },
+        {
+          "topic_name": "Dermatology and Skin Diseases",
+          "count": 11
+        },
+        {
+          "topic_name": "Allergic Rhinitis and Sensitization",
+          "count": 10
+        },
+        {
+          "topic_name": "Health Systems, Economic Evaluations, Quality of Life",
+          "count": 6
+        },
+        {
+          "topic_name": "Acupuncture Treatment Research Studies",
+          "count": 6
+        },
+        {
+          "topic_name": "Pharmacology and Obesity Treatment",
+          "count": 6
+        },
+        {
+          "topic_name": "Plant-based Medicinal Research",
+          "count": 6
+        },
+        {
+          "topic_name": "Musculoskeletal pain and rehabilitation",
+          "count": 6
+        },
+        {
+          "topic_name": "Therapeutic Uses of Natural Elements",
+          "count": 5
+        },
+        {
+          "topic_name": "Health Promotion and Cardiovascular Prevention",
+          "count": 4
+        },
+        {
+          "topic_name": "Anorectal Disease Treatments and Outcomes",
+          "count": 4
+        },
+        {
+          "topic_name": "Medicinal Plants and Bioactive Compounds",
+          "count": 4
+        },
+        {
+          "topic_name": "Gout, Hyperuricemia, Uric Acid",
+          "count": 4
+        },
+        {
+          "topic_name": "Menstrual Health and Disorders",
+          "count": 4
+        },
+        {
+          "topic_name": "Patient Satisfaction in Healthcare",
+          "count": 4
+        },
+        {
+          "topic_name": "Medical Malpractice and Liability Issues",
+          "count": 4
+        },
+        {
+          "topic_name": "Uterine Myomas and Treatments",
+          "count": 4
+        },
+        {
+          "topic_name": "Diabetes Management and Education",
+          "count": 3
+        }
+      ],
+      "top_fields": [
+        {
+          "field_name": "Medicine",
+          "count": 271
+        },
+        {
+          "field_name": "Health Professions",
+          "count": 23
+        },
+        {
+          "field_name": "Neuroscience",
+          "count": 16
+        },
+        {
+          "field_name": "Biochemistry, Genetics and Molecular Biology",
+          "count": 14
+        },
+        {
+          "field_name": "Decision Sciences",
+          "count": 14
+        },
+        {
+          "field_name": "Pharmacology, Toxicology and Pharmaceutics",
+          "count": 12
+        },
+        {
+          "field_name": "Economics, Econometrics and Finance",
+          "count": 10
+        },
+        {
+          "field_name": "Psychology",
+          "count": 7
+        },
+        {
+          "field_name": "Immunology and Microbiology",
+          "count": 7
+        },
+        {
+          "field_name": "Agricultural and Biological Sciences",
+          "count": 6
+        }
+      ],
+      "top_domains": [
+        {
+          "domain_name": "Health Sciences",
+          "count": 300
+        },
+        {
+          "domain_name": "Life Sciences",
+          "count": 55
+        },
+        {
+          "domain_name": "Social Sciences",
+          "count": 36
+        },
+        {
+          "domain_name": "Physical Sciences",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "author_id": "https://openalex.org/A5016085541",
+      "author_name": "Paul Doesburg",
+      "seed_works_count": 15,
+      "total_works_in_openalex": 55,
+      "cited_by_count": 1404,
+      "orcid": "https://orcid.org/0000-0002-1668-8474",
+      "last_known_institutions": [
+        {
+          "institution_id": "https://openalex.org/I155976169",
+          "institution_name": "Witten/Herdecke University",
+          "country_code": "DE"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210146503",
+          "institution_name": "Verein für Krebsforschung",
+          "country_code": "CH"
+        }
+      ],
+      "disambiguation_flag": false,
+      "year_range": [
+        1994,
+        2026
+      ],
+      "fetched_works_count": 55,
+      "top_topics": [
+        {
+          "topic_name": "Complementary and Alternative Medicine Studies",
+          "count": 14
+        },
+        {
+          "topic_name": "Meat and Animal Product Quality",
+          "count": 7
+        },
+        {
+          "topic_name": "Freezing and Crystallization Processes",
+          "count": 7
+        },
+        {
+          "topic_name": "Sensory Analysis and Statistical Methods",
+          "count": 6
+        },
+        {
+          "topic_name": "Estrogen and related hormone effects",
+          "count": 5
+        },
+        {
+          "topic_name": "Crystallization and Solubility Studies",
+          "count": 4
+        },
+        {
+          "topic_name": "Biofield Effects and Biophysics",
+          "count": 4
+        },
+        {
+          "topic_name": "Hormonal and reproductive studies",
+          "count": 3
+        },
+        {
+          "topic_name": "Fermentation and Sensory Analysis",
+          "count": 3
+        },
+        {
+          "topic_name": "Spectroscopy and Chemometric Analyses",
+          "count": 3
+        },
+        {
+          "topic_name": "Botanical Studies and Applications",
+          "count": 3
+        },
+        {
+          "topic_name": "Allelopathy and phytotoxic interactions",
+          "count": 3
+        },
+        {
+          "topic_name": "Plant tissue culture and regeneration",
+          "count": 3
+        },
+        {
+          "topic_name": "Botanical Research and Applications",
+          "count": 2
+        },
+        {
+          "topic_name": "Biochemical Analysis and Sensing Techniques",
+          "count": 2
+        },
+        {
+          "topic_name": "Prostate Cancer Treatment and Research",
+          "count": 2
+        },
+        {
+          "topic_name": "Food Science and Nutritional Studies",
+          "count": 2
+        },
+        {
+          "topic_name": "Olfactory and Sensory Function Studies",
+          "count": 2
+        },
+        {
+          "topic_name": "Cultural Heritage Materials Analysis",
+          "count": 2
+        },
+        {
+          "topic_name": "Food Industry and Aquatic Biology",
+          "count": 2
+        }
+      ],
+      "top_fields": [
+        {
+          "field_name": "Agricultural and Biological Sciences",
+          "count": 43
+        },
+        {
+          "field_name": "Medicine",
+          "count": 29
+        },
+        {
+          "field_name": "Biochemistry, Genetics and Molecular Biology",
+          "count": 22
+        },
+        {
+          "field_name": "Engineering",
+          "count": 15
+        },
+        {
+          "field_name": "Chemistry",
+          "count": 6
+        },
+        {
+          "field_name": "Neuroscience",
+          "count": 5
+        },
+        {
+          "field_name": "Nursing",
+          "count": 5
+        },
+        {
+          "field_name": "Materials Science",
+          "count": 5
+        },
+        {
+          "field_name": "Arts and Humanities",
+          "count": 2
+        },
+        {
+          "field_name": "Immunology and Microbiology",
+          "count": 2
+        }
+      ],
+      "top_domains": [
+        {
+          "domain_name": "Life Sciences",
+          "count": 73
+        },
+        {
+          "domain_name": "Health Sciences",
+          "count": 35
+        },
+        {
+          "domain_name": "Physical Sciences",
+          "count": 29
+        },
+        {
+          "domain_name": "Social Sciences",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "author_id": "https://openalex.org/A5038781067",
+      "author_name": "Claudia Scherr",
+      "seed_works_count": 15,
+      "total_works_in_openalex": 65,
+      "cited_by_count": 680,
+      "orcid": null,
+      "last_known_institutions": [
+        {
+          "institution_id": "https://openalex.org/I155976169",
+          "institution_name": "Witten/Herdecke University",
+          "country_code": "DE"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210146503",
+          "institution_name": "Verein für Krebsforschung",
+          "country_code": "CH"
+        }
+      ],
+      "disambiguation_flag": false,
+      "year_range": [
+        2003,
+        2026
+      ],
+      "fetched_works_count": 65,
+      "top_topics": [
+        {
+          "topic_name": "Complementary and Alternative Medicine Studies",
+          "count": 30
+        },
+        {
+          "topic_name": "Plant tissue culture and regeneration",
+          "count": 9
+        },
+        {
+          "topic_name": "Toxin Mechanisms and Immunotoxins",
+          "count": 7
+        },
+        {
+          "topic_name": "Botanical Studies and Applications",
+          "count": 6
+        },
+        {
+          "topic_name": "Constructed Wetlands for Wastewater Treatment",
+          "count": 6
+        },
+        {
+          "topic_name": "Ecology and Conservation Studies",
+          "count": 6
+        },
+        {
+          "topic_name": "Herbal Medicine Research Studies",
+          "count": 6
+        },
+        {
+          "topic_name": "Plant Parasitism and Resistance",
+          "count": 5
+        },
+        {
+          "topic_name": "Lichen and fungal ecology",
+          "count": 5
+        },
+        {
+          "topic_name": "Allelopathy and phytotoxic interactions",
+          "count": 4
+        },
+        {
+          "topic_name": "Plant and fungal interactions",
+          "count": 4
+        },
+        {
+          "topic_name": "Phytochemistry Medicinal Plant Applications",
+          "count": 3
+        },
+        {
+          "topic_name": "Therapeutic Uses of Natural Elements",
+          "count": 3
+        },
+        {
+          "topic_name": "Biocrusts and Microbial Ecology",
+          "count": 3
+        },
+        {
+          "topic_name": "Biofield Effects and Biophysics",
+          "count": 3
+        },
+        {
+          "topic_name": "Plant Physiology and Cultivation Studies",
+          "count": 3
+        },
+        {
+          "topic_name": "Plant Growth Enhancement Techniques",
+          "count": 3
+        },
+        {
+          "topic_name": "Meta-analysis and systematic reviews",
+          "count": 2
+        },
+        {
+          "topic_name": "Plant Pathogens and Fungal Diseases",
+          "count": 2
+        },
+        {
+          "topic_name": "Food Science and Nutritional Studies",
+          "count": 2
+        }
+      ],
+      "top_fields": [
+        {
+          "field_name": "Agricultural and Biological Sciences",
+          "count": 66
+        },
+        {
+          "field_name": "Medicine",
+          "count": 42
+        },
+        {
+          "field_name": "Biochemistry, Genetics and Molecular Biology",
+          "count": 17
+        },
+        {
+          "field_name": "Environmental Science",
+          "count": 10
+        },
+        {
+          "field_name": "Immunology and Microbiology",
+          "count": 7
+        },
+        {
+          "field_name": "Neuroscience",
+          "count": 4
+        },
+        {
+          "field_name": "Nursing",
+          "count": 4
+        },
+        {
+          "field_name": "Earth and Planetary Sciences",
+          "count": 4
+        },
+        {
+          "field_name": "Health Professions",
+          "count": 3
+        },
+        {
+          "field_name": "Decision Sciences",
+          "count": 2
+        }
+      ],
+      "top_domains": [
+        {
+          "domain_name": "Life Sciences",
+          "count": 95
+        },
+        {
+          "domain_name": "Health Sciences",
+          "count": 49
+        },
+        {
+          "domain_name": "Physical Sciences",
+          "count": 17
+        },
+        {
+          "domain_name": "Social Sciences",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "author_id": "https://openalex.org/A5080615753",
+      "author_name": "Debadatta Nayak",
+      "seed_works_count": 15,
+      "total_works_in_openalex": 127,
+      "cited_by_count": 1105,
+      "orcid": "https://orcid.org/0000-0003-4772-8333",
+      "last_known_institutions": [
+        {
+          "institution_id": "https://openalex.org/I16292982",
+          "institution_name": "National Institute of Technology Rourkela",
+          "country_code": "IN"
+        },
+        {
+          "institution_id": "https://openalex.org/I2799351866",
+          "institution_name": "Government of India",
+          "country_code": "IN"
+        },
+        {
+          "institution_id": "https://openalex.org/I2801814493",
+          "institution_name": "Princess Alexandra Hospital",
+          "country_code": "AU"
+        },
+        {
+          "institution_id": "https://openalex.org/I2801814493",
+          "institution_name": "Princess Alexandra Hospital",
+          "country_code": "AU"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210109271",
+          "institution_name": "J. S. Ayurveda Mahavidyalaya and P.D. Patel Ayurveda Hospital",
+          "country_code": "IN"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210117605",
+          "institution_name": "Peerless Hospital & B.K.Roy Research Centre",
+          "country_code": "IN"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210124368",
+          "institution_name": "Ministry of AYUSH",
+          "country_code": "IN"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210131147",
+          "institution_name": "SRM University",
+          "country_code": "IN"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210137253",
+          "institution_name": "Central Council for Research in Unani Medicine",
+          "country_code": "IN"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210155405",
+          "institution_name": "Central Council for Research in Homoeopathy",
+          "country_code": "IN"
+        }
+      ],
+      "disambiguation_flag": false,
+      "year_range": [
+        2004,
+        2025
+      ],
+      "fetched_works_count": 127,
+      "top_topics": [
+        {
+          "topic_name": "Complementary and Alternative Medicine Studies",
+          "count": 25
+        },
+        {
+          "topic_name": "Mosquito-borne diseases and control",
+          "count": 16
+        },
+        {
+          "topic_name": "Drug-Induced Hepatotoxicity and Protection",
+          "count": 10
+        },
+        {
+          "topic_name": "Viral Infections and Vectors",
+          "count": 9
+        },
+        {
+          "topic_name": "COVID-19 Clinical Research Studies",
+          "count": 8
+        },
+        {
+          "topic_name": "Malaria Research and Control",
+          "count": 7
+        },
+        {
+          "topic_name": "Vitamin C and Antioxidants Research",
+          "count": 6
+        },
+        {
+          "topic_name": "Herbal Medicine Research Studies",
+          "count": 5
+        },
+        {
+          "topic_name": "Kidney Stones and Urolithiasis Treatments",
+          "count": 5
+        },
+        {
+          "topic_name": "Plant-based Medicinal Research",
+          "count": 5
+        },
+        {
+          "topic_name": "Phytochemicals and Medicinal Plants",
+          "count": 5
+        },
+        {
+          "topic_name": "Advanced Sensor and Energy Harvesting Materials",
+          "count": 4
+        },
+        {
+          "topic_name": "Pharmacological Effects of Natural Compounds",
+          "count": 4
+        },
+        {
+          "topic_name": "SARS-CoV-2 and COVID-19 Research",
+          "count": 4
+        },
+        {
+          "topic_name": "Hormonal Regulation and Hypertension",
+          "count": 3
+        },
+        {
+          "topic_name": "Adrenal and Paraganglionic Tumors",
+          "count": 3
+        },
+        {
+          "topic_name": "Therapeutic Uses of Natural Elements",
+          "count": 3
+        },
+        {
+          "topic_name": "Influenza Virus Research Studies",
+          "count": 3
+        },
+        {
+          "topic_name": "Berberine and alkaloids research",
+          "count": 3
+        },
+        {
+          "topic_name": "Long-Term Effects of COVID-19",
+          "count": 3
+        }
+      ],
+      "top_fields": [
+        {
+          "field_name": "Medicine",
+          "count": 179
+        },
+        {
+          "field_name": "Biochemistry, Genetics and Molecular Biology",
+          "count": 26
+        },
+        {
+          "field_name": "Pharmacology, Toxicology and Pharmaceutics",
+          "count": 20
+        },
+        {
+          "field_name": "Agricultural and Biological Sciences",
+          "count": 17
+        },
+        {
+          "field_name": "Immunology and Microbiology",
+          "count": 15
+        },
+        {
+          "field_name": "Engineering",
+          "count": 12
+        },
+        {
+          "field_name": "Materials Science",
+          "count": 12
+        },
+        {
+          "field_name": "Nursing",
+          "count": 8
+        },
+        {
+          "field_name": "Health Professions",
+          "count": 7
+        },
+        {
+          "field_name": "Chemistry",
+          "count": 6
+        }
+      ],
+      "top_domains": [
+        {
+          "domain_name": "Health Sciences",
+          "count": 196
+        },
+        {
+          "domain_name": "Life Sciences",
+          "count": 81
+        },
+        {
+          "domain_name": "Physical Sciences",
+          "count": 45
+        },
+        {
+          "domain_name": "Social Sciences",
+          "count": 13
+        }
+      ]
+    },
+    {
+      "author_id": "https://openalex.org/A5044978589",
+      "author_name": "Carla Holandino",
+      "seed_works_count": 14,
+      "total_works_in_openalex": 174,
+      "cited_by_count": 1636,
+      "orcid": "https://orcid.org/0000-0002-6441-7281",
+      "last_known_institutions": [
+        {
+          "institution_id": "https://openalex.org/I122140584",
+          "institution_name": "Universidade Federal do Rio de Janeiro",
+          "country_code": "BR"
+        },
+        {
+          "institution_id": "https://openalex.org/I161460629",
+          "institution_name": "Universidade Federal Rural do Rio de Janeiro",
+          "country_code": "BR"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210089928",
+          "institution_name": "Czech Academy of Sciences, Institute of Biophysics",
+          "country_code": "CZ"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210096788",
+          "institution_name": "Cancer Research Society",
+          "country_code": "CA"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210146503",
+          "institution_name": "Verein für Krebsforschung",
+          "country_code": "CH"
+        },
+        {
+          "institution_id": "https://openalex.org/I83648350",
+          "institution_name": "Universidade Federal do Estado do Rio de Janeiro",
+          "country_code": "BR"
+        }
+      ],
+      "disambiguation_flag": false,
+      "year_range": [
+        1998,
+        2025
+      ],
+      "fetched_works_count": 174,
+      "top_topics": [
+        {
+          "topic_name": "Toxin Mechanisms and Immunotoxins",
+          "count": 39
+        },
+        {
+          "topic_name": "Complementary and Alternative Medicine Studies",
+          "count": 38
+        },
+        {
+          "topic_name": "Plant tissue culture and regeneration",
+          "count": 29
+        },
+        {
+          "topic_name": "Plant Parasitism and Resistance",
+          "count": 15
+        },
+        {
+          "topic_name": "Transgenic Plants and Applications",
+          "count": 14
+        },
+        {
+          "topic_name": "Phytochemistry Medicinal Plant Applications",
+          "count": 11
+        },
+        {
+          "topic_name": "Microbial Inactivation Methods",
+          "count": 9
+        },
+        {
+          "topic_name": "Bioactive Natural Diterpenoids Research",
+          "count": 8
+        },
+        {
+          "topic_name": "Advanced Drug Delivery Systems",
+          "count": 7
+        },
+        {
+          "topic_name": "Antifungal resistance and susceptibility",
+          "count": 7
+        },
+        {
+          "topic_name": "Herbal Medicine Research Studies",
+          "count": 7
+        },
+        {
+          "topic_name": "Research on Leishmaniasis Studies",
+          "count": 6
+        },
+        {
+          "topic_name": "Public Health in Brazil",
+          "count": 6
+        },
+        {
+          "topic_name": "Biofield Effects and Biophysics",
+          "count": 6
+        },
+        {
+          "topic_name": "Trypanosoma species research and implications",
+          "count": 6
+        },
+        {
+          "topic_name": "Essential Oils and Antimicrobial Activity",
+          "count": 5
+        },
+        {
+          "topic_name": "Fungal Infections and Studies",
+          "count": 4
+        },
+        {
+          "topic_name": "Bee Products Chemical Analysis",
+          "count": 4
+        },
+        {
+          "topic_name": "Medicinal Plant Extracts Effects",
+          "count": 4
+        },
+        {
+          "topic_name": "Plant biochemistry and biosynthesis",
+          "count": 4
+        }
+      ],
+      "top_fields": [
+        {
+          "field_name": "Medicine",
+          "count": 126
+        },
+        {
+          "field_name": "Biochemistry, Genetics and Molecular Biology",
+          "count": 97
+        },
+        {
+          "field_name": "Agricultural and Biological Sciences",
+          "count": 58
+        },
+        {
+          "field_name": "Immunology and Microbiology",
+          "count": 41
+        },
+        {
+          "field_name": "Pharmacology, Toxicology and Pharmaceutics",
+          "count": 20
+        },
+        {
+          "field_name": "Health Professions",
+          "count": 12
+        },
+        {
+          "field_name": "Chemistry",
+          "count": 11
+        },
+        {
+          "field_name": "Engineering",
+          "count": 10
+        },
+        {
+          "field_name": "Social Sciences",
+          "count": 9
+        },
+        {
+          "field_name": "Materials Science",
+          "count": 7
+        }
+      ],
+      "top_domains": [
+        {
+          "domain_name": "Life Sciences",
+          "count": 220
+        },
+        {
+          "domain_name": "Health Sciences",
+          "count": 148
+        },
+        {
+          "domain_name": "Physical Sciences",
+          "count": 32
+        },
+        {
+          "domain_name": "Social Sciences",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "author_id": "https://openalex.org/A5028699275",
+      "author_name": "Marcus Zulian Teixeira",
+      "seed_works_count": 14,
+      "total_works_in_openalex": 159,
+      "cited_by_count": 1325,
+      "orcid": "https://orcid.org/0000-0002-3338-8588",
+      "last_known_institutions": [
+        {
+          "institution_id": "https://openalex.org/I4210145268",
+          "institution_name": "Hospital das Clínicas da Faculdade de Medicina da Universidade de São Paulo",
+          "country_code": "BR"
+        }
+      ],
+      "disambiguation_flag": false,
+      "year_range": [
+        1995,
+        2026
+      ],
+      "fetched_works_count": 159,
+      "top_topics": [
+        {
+          "topic_name": "Complementary and Alternative Medicine Studies",
+          "count": 98
+        },
+        {
+          "topic_name": "Phytochemistry Medicinal Plant Applications",
+          "count": 21
+        },
+        {
+          "topic_name": "Public Health in Brazil",
+          "count": 15
+        },
+        {
+          "topic_name": "Pain Management and Placebo Effect",
+          "count": 14
+        },
+        {
+          "topic_name": "Psychology and Mental Health",
+          "count": 14
+        },
+        {
+          "topic_name": "Pharmacology and Obesity Treatment",
+          "count": 13
+        },
+        {
+          "topic_name": "Acupuncture Treatment Research Studies",
+          "count": 6
+        },
+        {
+          "topic_name": "Hormonal and reproductive studies",
+          "count": 5
+        },
+        {
+          "topic_name": "Psychosomatic Disorders and Their Treatments",
+          "count": 5
+        },
+        {
+          "topic_name": "Endometriosis Research and Treatment",
+          "count": 5
+        },
+        {
+          "topic_name": "Herbal Medicine Research Studies",
+          "count": 5
+        },
+        {
+          "topic_name": "Telomeres, Telomerase, and Senescence",
+          "count": 5
+        },
+        {
+          "topic_name": "Palliative and Oncologic Care",
+          "count": 5
+        },
+        {
+          "topic_name": "Mental Health and Psychiatry",
+          "count": 4
+        },
+        {
+          "topic_name": "Asthma and respiratory diseases",
+          "count": 4
+        },
+        {
+          "topic_name": "Health, Nursing, Elderly Care",
+          "count": 4
+        },
+        {
+          "topic_name": "Genetics, Aging, and Longevity in Model Organisms",
+          "count": 4
+        },
+        {
+          "topic_name": "Therapeutic Uses of Natural Elements",
+          "count": 4
+        },
+        {
+          "topic_name": "Allergic Rhinitis and Sensitization",
+          "count": 4
+        },
+        {
+          "topic_name": "Banana Cultivation and Research",
+          "count": 4
+        }
+      ],
+      "top_fields": [
+        {
+          "field_name": "Medicine",
+          "count": 204
+        },
+        {
+          "field_name": "Agricultural and Biological Sciences",
+          "count": 31
+        },
+        {
+          "field_name": "Psychology",
+          "count": 23
+        },
+        {
+          "field_name": "Social Sciences",
+          "count": 22
+        },
+        {
+          "field_name": "Neuroscience",
+          "count": 20
+        },
+        {
+          "field_name": "Biochemistry, Genetics and Molecular Biology",
+          "count": 16
+        },
+        {
+          "field_name": "Health Professions",
+          "count": 15
+        },
+        {
+          "field_name": "Arts and Humanities",
+          "count": 6
+        },
+        {
+          "field_name": "Immunology and Microbiology",
+          "count": 4
+        },
+        {
+          "field_name": "Pharmacology, Toxicology and Pharmaceutics",
+          "count": 4
+        }
+      ],
+      "top_domains": [
+        {
+          "domain_name": "Health Sciences",
+          "count": 220
+        },
+        {
+          "domain_name": "Life Sciences",
+          "count": 75
+        },
+        {
+          "domain_name": "Social Sciences",
+          "count": 55
+        },
+        {
+          "domain_name": "Physical Sciences",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "author_id": "https://openalex.org/A5017647814",
+      "author_name": "Mischa Bonn",
+      "seed_works_count": 14,
+      "total_works_in_openalex": 885,
+      "cited_by_count": 38728,
+      "orcid": "https://orcid.org/0000-0001-6851-8453",
+      "last_known_institutions": [
+        {
+          "institution_id": "https://openalex.org/I4210095245",
+          "institution_name": "Max Planck Institute for Polymer Research",
+          "country_code": "DE"
+        },
+        {
+          "institution_id": "https://openalex.org/I887064364",
+          "institution_name": "University of Amsterdam",
+          "country_code": "NL"
+        }
+      ],
+      "disambiguation_flag": true,
+      "year_range": [
+        1999,
+        2025
+      ],
+      "fetched_works_count": 200,
+      "top_topics": [
+        {
+          "topic_name": "Spectroscopy and Quantum Chemical Studies",
+          "count": 74
+        },
+        {
+          "topic_name": "Graphene research and applications",
+          "count": 27
+        },
+        {
+          "topic_name": "Spectroscopy and Laser Applications",
+          "count": 21
+        },
+        {
+          "topic_name": "Perovskite Materials and Applications",
+          "count": 19
+        },
+        {
+          "topic_name": "Covalent Organic Framework Applications",
+          "count": 17
+        },
+        {
+          "topic_name": "Advanced Chemical Physics Studies",
+          "count": 16
+        },
+        {
+          "topic_name": "Quantum, superfluid, helium dynamics",
+          "count": 16
+        },
+        {
+          "topic_name": "Metal-Organic Frameworks: Synthesis and Applications",
+          "count": 14
+        },
+        {
+          "topic_name": "nanoparticles nucleation surface interactions",
+          "count": 14
+        },
+        {
+          "topic_name": "Electrochemical Analysis and Applications",
+          "count": 12
+        },
+        {
+          "topic_name": "Molecular Junctions and Nanostructures",
+          "count": 12
+        },
+        {
+          "topic_name": "2D Materials and Applications",
+          "count": 12
+        },
+        {
+          "topic_name": "Conducting polymers and applications",
+          "count": 11
+        },
+        {
+          "topic_name": "Terahertz technology and applications",
+          "count": 10
+        },
+        {
+          "topic_name": "Plasmonic and Surface Plasmon Research",
+          "count": 10
+        },
+        {
+          "topic_name": "Electrostatics and Colloid Interactions",
+          "count": 10
+        },
+        {
+          "topic_name": "Quantum Dots Synthesis And Properties",
+          "count": 10
+        },
+        {
+          "topic_name": "Chalcogenide Semiconductor Thin Films",
+          "count": 10
+        },
+        {
+          "topic_name": "Advanced Photocatalysis Techniques",
+          "count": 9
+        },
+        {
+          "topic_name": "Luminescence and Fluorescent Materials",
+          "count": 7
+        }
+      ],
+      "top_fields": [
+        {
+          "field_name": "Physics and Astronomy",
+          "count": 145
+        },
+        {
+          "field_name": "Materials Science",
+          "count": 138
+        },
+        {
+          "field_name": "Engineering",
+          "count": 114
+        },
+        {
+          "field_name": "Chemistry",
+          "count": 84
+        },
+        {
+          "field_name": "Biochemistry, Genetics and Molecular Biology",
+          "count": 34
+        },
+        {
+          "field_name": "Earth and Planetary Sciences",
+          "count": 31
+        },
+        {
+          "field_name": "Energy",
+          "count": 18
+        },
+        {
+          "field_name": "Environmental Science",
+          "count": 8
+        },
+        {
+          "field_name": "Chemical Engineering",
+          "count": 8
+        },
+        {
+          "field_name": "Agricultural and Biological Sciences",
+          "count": 8
+        }
+      ],
+      "top_domains": [
+        {
+          "domain_name": "Physical Sciences",
+          "count": 547
+        },
+        {
+          "domain_name": "Life Sciences",
+          "count": 49
+        },
+        {
+          "domain_name": "Health Sciences",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "author_id": "https://openalex.org/A5029964115",
+      "author_name": "Roja Varanasi",
+      "seed_works_count": 13,
+      "total_works_in_openalex": 63,
+      "cited_by_count": 328,
+      "orcid": "https://orcid.org/0000-0001-9475-0037",
+      "last_known_institutions": [
+        {
+          "institution_id": "https://openalex.org/I2799351866",
+          "institution_name": "Government of India",
+          "country_code": "IN"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210089730",
+          "institution_name": "Willis-Knighton Cancer Center",
+          "country_code": "US"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210123897",
+          "institution_name": "Central Council for Research in Yoga & Naturopathy",
+          "country_code": "IN"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210124368",
+          "institution_name": "Ministry of AYUSH",
+          "country_code": "IN"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210131147",
+          "institution_name": "SRM University",
+          "country_code": "IN"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210137253",
+          "institution_name": "Central Council for Research in Unani Medicine",
+          "country_code": "IN"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210155405",
+          "institution_name": "Central Council for Research in Homoeopathy",
+          "country_code": "IN"
+        }
+      ],
+      "disambiguation_flag": false,
+      "year_range": [
+        2008,
+        2025
+      ],
+      "fetched_works_count": 63,
+      "top_topics": [
+        {
+          "topic_name": "Complementary and Alternative Medicine Studies",
+          "count": 30
+        },
+        {
+          "topic_name": "Pharmacology and Obesity Treatment",
+          "count": 8
+        },
+        {
+          "topic_name": "Respiratory and Cough-Related Research",
+          "count": 5
+        },
+        {
+          "topic_name": "Pain Management and Placebo Effect",
+          "count": 4
+        },
+        {
+          "topic_name": "COVID-19 Clinical Research Studies",
+          "count": 4
+        },
+        {
+          "topic_name": "Drug-Induced Hepatotoxicity and Protection",
+          "count": 4
+        },
+        {
+          "topic_name": "Psychology of Moral and Emotional Judgment",
+          "count": 3
+        },
+        {
+          "topic_name": "Sinusitis and nasal conditions",
+          "count": 3
+        },
+        {
+          "topic_name": "Allergic Rhinitis and Sensitization",
+          "count": 3
+        },
+        {
+          "topic_name": "Herbal Medicine Research Studies",
+          "count": 3
+        },
+        {
+          "topic_name": "Chronic Disease Management Strategies",
+          "count": 3
+        },
+        {
+          "topic_name": "Healthcare Systems and Reforms",
+          "count": 3
+        },
+        {
+          "topic_name": "Health Systems, Economic Evaluations, Quality of Life",
+          "count": 3
+        },
+        {
+          "topic_name": "Acupuncture Treatment Research Studies",
+          "count": 3
+        },
+        {
+          "topic_name": "Urinary Bladder and Prostate Research",
+          "count": 3
+        },
+        {
+          "topic_name": "Hormonal and reproductive studies",
+          "count": 3
+        },
+        {
+          "topic_name": "Therapeutic Uses of Natural Elements",
+          "count": 3
+        },
+        {
+          "topic_name": "Plant-based Medicinal Research",
+          "count": 2
+        },
+        {
+          "topic_name": "Kidney Stones and Urolithiasis Treatments",
+          "count": 2
+        },
+        {
+          "topic_name": "Uterine Myomas and Treatments",
+          "count": 2
+        }
+      ],
+      "top_fields": [
+        {
+          "field_name": "Medicine",
+          "count": 118
+        },
+        {
+          "field_name": "Neuroscience",
+          "count": 8
+        },
+        {
+          "field_name": "Pharmacology, Toxicology and Pharmaceutics",
+          "count": 8
+        },
+        {
+          "field_name": "Economics, Econometrics and Finance",
+          "count": 7
+        },
+        {
+          "field_name": "Nursing",
+          "count": 4
+        },
+        {
+          "field_name": "Health Professions",
+          "count": 4
+        },
+        {
+          "field_name": "Psychology",
+          "count": 3
+        },
+        {
+          "field_name": "Agricultural and Biological Sciences",
+          "count": 3
+        },
+        {
+          "field_name": "Biochemistry, Genetics and Molecular Biology",
+          "count": 2
+        },
+        {
+          "field_name": "Immunology and Microbiology",
+          "count": 2
+        }
+      ],
+      "top_domains": [
+        {
+          "domain_name": "Health Sciences",
+          "count": 127
+        },
+        {
+          "domain_name": "Life Sciences",
+          "count": 23
+        },
+        {
+          "domain_name": "Social Sciences",
+          "count": 14
+        },
+        {
+          "domain_name": "Physical Sciences",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "author_id": "https://openalex.org/A5066702950",
+      "author_name": "Maria Olga Kokornaczyk",
+      "seed_works_count": 13,
+      "total_works_in_openalex": 56,
+      "cited_by_count": 363,
+      "orcid": "https://orcid.org/0000-0002-6492-8540",
+      "last_known_institutions": [
+        {
+          "institution_id": "https://openalex.org/I118564535",
+          "institution_name": "University of Bern",
+          "country_code": "CH"
+        }
+      ],
+      "disambiguation_flag": false,
+      "year_range": [
+        2007,
+        2026
+      ],
+      "fetched_works_count": 56,
+      "top_topics": [
+        {
+          "topic_name": "Complementary and Alternative Medicine Studies",
+          "count": 18
+        },
+        {
+          "topic_name": "Nanomaterials and Printing Technologies",
+          "count": 10
+        },
+        {
+          "topic_name": "Biocrusts and Microbial Ecology",
+          "count": 5
+        },
+        {
+          "topic_name": "Innovative Microfluidic and Catalytic Techniques Innovation",
+          "count": 4
+        },
+        {
+          "topic_name": "Ecosystem dynamics and resilience",
+          "count": 4
+        },
+        {
+          "topic_name": "Plant Surface Properties and Treatments",
+          "count": 4
+        },
+        {
+          "topic_name": "Fluid Dynamics and Heat Transfer",
+          "count": 3
+        },
+        {
+          "topic_name": "Toxin Mechanisms and Immunotoxins",
+          "count": 3
+        },
+        {
+          "topic_name": "Electrohydrodynamics and Fluid Dynamics",
+          "count": 3
+        },
+        {
+          "topic_name": "Biofield Effects and Biophysics",
+          "count": 3
+        },
+        {
+          "topic_name": "Plant and animal studies",
+          "count": 3
+        },
+        {
+          "topic_name": "Fermentation and Sensory Analysis",
+          "count": 3
+        },
+        {
+          "topic_name": "Plant-based Medicinal Research",
+          "count": 2
+        },
+        {
+          "topic_name": "Paranormal Experiences and Beliefs",
+          "count": 2
+        },
+        {
+          "topic_name": "Advanced Chemical Sensor Technologies",
+          "count": 2
+        },
+        {
+          "topic_name": "Nanoparticles: synthesis and applications",
+          "count": 2
+        },
+        {
+          "topic_name": "Particle Dynamics in Fluid Flows",
+          "count": 2
+        },
+        {
+          "topic_name": "Plant Parasitism and Resistance",
+          "count": 2
+        },
+        {
+          "topic_name": "Plant tissue culture and regeneration",
+          "count": 2
+        },
+        {
+          "topic_name": "nanoparticles nucleation surface interactions",
+          "count": 2
+        }
+      ],
+      "top_fields": [
+        {
+          "field_name": "Agricultural and Biological Sciences",
+          "count": 29
+        },
+        {
+          "field_name": "Engineering",
+          "count": 27
+        },
+        {
+          "field_name": "Medicine",
+          "count": 23
+        },
+        {
+          "field_name": "Biochemistry, Genetics and Molecular Biology",
+          "count": 7
+        },
+        {
+          "field_name": "Materials Science",
+          "count": 4
+        },
+        {
+          "field_name": "Environmental Science",
+          "count": 4
+        },
+        {
+          "field_name": "Immunology and Microbiology",
+          "count": 3
+        },
+        {
+          "field_name": "Neuroscience",
+          "count": 3
+        },
+        {
+          "field_name": "Earth and Planetary Sciences",
+          "count": 3
+        },
+        {
+          "field_name": "Nursing",
+          "count": 2
+        }
+      ],
+      "top_domains": [
+        {
+          "domain_name": "Life Sciences",
+          "count": 44
+        },
+        {
+          "domain_name": "Physical Sciences",
+          "count": 41
+        },
+        {
+          "domain_name": "Health Sciences",
+          "count": 26
+        },
+        {
+          "domain_name": "Social Sciences",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "author_id": "https://openalex.org/A5049702867",
+      "author_name": "Pedro Boff",
+      "seed_works_count": 13,
+      "total_works_in_openalex": 183,
+      "cited_by_count": 536,
+      "orcid": "https://orcid.org/0000-0002-9041-5503",
+      "last_known_institutions": [
+        {
+          "institution_id": "https://openalex.org/I4210088730",
+          "institution_name": "Empresa de Pesquisa Agropecuária e Extensão Rural de Santa Catarina",
+          "country_code": "BR"
+        }
+      ],
+      "disambiguation_flag": false,
+      "year_range": [
+        1991,
+        2026
+      ],
+      "fetched_works_count": 182,
+      "top_topics": [
+        {
+          "topic_name": "Growth and nutrition in plants",
+          "count": 47
+        },
+        {
+          "topic_name": "Banana Cultivation and Research",
+          "count": 38
+        },
+        {
+          "topic_name": "Phytochemistry Medicinal Plant Applications",
+          "count": 19
+        },
+        {
+          "topic_name": "Plant Pathogens and Fungal Diseases",
+          "count": 18
+        },
+        {
+          "topic_name": "Agricultural and Food Sciences",
+          "count": 18
+        },
+        {
+          "topic_name": "Insect and Arachnid Ecology and Behavior",
+          "count": 16
+        },
+        {
+          "topic_name": "Insect behavior and control techniques",
+          "count": 15
+        },
+        {
+          "topic_name": "Plant tissue culture and regeneration",
+          "count": 12
+        },
+        {
+          "topic_name": "Insect Pest Control Strategies",
+          "count": 11
+        },
+        {
+          "topic_name": "Seed Germination and Physiology",
+          "count": 11
+        },
+        {
+          "topic_name": "Plant and animal studies",
+          "count": 10
+        },
+        {
+          "topic_name": "Insect and Pesticide Research",
+          "count": 10
+        },
+        {
+          "topic_name": "Soil Management and Crop Yield",
+          "count": 9
+        },
+        {
+          "topic_name": "Berry genetics and cultivation research",
+          "count": 9
+        },
+        {
+          "topic_name": "Garlic and Onion Studies",
+          "count": 9
+        },
+        {
+          "topic_name": "Agronomic Practices and Intercropping Systems",
+          "count": 9
+        },
+        {
+          "topic_name": "Plant Pathogens and Resistance",
+          "count": 8
+        },
+        {
+          "topic_name": "Plant Disease Resistance and Genetics",
+          "count": 7
+        },
+        {
+          "topic_name": "Plant Growth Enhancement Techniques",
+          "count": 7
+        },
+        {
+          "topic_name": "Fungal Plant Pathogen Control",
+          "count": 6
+        }
+      ],
+      "top_fields": [
+        {
+          "field_name": "Agricultural and Biological Sciences",
+          "count": 366
+        },
+        {
+          "field_name": "Biochemistry, Genetics and Molecular Biology",
+          "count": 59
+        },
+        {
+          "field_name": "Environmental Science",
+          "count": 22
+        },
+        {
+          "field_name": "Medicine",
+          "count": 8
+        },
+        {
+          "field_name": "Pharmacology, Toxicology and Pharmaceutics",
+          "count": 7
+        },
+        {
+          "field_name": "Social Sciences",
+          "count": 6
+        },
+        {
+          "field_name": "Psychology",
+          "count": 4
+        },
+        {
+          "field_name": "Engineering",
+          "count": 2
+        },
+        {
+          "field_name": "Chemistry",
+          "count": 1
+        }
+      ],
+      "top_domains": [
+        {
+          "domain_name": "Life Sciences",
+          "count": 432
+        },
+        {
+          "domain_name": "Physical Sciences",
+          "count": 25
+        },
+        {
+          "domain_name": "Social Sciences",
+          "count": 10
+        },
+        {
+          "domain_name": "Health Sciences",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "author_id": "https://openalex.org/A5027038808",
+      "author_name": "Tandra Sarkar",
+      "seed_works_count": 13,
+      "total_works_in_openalex": 28,
+      "cited_by_count": 59,
+      "orcid": null,
+      "last_known_institutions": [
+        {
+          "institution_id": "https://openalex.org/I4210099750",
+          "institution_name": "Midnapore Homeopathic Medical College and Hospital",
+          "country_code": "IN"
+        }
+      ],
+      "disambiguation_flag": false,
+      "year_range": [
+        1941,
+        2025
+      ],
+      "fetched_works_count": 28,
+      "top_topics": [
+        {
+          "topic_name": "Complementary and Alternative Medicine Studies",
+          "count": 7
+        },
+        {
+          "topic_name": "Biofield Effects and Biophysics",
+          "count": 5
+        },
+        {
+          "topic_name": "Enzyme Production and Characterization",
+          "count": 3
+        },
+        {
+          "topic_name": "Bee Products Chemical Analysis",
+          "count": 2
+        },
+        {
+          "topic_name": "Acupuncture Treatment Research Studies",
+          "count": 2
+        },
+        {
+          "topic_name": "Chemical Reactions and Isotopes",
+          "count": 2
+        },
+        {
+          "topic_name": "COVID-19 diagnosis using AI",
+          "count": 2
+        },
+        {
+          "topic_name": "Lung Cancer Diagnosis and Treatment",
+          "count": 2
+        },
+        {
+          "topic_name": "Radiomics and Machine Learning in Medical Imaging",
+          "count": 2
+        },
+        {
+          "topic_name": "Multi-Criteria Decision Making",
+          "count": 2
+        },
+        {
+          "topic_name": "Drug Solubulity and Delivery Systems",
+          "count": 1
+        },
+        {
+          "topic_name": "Computational Drug Discovery Methods",
+          "count": 1
+        },
+        {
+          "topic_name": "Analytical Methods in Pharmaceuticals",
+          "count": 1
+        },
+        {
+          "topic_name": "Paranormal Experiences and Beliefs",
+          "count": 1
+        },
+        {
+          "topic_name": "Plant-based Medicinal Research",
+          "count": 1
+        },
+        {
+          "topic_name": "Pharmacology and Obesity Treatment",
+          "count": 1
+        },
+        {
+          "topic_name": "Seed Germination and Physiology",
+          "count": 1
+        },
+        {
+          "topic_name": "Agricultural pest management studies",
+          "count": 1
+        },
+        {
+          "topic_name": "Traditional Chinese Medicine Studies",
+          "count": 1
+        },
+        {
+          "topic_name": "Ion Transport and Channel Regulation",
+          "count": 1
+        }
+      ],
+      "top_fields": [
+        {
+          "field_name": "Medicine",
+          "count": 26
+        },
+        {
+          "field_name": "Computer Science",
+          "count": 8
+        },
+        {
+          "field_name": "Agricultural and Biological Sciences",
+          "count": 7
+        },
+        {
+          "field_name": "Biochemistry, Genetics and Molecular Biology",
+          "count": 7
+        },
+        {
+          "field_name": "Pharmacology, Toxicology and Pharmaceutics",
+          "count": 4
+        },
+        {
+          "field_name": "Engineering",
+          "count": 3
+        },
+        {
+          "field_name": "Mathematics",
+          "count": 3
+        },
+        {
+          "field_name": "Nursing",
+          "count": 2
+        },
+        {
+          "field_name": "Decision Sciences",
+          "count": 2
+        },
+        {
+          "field_name": "Physics and Astronomy",
+          "count": 2
+        }
+      ],
+      "top_domains": [
+        {
+          "domain_name": "Health Sciences",
+          "count": 29
+        },
+        {
+          "domain_name": "Life Sciences",
+          "count": 18
+        },
+        {
+          "domain_name": "Physical Sciences",
+          "count": 18
+        },
+        {
+          "domain_name": "Social Sciences",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "author_id": "https://openalex.org/A5014217791",
+      "author_name": "Atheni Konar",
+      "seed_works_count": 13,
+      "total_works_in_openalex": 20,
+      "cited_by_count": 59,
+      "orcid": null,
+      "last_known_institutions": [
+        {
+          "institution_id": "https://openalex.org/I4210099750",
+          "institution_name": "Midnapore Homeopathic Medical College and Hospital",
+          "country_code": "IN"
+        }
+      ],
+      "disambiguation_flag": false,
+      "year_range": [
+        2016,
+        2025
+      ],
+      "fetched_works_count": 20,
+      "top_topics": [
+        {
+          "topic_name": "Complementary and Alternative Medicine Studies",
+          "count": 7
+        },
+        {
+          "topic_name": "Biofield Effects and Biophysics",
+          "count": 5
+        },
+        {
+          "topic_name": "Enzyme Production and Characterization",
+          "count": 3
+        },
+        {
+          "topic_name": "Bee Products Chemical Analysis",
+          "count": 2
+        },
+        {
+          "topic_name": "Plant-based Medicinal Research",
+          "count": 2
+        },
+        {
+          "topic_name": "Acupuncture Treatment Research Studies",
+          "count": 2
+        },
+        {
+          "topic_name": "Chemical Reactions and Isotopes",
+          "count": 2
+        },
+        {
+          "topic_name": "Medicinal Plants and Bioactive Compounds",
+          "count": 2
+        },
+        {
+          "topic_name": "Drug Solubulity and Delivery Systems",
+          "count": 1
+        },
+        {
+          "topic_name": "Computational Drug Discovery Methods",
+          "count": 1
+        },
+        {
+          "topic_name": "Analytical Methods in Pharmaceuticals",
+          "count": 1
+        },
+        {
+          "topic_name": "Paranormal Experiences and Beliefs",
+          "count": 1
+        },
+        {
+          "topic_name": "Pharmacology and Obesity Treatment",
+          "count": 1
+        },
+        {
+          "topic_name": "Seed Germination and Physiology",
+          "count": 1
+        },
+        {
+          "topic_name": "Agricultural pest management studies",
+          "count": 1
+        },
+        {
+          "topic_name": "Traditional Chinese Medicine Studies",
+          "count": 1
+        },
+        {
+          "topic_name": "Ion Transport and Channel Regulation",
+          "count": 1
+        },
+        {
+          "topic_name": "Renal function and acid-base balance",
+          "count": 1
+        },
+        {
+          "topic_name": "Pancreatic function and diabetes",
+          "count": 1
+        },
+        {
+          "topic_name": "3D Printing in Biomedical Research",
+          "count": 1
+        }
+      ],
+      "top_fields": [
+        {
+          "field_name": "Medicine",
+          "count": 20
+        },
+        {
+          "field_name": "Biochemistry, Genetics and Molecular Biology",
+          "count": 8
+        },
+        {
+          "field_name": "Agricultural and Biological Sciences",
+          "count": 7
+        },
+        {
+          "field_name": "Pharmacology, Toxicology and Pharmaceutics",
+          "count": 5
+        },
+        {
+          "field_name": "Engineering",
+          "count": 2
+        },
+        {
+          "field_name": "Nursing",
+          "count": 2
+        },
+        {
+          "field_name": "Computer Science",
+          "count": 1
+        },
+        {
+          "field_name": "Chemistry",
+          "count": 1
+        },
+        {
+          "field_name": "Psychology",
+          "count": 1
+        }
+      ],
+      "top_domains": [
+        {
+          "domain_name": "Health Sciences",
+          "count": 22
+        },
+        {
+          "domain_name": "Life Sciences",
+          "count": 20
+        },
+        {
+          "domain_name": "Physical Sciences",
+          "count": 4
+        },
+        {
+          "domain_name": "Social Sciences",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "author_id": "https://openalex.org/A5055280294",
+      "author_name": "Seema Mahesh",
+      "seed_works_count": 12,
+      "total_works_in_openalex": 69,
+      "cited_by_count": 299,
+      "orcid": "https://orcid.org/0000-0002-4765-5595",
+      "last_known_institutions": [
+        {
+          "institution_id": "https://openalex.org/I4210127127",
+          "institution_name": "Bangalore Diabetes Centre",
+          "country_code": "IN"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210130733",
+          "institution_name": "Higher Ecclesiastical Academy of Athens",
+          "country_code": "GR"
+        }
+      ],
+      "disambiguation_flag": false,
+      "year_range": [
+        2007,
+        2026
+      ],
+      "fetched_works_count": 69,
+      "top_topics": [
+        {
+          "topic_name": "Complementary and Alternative Medicine Studies",
+          "count": 19
+        },
+        {
+          "topic_name": "Acupuncture Treatment Research Studies",
+          "count": 5
+        },
+        {
+          "topic_name": "Therapeutic Uses of Natural Elements",
+          "count": 5
+        },
+        {
+          "topic_name": "Tracheal and airway disorders",
+          "count": 5
+        },
+        {
+          "topic_name": "Inflammasome and immune disorders",
+          "count": 4
+        },
+        {
+          "topic_name": "Dermatology and Skin Diseases",
+          "count": 4
+        },
+        {
+          "topic_name": "Cleft Lip and Palate Research",
+          "count": 4
+        },
+        {
+          "topic_name": "Ear Surgery and Otitis Media",
+          "count": 4
+        },
+        {
+          "topic_name": "Head and Neck Surgical Oncology",
+          "count": 3
+        },
+        {
+          "topic_name": "Sinusitis and nasal conditions",
+          "count": 3
+        },
+        {
+          "topic_name": "Allergic Rhinitis and Sensitization",
+          "count": 3
+        },
+        {
+          "topic_name": "Thermal Regulation in Medicine",
+          "count": 3
+        },
+        {
+          "topic_name": "COVID-19 Clinical Research Studies",
+          "count": 3
+        },
+        {
+          "topic_name": "Oral and Maxillofacial Pathology",
+          "count": 2
+        },
+        {
+          "topic_name": "Salivary Gland Tumors Diagnosis and Treatment",
+          "count": 2
+        },
+        {
+          "topic_name": "Ovarian cancer diagnosis and treatment",
+          "count": 2
+        },
+        {
+          "topic_name": "Nasolacrimal Duct Obstruction Treatments",
+          "count": 2
+        },
+        {
+          "topic_name": "Esophageal and GI Pathology",
+          "count": 2
+        },
+        {
+          "topic_name": "Sepsis Diagnosis and Treatment",
+          "count": 2
+        },
+        {
+          "topic_name": "Nasal Surgery and Airway Studies",
+          "count": 2
+        }
+      ],
+      "top_fields": [
+        {
+          "field_name": "Medicine",
+          "count": 134
+        },
+        {
+          "field_name": "Biochemistry, Genetics and Molecular Biology",
+          "count": 13
+        },
+        {
+          "field_name": "Health Professions",
+          "count": 9
+        },
+        {
+          "field_name": "Neuroscience",
+          "count": 8
+        },
+        {
+          "field_name": "Dentistry",
+          "count": 3
+        },
+        {
+          "field_name": "Pharmacology, Toxicology and Pharmaceutics",
+          "count": 3
+        },
+        {
+          "field_name": "Nursing",
+          "count": 3
+        },
+        {
+          "field_name": "Agricultural and Biological Sciences",
+          "count": 2
+        },
+        {
+          "field_name": "Physics and Astronomy",
+          "count": 2
+        },
+        {
+          "field_name": "Arts and Humanities",
+          "count": 1
+        }
+      ],
+      "top_domains": [
+        {
+          "domain_name": "Health Sciences",
+          "count": 149
+        },
+        {
+          "domain_name": "Life Sciences",
+          "count": 27
+        },
+        {
+          "domain_name": "Physical Sciences",
+          "count": 6
+        },
+        {
+          "domain_name": "Social Sciences",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "author_id": "https://openalex.org/A5064972305",
+      "author_name": "Robert T. Mathie",
+      "seed_works_count": 11,
+      "total_works_in_openalex": 181,
+      "cited_by_count": 3879,
+      "orcid": null,
+      "last_known_institutions": [
+        {
+          "institution_id": "https://openalex.org/I4210091141",
+          "institution_name": "Homeopathy Research Institute",
+          "country_code": "GB"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210093057",
+          "institution_name": "Faculty (United Kingdom)",
+          "country_code": "GB"
+        }
+      ],
+      "disambiguation_flag": false,
+      "year_range": [
+        1975,
+        2025
+      ],
+      "fetched_works_count": 180,
+      "top_topics": [
+        {
+          "topic_name": "Complementary and Alternative Medicine Studies",
+          "count": 85
+        },
+        {
+          "topic_name": "Liver Disease and Transplantation",
+          "count": 37
+        },
+        {
+          "topic_name": "Liver Disease Diagnosis and Treatment",
+          "count": 27
+        },
+        {
+          "topic_name": "Organ Transplantation Techniques and Outcomes",
+          "count": 26
+        },
+        {
+          "topic_name": "Meta-analysis and systematic reviews",
+          "count": 24
+        },
+        {
+          "topic_name": "Nitric Oxide and Endothelin Effects",
+          "count": 22
+        },
+        {
+          "topic_name": "Pain Management and Placebo Effect",
+          "count": 11
+        },
+        {
+          "topic_name": "Therapeutic Uses of Natural Elements",
+          "count": 10
+        },
+        {
+          "topic_name": "Renal function and acid-base balance",
+          "count": 10
+        },
+        {
+          "topic_name": "Acupuncture Treatment Research Studies",
+          "count": 9
+        },
+        {
+          "topic_name": "Herbal Medicine Research Studies",
+          "count": 7
+        },
+        {
+          "topic_name": "Health Systems, Economic Evaluations, Quality of Life",
+          "count": 7
+        },
+        {
+          "topic_name": "Cardiac Ischemia and Reperfusion",
+          "count": 6
+        },
+        {
+          "topic_name": "Hemodynamic Monitoring and Therapy",
+          "count": 5
+        },
+        {
+          "topic_name": "Heart Rate Variability and Autonomic Control",
+          "count": 5
+        },
+        {
+          "topic_name": "Colorectal Cancer Surgical Treatments",
+          "count": 5
+        },
+        {
+          "topic_name": "Anesthesia and Neurotoxicity Research",
+          "count": 4
+        },
+        {
+          "topic_name": "Cardiac and Coronary Surgery Techniques",
+          "count": 4
+        },
+        {
+          "topic_name": "Pancreatitis Pathology and Treatment",
+          "count": 4
+        },
+        {
+          "topic_name": "Health and Medical Research Impacts",
+          "count": 4
+        }
+      ],
+      "top_fields": [
+        {
+          "field_name": "Medicine",
+          "count": 335
+        },
+        {
+          "field_name": "Decision Sciences",
+          "count": 24
+        },
+        {
+          "field_name": "Neuroscience",
+          "count": 20
+        },
+        {
+          "field_name": "Health Professions",
+          "count": 15
+        },
+        {
+          "field_name": "Biochemistry, Genetics and Molecular Biology",
+          "count": 11
+        },
+        {
+          "field_name": "Economics, Econometrics and Finance",
+          "count": 7
+        },
+        {
+          "field_name": "Agricultural and Biological Sciences",
+          "count": 5
+        },
+        {
+          "field_name": "Veterinary",
+          "count": 4
+        },
+        {
+          "field_name": "Engineering",
+          "count": 3
+        },
+        {
+          "field_name": "Arts and Humanities",
+          "count": 2
+        }
+      ],
+      "top_domains": [
+        {
+          "domain_name": "Health Sciences",
+          "count": 356
+        },
+        {
+          "domain_name": "Life Sciences",
+          "count": 36
+        },
+        {
+          "domain_name": "Social Sciences",
+          "count": 34
+        },
+        {
+          "domain_name": "Physical Sciences",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "author_id": "https://openalex.org/A5029911477",
+      "author_name": "Michael Frass",
+      "seed_works_count": 11,
+      "total_works_in_openalex": 380,
+      "cited_by_count": 7299,
+      "orcid": null,
+      "last_known_institutions": [],
+      "disambiguation_flag": false,
+      "year_range": [
+        1980,
+        2025
+      ],
+      "fetched_works_count": 200,
+      "top_topics": [
+        {
+          "topic_name": "Airway Management and Intubation Techniques",
+          "count": 67
+        },
+        {
+          "topic_name": "Respiratory Support and Mechanisms",
+          "count": 47
+        },
+        {
+          "topic_name": "Cardiac Arrest and Resuscitation",
+          "count": 45
+        },
+        {
+          "topic_name": "Complementary and Alternative Medicine Studies",
+          "count": 29
+        },
+        {
+          "topic_name": "Tracheal and airway disorders",
+          "count": 20
+        },
+        {
+          "topic_name": "Sepsis Diagnosis and Treatment",
+          "count": 13
+        },
+        {
+          "topic_name": "Trauma Management and Diagnosis",
+          "count": 12
+        },
+        {
+          "topic_name": "Cell Adhesion Molecules Research",
+          "count": 10
+        },
+        {
+          "topic_name": "Intensive Care Unit Cognitive Disorders",
+          "count": 8
+        },
+        {
+          "topic_name": "Anesthesia and Sedative Agents",
+          "count": 8
+        },
+        {
+          "topic_name": "Receptor Mechanisms and Signaling",
+          "count": 7
+        },
+        {
+          "topic_name": "Foreign Body Medical Cases",
+          "count": 7
+        },
+        {
+          "topic_name": "Neuropeptides and Animal Physiology",
+          "count": 6
+        },
+        {
+          "topic_name": "Hemodynamic Monitoring and Therapy",
+          "count": 6
+        },
+        {
+          "topic_name": "Nosocomial Infections in ICU",
+          "count": 6
+        },
+        {
+          "topic_name": "Restraint-Related Deaths",
+          "count": 6
+        },
+        {
+          "topic_name": "Heart Failure Treatment and Management",
+          "count": 6
+        },
+        {
+          "topic_name": "Herbal Medicine Research Studies",
+          "count": 5
+        },
+        {
+          "topic_name": "Trauma, Hemostasis, Coagulopathy, Resuscitation",
+          "count": 5
+        },
+        {
+          "topic_name": "Cardiac, Anesthesia and Surgical Outcomes",
+          "count": 5
+        }
+      ],
+      "top_fields": [
+        {
+          "field_name": "Medicine",
+          "count": 457
+        },
+        {
+          "field_name": "Health Professions",
+          "count": 23
+        },
+        {
+          "field_name": "Biochemistry, Genetics and Molecular Biology",
+          "count": 20
+        },
+        {
+          "field_name": "Immunology and Microbiology",
+          "count": 17
+        },
+        {
+          "field_name": "Neuroscience",
+          "count": 12
+        },
+        {
+          "field_name": "Engineering",
+          "count": 7
+        },
+        {
+          "field_name": "Psychology",
+          "count": 6
+        },
+        {
+          "field_name": "Agricultural and Biological Sciences",
+          "count": 6
+        },
+        {
+          "field_name": "Decision Sciences",
+          "count": 4
+        },
+        {
+          "field_name": "Environmental Science",
+          "count": 3
+        }
+      ],
+      "top_domains": [
+        {
+          "domain_name": "Health Sciences",
+          "count": 484
+        },
+        {
+          "domain_name": "Life Sciences",
+          "count": 57
+        },
+        {
+          "domain_name": "Physical Sciences",
+          "count": 13
+        },
+        {
+          "domain_name": "Social Sciences",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "author_id": "https://openalex.org/A5024266576",
+      "author_name": "Menachem Oberbaum",
+      "seed_works_count": 11,
+      "total_works_in_openalex": 106,
+      "cited_by_count": 2354,
+      "orcid": null,
+      "last_known_institutions": [
+        {
+          "institution_id": "https://openalex.org/I2801962034",
+          "institution_name": "Shaare Zedek Medical Center",
+          "country_code": "IL"
+        }
+      ],
+      "disambiguation_flag": false,
+      "year_range": [
+        1988,
+        2025
+      ],
+      "fetched_works_count": 106,
+      "top_topics": [
+        {
+          "topic_name": "Complementary and Alternative Medicine Studies",
+          "count": 60
+        },
+        {
+          "topic_name": "Herbal Medicine Research Studies",
+          "count": 9
+        },
+        {
+          "topic_name": "Therapeutic Uses of Natural Elements",
+          "count": 8
+        },
+        {
+          "topic_name": "Meta-analysis and systematic reviews",
+          "count": 7
+        },
+        {
+          "topic_name": "Pain Management and Placebo Effect",
+          "count": 7
+        },
+        {
+          "topic_name": "Phytochemistry Medicinal Plant Applications",
+          "count": 6
+        },
+        {
+          "topic_name": "COVID-19 Clinical Research Studies",
+          "count": 5
+        },
+        {
+          "topic_name": "Respiratory viral infections research",
+          "count": 5
+        },
+        {
+          "topic_name": "Acupuncture Treatment Research Studies",
+          "count": 5
+        },
+        {
+          "topic_name": "SARS-CoV-2 and COVID-19 Research",
+          "count": 4
+        },
+        {
+          "topic_name": "Health Systems, Economic Evaluations, Quality of Life",
+          "count": 4
+        },
+        {
+          "topic_name": "Oral health in cancer treatment",
+          "count": 4
+        },
+        {
+          "topic_name": "Mental Health and Psychiatry",
+          "count": 4
+        },
+        {
+          "topic_name": "Menstrual Health and Disorders",
+          "count": 4
+        },
+        {
+          "topic_name": "Musculoskeletal pain and rehabilitation",
+          "count": 4
+        },
+        {
+          "topic_name": "Allergic Rhinitis and Sensitization",
+          "count": 3
+        },
+        {
+          "topic_name": "Long-Term Effects of COVID-19",
+          "count": 3
+        },
+        {
+          "topic_name": "Respiratory and Cough-Related Research",
+          "count": 3
+        },
+        {
+          "topic_name": "Effects of Radiation Exposure",
+          "count": 3
+        },
+        {
+          "topic_name": "Pharmaceutical studies and practices",
+          "count": 3
+        }
+      ],
+      "top_fields": [
+        {
+          "field_name": "Medicine",
+          "count": 182
+        },
+        {
+          "field_name": "Health Professions",
+          "count": 18
+        },
+        {
+          "field_name": "Agricultural and Biological Sciences",
+          "count": 11
+        },
+        {
+          "field_name": "Immunology and Microbiology",
+          "count": 9
+        },
+        {
+          "field_name": "Neuroscience",
+          "count": 8
+        },
+        {
+          "field_name": "Decision Sciences",
+          "count": 7
+        },
+        {
+          "field_name": "Arts and Humanities",
+          "count": 6
+        },
+        {
+          "field_name": "Economics, Econometrics and Finance",
+          "count": 5
+        },
+        {
+          "field_name": "Veterinary",
+          "count": 3
+        },
+        {
+          "field_name": "Biochemistry, Genetics and Molecular Biology",
+          "count": 3
+        }
+      ],
+      "top_domains": [
+        {
+          "domain_name": "Health Sciences",
+          "count": 206
+        },
+        {
+          "domain_name": "Life Sciences",
+          "count": 33
+        },
+        {
+          "domain_name": "Social Sciences",
+          "count": 22
+        },
+        {
+          "domain_name": "Physical Sciences",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "author_id": "https://openalex.org/A5080129227",
+      "author_name": "Michel Van Wassenhoven",
+      "seed_works_count": 11,
+      "total_works_in_openalex": 44,
+      "cited_by_count": 536,
+      "orcid": "https://orcid.org/0000-0002-6164-9001",
+      "last_known_institutions": [
+        {
+          "institution_id": "https://openalex.org/I2802330208",
+          "institution_name": "Statistics Belgium",
+          "country_code": "BE"
+        }
+      ],
+      "disambiguation_flag": false,
+      "year_range": [
+        1996,
+        2026
+      ],
+      "fetched_works_count": 44,
+      "top_topics": [
+        {
+          "topic_name": "Complementary and Alternative Medicine Studies",
+          "count": 40
+        },
+        {
+          "topic_name": "Herbal Medicine Research Studies",
+          "count": 5
+        },
+        {
+          "topic_name": "Meta-analysis and systematic reviews",
+          "count": 4
+        },
+        {
+          "topic_name": "Health Systems, Economic Evaluations, Quality of Life",
+          "count": 4
+        },
+        {
+          "topic_name": "Pharmacological Effects of Natural Compounds",
+          "count": 4
+        },
+        {
+          "topic_name": "Heavy Metals in Plants",
+          "count": 3
+        },
+        {
+          "topic_name": "Therapeutic Uses of Natural Elements",
+          "count": 3
+        },
+        {
+          "topic_name": "Plant-based Medicinal Research",
+          "count": 2
+        },
+        {
+          "topic_name": "Phytochemistry Medicinal Plant Applications",
+          "count": 2
+        },
+        {
+          "topic_name": "Pain Management and Placebo Effect",
+          "count": 2
+        },
+        {
+          "topic_name": "Chemical and Physical Studies",
+          "count": 2
+        },
+        {
+          "topic_name": "Acupuncture Treatment Research Studies",
+          "count": 2
+        },
+        {
+          "topic_name": "Clinical practice guidelines implementation",
+          "count": 2
+        },
+        {
+          "topic_name": "Mental Health and Psychiatry",
+          "count": 1
+        },
+        {
+          "topic_name": "Allergic Rhinitis and Sensitization",
+          "count": 1
+        },
+        {
+          "topic_name": "Healthcare cost, quality, practices",
+          "count": 1
+        },
+        {
+          "topic_name": "COVID-19 Clinical Research Studies",
+          "count": 1
+        },
+        {
+          "topic_name": "Innovations in Medical Education",
+          "count": 1
+        },
+        {
+          "topic_name": "Clinical Reasoning and Diagnostic Skills",
+          "count": 1
+        },
+        {
+          "topic_name": "Primary Care and Health Outcomes",
+          "count": 1
+        }
+      ],
+      "top_fields": [
+        {
+          "field_name": "Medicine",
+          "count": 59
+        },
+        {
+          "field_name": "Pharmacology, Toxicology and Pharmaceutics",
+          "count": 8
+        },
+        {
+          "field_name": "Health Professions",
+          "count": 6
+        },
+        {
+          "field_name": "Decision Sciences",
+          "count": 4
+        },
+        {
+          "field_name": "Economics, Econometrics and Finance",
+          "count": 4
+        },
+        {
+          "field_name": "Chemistry",
+          "count": 4
+        },
+        {
+          "field_name": "Biochemistry, Genetics and Molecular Biology",
+          "count": 3
+        },
+        {
+          "field_name": "Agricultural and Biological Sciences",
+          "count": 2
+        },
+        {
+          "field_name": "Neuroscience",
+          "count": 2
+        },
+        {
+          "field_name": "Business, Management and Accounting",
+          "count": 2
+        }
+      ],
+      "top_domains": [
+        {
+          "domain_name": "Health Sciences",
+          "count": 66
+        },
+        {
+          "domain_name": "Life Sciences",
+          "count": 15
+        },
+        {
+          "domain_name": "Social Sciences",
+          "count": 11
+        },
+        {
+          "domain_name": "Physical Sciences",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "author_id": "https://openalex.org/A5060515275",
+      "author_name": "Katharina Gaertner",
+      "seed_works_count": 10,
+      "total_works_in_openalex": 57,
+      "cited_by_count": 393,
+      "orcid": "https://orcid.org/0000-0001-7711-2842",
+      "last_known_institutions": [
+        {
+          "institution_id": "https://openalex.org/I130692619",
+          "institution_name": "Bern University of Applied Sciences",
+          "country_code": "CH"
+        },
+        {
+          "institution_id": "https://openalex.org/I155976169",
+          "institution_name": "Witten/Herdecke University",
+          "country_code": "DE"
+        }
+      ],
+      "disambiguation_flag": false,
+      "year_range": [
+        1977,
+        2026
+      ],
+      "fetched_works_count": 57,
+      "top_topics": [
+        {
+          "topic_name": "Complementary and Alternative Medicine Studies",
+          "count": 33
+        },
+        {
+          "topic_name": "Meta-analysis and systematic reviews",
+          "count": 9
+        },
+        {
+          "topic_name": "Childhood Cancer Survivors' Quality of Life",
+          "count": 4
+        },
+        {
+          "topic_name": "Pain Management and Placebo Effect",
+          "count": 4
+        },
+        {
+          "topic_name": "Civil and Structural Engineering Research",
+          "count": 3
+        },
+        {
+          "topic_name": "Asphalt Pavement Performance Evaluation",
+          "count": 3
+        },
+        {
+          "topic_name": "Herbal Medicine Research Studies",
+          "count": 2
+        },
+        {
+          "topic_name": "Therapeutic Uses of Natural Elements",
+          "count": 2
+        },
+        {
+          "topic_name": "Cancer survivorship and care",
+          "count": 2
+        },
+        {
+          "topic_name": "Cancer Treatment and Pharmacology",
+          "count": 2
+        },
+        {
+          "topic_name": "Emergency and Acute Care Studies",
+          "count": 2
+        },
+        {
+          "topic_name": "Geriatric Care and Nursing Homes",
+          "count": 2
+        },
+        {
+          "topic_name": "Human-Automation Interaction and Safety",
+          "count": 2
+        },
+        {
+          "topic_name": "Ergonomics and Musculoskeletal Disorders",
+          "count": 2
+        },
+        {
+          "topic_name": "Biofield Effects and Biophysics",
+          "count": 2
+        },
+        {
+          "topic_name": "Vehicle Noise and Vibration Control",
+          "count": 2
+        },
+        {
+          "topic_name": "Aerospace and Aviation Technology",
+          "count": 2
+        },
+        {
+          "topic_name": "Digital Platforms and Economics",
+          "count": 2
+        },
+        {
+          "topic_name": "Innovation and Knowledge Management",
+          "count": 2
+        },
+        {
+          "topic_name": "Psychosomatic Disorders and Their Treatments",
+          "count": 2
+        }
+      ],
+      "top_fields": [
+        {
+          "field_name": "Medicine",
+          "count": 72
+        },
+        {
+          "field_name": "Engineering",
+          "count": 24
+        },
+        {
+          "field_name": "Decision Sciences",
+          "count": 10
+        },
+        {
+          "field_name": "Health Professions",
+          "count": 7
+        },
+        {
+          "field_name": "Psychology",
+          "count": 5
+        },
+        {
+          "field_name": "Business, Management and Accounting",
+          "count": 5
+        },
+        {
+          "field_name": "Neuroscience",
+          "count": 4
+        },
+        {
+          "field_name": "Computer Science",
+          "count": 2
+        },
+        {
+          "field_name": "Mathematics",
+          "count": 2
+        },
+        {
+          "field_name": "Pharmacology, Toxicology and Pharmaceutics",
+          "count": 1
+        }
+      ],
+      "top_domains": [
+        {
+          "domain_name": "Health Sciences",
+          "count": 79
+        },
+        {
+          "domain_name": "Physical Sciences",
+          "count": 28
+        },
+        {
+          "domain_name": "Social Sciences",
+          "count": 21
+        },
+        {
+          "domain_name": "Life Sciences",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "author_id": "https://openalex.org/A5059105461",
+      "author_name": "Jürgen Fritz",
+      "seed_works_count": 10,
+      "total_works_in_openalex": 77,
+      "cited_by_count": 435,
+      "orcid": "https://orcid.org/0000-0003-2150-8543",
+      "last_known_institutions": [
+        {
+          "institution_id": "https://openalex.org/I106157433",
+          "institution_name": "University of Kassel",
+          "country_code": "DE"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210137229",
+          "institution_name": "Institute of Organic Chemistry",
+          "country_code": "HU"
+        }
+      ],
+      "disambiguation_flag": false,
+      "year_range": [
+        1966,
+        2025
+      ],
+      "fetched_works_count": 78,
+      "top_topics": [
+        {
+          "topic_name": "Horticultural and Viticultural Research",
+          "count": 14
+        },
+        {
+          "topic_name": "Fermentation and Sensory Analysis",
+          "count": 11
+        },
+        {
+          "topic_name": "Digital Innovation in Industries",
+          "count": 10
+        },
+        {
+          "topic_name": "Corporate Governance and Management",
+          "count": 9
+        },
+        {
+          "topic_name": "Soil Carbon and Nitrogen Dynamics",
+          "count": 7
+        },
+        {
+          "topic_name": "Public Administration and Political Analysis",
+          "count": 6
+        },
+        {
+          "topic_name": "Composting and Vermicomposting Techniques",
+          "count": 4
+        },
+        {
+          "topic_name": "Sensory Analysis and Statistical Methods",
+          "count": 4
+        },
+        {
+          "topic_name": "Flexible and Reconfigurable Manufacturing Systems",
+          "count": 4
+        },
+        {
+          "topic_name": "Sociology and Education Studies",
+          "count": 4
+        },
+        {
+          "topic_name": "Law and Political Science",
+          "count": 4
+        },
+        {
+          "topic_name": "Digitalization, Law, and Regulation",
+          "count": 4
+        },
+        {
+          "topic_name": "Plant Physiology and Cultivation Studies",
+          "count": 4
+        },
+        {
+          "topic_name": "Mycorrhizal Fungi and Plant Interactions",
+          "count": 3
+        },
+        {
+          "topic_name": "Microbial Community Ecology and Physiology",
+          "count": 3
+        },
+        {
+          "topic_name": "Digital Games and Media",
+          "count": 3
+        },
+        {
+          "topic_name": "Plant Growth Enhancement Techniques",
+          "count": 3
+        },
+        {
+          "topic_name": "Psychology, Coaching, and Therapy",
+          "count": 3
+        },
+        {
+          "topic_name": "Biocrusts and Microbial Ecology",
+          "count": 2
+        },
+        {
+          "topic_name": "Botanical Research and Applications",
+          "count": 2
+        }
+      ],
+      "top_fields": [
+        {
+          "field_name": "Agricultural and Biological Sciences",
+          "count": 78
+        },
+        {
+          "field_name": "Social Sciences",
+          "count": 33
+        },
+        {
+          "field_name": "Business, Management and Accounting",
+          "count": 23
+        },
+        {
+          "field_name": "Environmental Science",
+          "count": 12
+        },
+        {
+          "field_name": "Biochemistry, Genetics and Molecular Biology",
+          "count": 10
+        },
+        {
+          "field_name": "Engineering",
+          "count": 6
+        },
+        {
+          "field_name": "Psychology",
+          "count": 6
+        },
+        {
+          "field_name": "Medicine",
+          "count": 6
+        },
+        {
+          "field_name": "Chemistry",
+          "count": 4
+        },
+        {
+          "field_name": "Neuroscience",
+          "count": 4
+        }
+      ],
+      "top_domains": [
+        {
+          "domain_name": "Life Sciences",
+          "count": 92
+        },
+        {
+          "domain_name": "Social Sciences",
+          "count": 66
+        },
+        {
+          "domain_name": "Physical Sciences",
+          "count": 24
+        },
+        {
+          "domain_name": "Health Sciences",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "author_id": "https://openalex.org/A5007654058",
+      "author_name": "Chaturbhuja Nayak",
+      "seed_works_count": 10,
+      "total_works_in_openalex": 109,
+      "cited_by_count": 606,
+      "orcid": "https://orcid.org/0000-0002-9557-6293",
+      "last_known_institutions": [
+        {
+          "institution_id": "https://openalex.org/I2801414801",
+          "institution_name": "Gleneagles Hospital",
+          "country_code": "SG"
+        },
+        {
+          "institution_id": "https://openalex.org/I4210155405",
+          "institution_name": "Central Council for Research in Homoeopathy",
+          "country_code": "IN"
+        }
+      ],
+      "disambiguation_flag": false,
+      "year_range": [
+        1980,
+        2025
+      ],
+      "fetched_works_count": 109,
+      "top_topics": [
+        {
+          "topic_name": "Complementary and Alternative Medicine Studies",
+          "count": 49
+        },
+        {
+          "topic_name": "Herbal Medicine Research Studies",
+          "count": 8
+        },
+        {
+          "topic_name": "Meta-analysis and systematic reviews",
+          "count": 6
+        },
+        {
+          "topic_name": "Plant-based Medicinal Research",
+          "count": 6
+        },
+        {
+          "topic_name": "Pharmacology and Obesity Treatment",
+          "count": 6
+        },
+        {
+          "topic_name": "Health Systems, Economic Evaluations, Quality of Life",
+          "count": 5
+        },
+        {
+          "topic_name": "Healthcare and Venom Research",
+          "count": 5
+        },
+        {
+          "topic_name": "Health and Medical Research Impacts",
+          "count": 5
+        },
+        {
+          "topic_name": "Toxin Mechanisms and Immunotoxins",
+          "count": 5
+        },
+        {
+          "topic_name": "Urinary Bladder and Prostate Research",
+          "count": 4
+        },
+        {
+          "topic_name": "Respiratory and Cough-Related Research",
+          "count": 4
+        },
+        {
+          "topic_name": "Medicinal Plants and Neuroprotection",
+          "count": 4
+        },
+        {
+          "topic_name": "Innovations in Medical Education",
+          "count": 4
+        },
+        {
+          "topic_name": "Mosquito-borne diseases and control",
+          "count": 3
+        },
+        {
+          "topic_name": "Allergic Rhinitis and Sensitization",
+          "count": 3
+        },
+        {
+          "topic_name": "Pain Management and Placebo Effect",
+          "count": 3
+        },
+        {
+          "topic_name": "Heart Rate Variability and Autonomic Control",
+          "count": 3
+        },
+        {
+          "topic_name": "Acupuncture Treatment Research Studies",
+          "count": 3
+        },
+        {
+          "topic_name": "Hormonal and reproductive studies",
+          "count": 3
+        },
+        {
+          "topic_name": "Therapeutic Uses of Natural Elements",
+          "count": 3
+        }
+      ],
+      "top_fields": [
+        {
+          "field_name": "Medicine",
+          "count": 178
+        },
+        {
+          "field_name": "Agricultural and Biological Sciences",
+          "count": 16
+        },
+        {
+          "field_name": "Health Professions",
+          "count": 14
+        },
+        {
+          "field_name": "Biochemistry, Genetics and Molecular Biology",
+          "count": 10
+        },
+        {
+          "field_name": "Pharmacology, Toxicology and Pharmaceutics",
+          "count": 9
+        },
+        {
+          "field_name": "Arts and Humanities",
+          "count": 8
+        },
+        {
+          "field_name": "Immunology and Microbiology",
+          "count": 8
+        },
+        {
+          "field_name": "Social Sciences",
+          "count": 8
+        },
+        {
+          "field_name": "Decision Sciences",
+          "count": 6
+        },
+        {
+          "field_name": "Economics, Econometrics and Finance",
+          "count": 6
+        }
+      ],
+      "top_domains": [
+        {
+          "domain_name": "Health Sciences",
+          "count": 194
+        },
+        {
+          "domain_name": "Life Sciences",
+          "count": 48
+        },
+        {
+          "domain_name": "Social Sciences",
+          "count": 29
+        },
+        {
+          "domain_name": "Physical Sciences",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "author_id": "https://openalex.org/A5037454750",
+      "author_name": "Tim Jäger",
+      "seed_works_count": 9,
+      "total_works_in_openalex": 36,
+      "cited_by_count": 447,
+      "orcid": null,
+      "last_known_institutions": [
+        {
+          "institution_id": "https://openalex.org/I118564535",
+          "institution_name": "University of Bern",
+          "country_code": "CH"
+        },
+        {
+          "institution_id": "https://openalex.org/I155976169",
+          "institution_name": "Witten/Herdecke University",
+          "country_code": "DE"
+        },
+        {
+          "institution_id": "https://openalex.org/I161046081",
+          "institution_name": "University of Freiburg",
+          "country_code": "DE"
+        }
+      ],
+      "disambiguation_flag": false,
+      "year_range": [
+        1990,
+        2024
+      ],
+      "fetched_works_count": 36,
+      "top_topics": [
+        {
+          "topic_name": "Complementary and Alternative Medicine Studies",
+          "count": 19
+        },
+        {
+          "topic_name": "Herbal Medicine Research Studies",
+          "count": 5
+        },
+        {
+          "topic_name": "Therapeutic Uses of Natural Elements",
+          "count": 5
+        },
+        {
+          "topic_name": "Ecology and Conservation Studies",
+          "count": 4
+        },
+        {
+          "topic_name": "Constructed Wetlands for Wastewater Treatment",
+          "count": 4
+        },
+        {
+          "topic_name": "Lichen and fungal ecology",
+          "count": 4
+        },
+        {
+          "topic_name": "Plant tissue culture and regeneration",
+          "count": 3
+        },
+        {
+          "topic_name": "Plant Pathogens and Fungal Diseases",
+          "count": 2
+        },
+        {
+          "topic_name": "Phytochemistry Medicinal Plant Applications",
+          "count": 2
+        },
+        {
+          "topic_name": "Toxin Mechanisms and Immunotoxins",
+          "count": 2
+        },
+        {
+          "topic_name": "Botanical Studies and Applications",
+          "count": 2
+        },
+        {
+          "topic_name": "Composting and Vermicomposting Techniques",
+          "count": 2
+        },
+        {
+          "topic_name": "Banana Cultivation and Research",
+          "count": 1
+        },
+        {
+          "topic_name": "Powdery Mildew Fungal Diseases",
+          "count": 1
+        },
+        {
+          "topic_name": "Evolution and Genetic Dynamics",
+          "count": 1
+        },
+        {
+          "topic_name": "Pharmacogenetics and Drug Metabolism",
+          "count": 1
+        },
+        {
+          "topic_name": "Plant biochemistry and biosynthesis",
+          "count": 1
+        },
+        {
+          "topic_name": "Photosynthetic Processes and Mechanisms",
+          "count": 1
+        },
+        {
+          "topic_name": "Pain Management and Placebo Effect",
+          "count": 1
+        },
+        {
+          "topic_name": "Meta-analysis and systematic reviews",
+          "count": 1
+        }
+      ],
+      "top_fields": [
+        {
+          "field_name": "Agricultural and Biological Sciences",
+          "count": 26
+        },
+        {
+          "field_name": "Medicine",
+          "count": 25
+        },
+        {
+          "field_name": "Biochemistry, Genetics and Molecular Biology",
+          "count": 11
+        },
+        {
+          "field_name": "Environmental Science",
+          "count": 5
+        },
+        {
+          "field_name": "Health Professions",
+          "count": 5
+        },
+        {
+          "field_name": "Immunology and Microbiology",
+          "count": 2
+        },
+        {
+          "field_name": "Computer Science",
+          "count": 2
+        },
+        {
+          "field_name": "Pharmacology, Toxicology and Pharmaceutics",
+          "count": 1
+        },
+        {
+          "field_name": "Neuroscience",
+          "count": 1
+        },
+        {
+          "field_name": "Decision Sciences",
+          "count": 1
+        }
+      ],
+      "top_domains": [
+        {
+          "domain_name": "Life Sciences",
+          "count": 41
+        },
+        {
+          "domain_name": "Health Sciences",
+          "count": 30
+        },
+        {
+          "domain_name": "Physical Sciences",
+          "count": 8
+        },
+        {
+          "domain_name": "Social Sciences",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "author_id": "https://openalex.org/A5034376140",
+      "author_name": "Michael Teut",
+      "seed_works_count": 9,
+      "total_works_in_openalex": 182,
+      "cited_by_count": 1627,
+      "orcid": "https://orcid.org/0000-0001-7150-7165",
+      "last_known_institutions": [
+        {
+          "institution_id": "https://openalex.org/I4210145679",
+          "institution_name": "Medizinische Hochschule Brandenburg Theodor Fontane",
+          "country_code": "DE"
+        }
+      ],
+      "disambiguation_flag": false,
+      "year_range": [
+        2001,
+        2026
+      ],
+      "fetched_works_count": 179,
+      "top_topics": [
+        {
+          "topic_name": "Complementary and Alternative Medicine Studies",
+          "count": 89
+        },
+        {
+          "topic_name": "Pain Management and Placebo Effect",
+          "count": 16
+        },
+        {
+          "topic_name": "Health, psychology, and well-being",
+          "count": 15
+        },
+        {
+          "topic_name": "Diverse Scientific and Economic Studies",
+          "count": 15
+        },
+        {
+          "topic_name": "Human auditory perception and evaluation",
+          "count": 13
+        },
+        {
+          "topic_name": "Therapeutic Uses of Natural Elements",
+          "count": 12
+        },
+        {
+          "topic_name": "Mental Health and Psychiatry",
+          "count": 12
+        },
+        {
+          "topic_name": "Psychosomatic Disorders and Their Treatments",
+          "count": 11
+        },
+        {
+          "topic_name": "Acupuncture Treatment Research Studies",
+          "count": 9
+        },
+        {
+          "topic_name": "Health and Medical Studies",
+          "count": 9
+        },
+        {
+          "topic_name": "Medical and Health Sciences Research",
+          "count": 8
+        },
+        {
+          "topic_name": "Musculoskeletal pain and rehabilitation",
+          "count": 7
+        },
+        {
+          "topic_name": "Religion, Spirituality, and Psychology",
+          "count": 7
+        },
+        {
+          "topic_name": "Allergic Rhinitis and Sensitization",
+          "count": 7
+        },
+        {
+          "topic_name": "Herbal Medicine Research Studies",
+          "count": 6
+        },
+        {
+          "topic_name": "Mindfulness and Compassion Interventions",
+          "count": 6
+        },
+        {
+          "topic_name": "Dermatology and Skin Diseases",
+          "count": 6
+        },
+        {
+          "topic_name": "Health Systems, Economic Evaluations, Quality of Life",
+          "count": 6
+        },
+        {
+          "topic_name": "Psychology, Coaching, and Therapy",
+          "count": 6
+        },
+        {
+          "topic_name": "Educational Robotics and Engineering",
+          "count": 6
+        }
+      ],
+      "top_fields": [
+        {
+          "field_name": "Medicine",
+          "count": 209
+        },
+        {
+          "field_name": "Health Professions",
+          "count": 54
+        },
+        {
+          "field_name": "Psychology",
+          "count": 38
+        },
+        {
+          "field_name": "Economics, Econometrics and Finance",
+          "count": 24
+        },
+        {
+          "field_name": "Neuroscience",
+          "count": 23
+        },
+        {
+          "field_name": "Arts and Humanities",
+          "count": 21
+        },
+        {
+          "field_name": "Social Sciences",
+          "count": 21
+        },
+        {
+          "field_name": "Engineering",
+          "count": 13
+        },
+        {
+          "field_name": "Computer Science",
+          "count": 8
+        },
+        {
+          "field_name": "Decision Sciences",
+          "count": 6
+        }
+      ],
+      "top_domains": [
+        {
+          "domain_name": "Health Sciences",
+          "count": 265
+        },
+        {
+          "domain_name": "Social Sciences",
+          "count": 115
+        },
+        {
+          "domain_name": "Life Sciences",
+          "count": 36
+        },
+        {
+          "domain_name": "Physical Sciences",
+          "count": 23
+        }
+      ]
+    }
+  ]
+}
