@@ -227,6 +227,18 @@
     const searchBox = document.getElementById('search-box');
     const searchResults = document.getElementById('search-results');
 
+    // Compute the graph bounding box so we can convert raw node coordinates
+    // to Sigma's camera coordinate system without relying on viewport methods
+    let gMinX = Infinity, gMaxX = -Infinity, gMinY = Infinity, gMaxY = -Infinity;
+    graph.forEachNode((node, attrs) => {
+        if (attrs.x < gMinX) gMinX = attrs.x;
+        if (attrs.x > gMaxX) gMaxX = attrs.x;
+        if (attrs.y < gMinY) gMinY = attrs.y;
+        if (attrs.y > gMaxY) gMaxY = attrs.y;
+    });
+    const gRangeX = gMaxX - gMinX || 1;
+    const gRangeY = gMaxY - gMinY || 1;
+
     // Build name index for fast search
     const nameIndex = [];
     graph.forEachNode((node, attrs) => {
@@ -246,13 +258,24 @@
             div.className = 'result';
             div.textContent = m.display;
             div.addEventListener('click', () => {
-                // Center camera on this node
-                const attrs = graph.getNodeAttributes(m.key);
-                renderer.getCamera().animate({ x: attrs.x, y: attrs.y, ratio: 0.15 }, { duration: 600 });
+                const camera = renderer.getCamera();
+                const nodeAttrs = graph.getNodeAttributes(m.key);
+
+                // Convert raw node coordinates to Sigma's normalized camera space
+                // using the bounding box computed at load time
+                const camX = (nodeAttrs.x - gMinX) / gRangeX;
+                const camY = (nodeAttrs.y - gMinY) / gRangeY;
+
+                // Zoom into the node
+                camera.animate(
+                    { x: camX, y: camY, ratio: 0.2 },
+                    { duration: 600 }
+                );
+
                 searchResults.style.display = 'none';
                 searchBox.value = m.display;
 
-                // Simulate hover
+                // Highlight this node's neighbors
                 hoveredNode = m.key;
                 renderer.refresh();
             });
