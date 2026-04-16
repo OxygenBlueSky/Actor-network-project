@@ -25,15 +25,24 @@ from utils import load_json, print_section, print_stat
 
 #===== GEXF EXPORT ==========================================================
 
-def export_gexf(G, filepath):
+def export_gexf(G, filepath, cap_citations=None):
     """
     Export the full network as GEXF (Graph Exchange XML Format).
     GEXF preserves all node/edge attributes and is natively supported
     by Gephi. Boolean values must be converted to strings for GEXF.
+
+    cap_citations: if set, clamp cited_by_count to this value so the
+    color gradient in Gephi isn't stretched by extreme outliers.
+    A capped version is stored as 'citations_capped' alongside the raw value.
     """
-    # GEXF doesn't handle Python booleans well — convert to strings
     G_copy = G.copy()
     for node, data in G_copy.nodes(data=True):
+        # Add a capped citation count for usable color gradients
+        if cap_citations and "cited_by_count" in data:
+            raw = data["cited_by_count"]
+            if isinstance(raw, (int, float)):
+                data["citations_capped"] = min(raw, cap_citations)
+
         for key, val in data.items():
             if isinstance(val, bool):
                 data[key] = str(val)
@@ -343,16 +352,19 @@ def build_trimmed_network(G, seed_works):
         if author_ids & core_authors:
             core_work_ids.add(w["work_id"])
 
-    # Keep expanded reference works (is_seed=False, not stubs)
+    # Keep expanded reference works (Phase 3 backbone) but NOT stubs.
+    # Stubs are reference placeholders with no metadata — they leak through
+    # because the stub flag can be lost in pickle/GEXF round-trips.
+    # Robust check: real expanded works have a title; stubs don't.
     for node, data in G.nodes(data=True):
-        if (data.get("node_type") == "work"
-                and data.get("is_seed") == "False"  # string from GEXF conversion
-                and not data.get("stub", False)):
-            core_work_ids.add(node)
-        # Also catch boolean False (from pickle, before GEXF conversion)
-        if (data.get("node_type") == "work"
-                and data.get("is_seed") is False
-                and not data.get("stub", False)):
+        if data.get("node_type") != "work":
+            continue
+        is_seed = data.get("is_seed")
+        # Skip seed works (handled above) and stubs (no title = never fetched)
+        if is_seed is True or is_seed == "True":
+            continue
+        title = data.get("title", "")
+        if title and title.strip():
             core_work_ids.add(node)
 
     # Step 3: Identify top topics by frequency across retained works
@@ -445,10 +457,12 @@ def main():
     export_gexf(G, gexf_path)
 
     # 2. Build and export trimmed network (the one you'll actually explore)
+    # Cap citations at 100 so the color gradient isn't dominated by outliers.
+    # Raw cited_by_count is preserved; use 'citations_capped' for coloring.
     print_section("BUILDING TRIMMED NETWORK")
     T = build_trimmed_network(G, seed_works)
     trimmed_gexf = os.path.join(config.DATA_DIR, "homeopathy_network_trimmed.gexf")
-    export_gexf(T, trimmed_gexf)
+    export_gexf(T, trimmed_gexf, cap_citations=100)
 
     # 3. Build co-authorship projection from trimmed network for VOSviewer
     print_section("EXPORTING VOSVIEWER CO-AUTHORSHIP (trimmed)")
