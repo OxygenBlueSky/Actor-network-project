@@ -48,6 +48,10 @@ def export_gexf(G, filepath, cap_citations=None):
                 raw = data["author_cited_by"]
                 if isinstance(raw, (int, float)):
                     data["author_cited_by_capped"] = min(raw, cap_citations * 10)
+            if "seed_citations" in data:
+                raw = data["seed_citations"]
+                if isinstance(raw, (int, float)):
+                    data["seed_citations_capped"] = min(raw, cap_citations * 5)
 
         for key, val in data.items():
             if isinstance(val, bool):
