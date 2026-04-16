@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homeopathy Research Co-Authorship Network</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: #1a1a2e; color: #e0e0e0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; overflow: hidden; }
+
+        /* Full-screen graph container */
+        #sigma-container { width: 100vw; height: 100vh; }
+
+        /* Top-left info panel */
+        #info-panel {
+            position: absolute; top: 16px; left: 16px;
+            background: rgba(20, 20, 40, 0.92); border-radius: 10px;
+            padding: 16px 20px; max-width: 340px;
+            border: 1px solid rgba(255,255,255,0.08);
+            backdrop-filter: blur(8px);
+        }
+        #info-panel h1 { font-size: 15px; font-weight: 600; margin-bottom: 6px; color: #fff; }
+        #info-panel p { font-size: 12px; line-height: 1.5; color: #aaa; margin-bottom: 8px; }
+        #info-panel .legend { display: flex; align-items: center; gap: 6px; font-size: 11px; color: #999; margin-top: 4px; }
+        .legend-gradient {
+            width: 80px; height: 10px; border-radius: 3px;
+            background: linear-gradient(to right, rgb(255,235,180), rgb(240,140,30), rgb(200,50,20));
+        }
+
+        /* Search box */
+        #search-box {
+            width: 100%; padding: 8px 10px; margin-top: 8px;
+            background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12);
+            border-radius: 6px; color: #fff; font-size: 13px; outline: none;
+        }
+        #search-box::placeholder { color: #666; }
+        #search-box:focus { border-color: rgba(240,140,30,0.5); }
+
+        /* Search results dropdown */
+        #search-results {
+            max-height: 180px; overflow-y: auto; margin-top: 4px;
+            background: rgba(20, 20, 40, 0.95); border-radius: 6px;
+            display: none;
+        }
+        #search-results .result {
+            padding: 6px 10px; font-size: 12px; cursor: pointer;
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+        }
+        #search-results .result:hover { background: rgba(240,140,30,0.15); }
+
+        /* Hover tooltip */
+        #tooltip {
+            position: absolute; display: none; pointer-events: none;
+            background: rgba(20, 20, 40, 0.95); border: 1px solid rgba(255,255,255,0.12);
+            border-radius: 8px; padding: 12px 14px; max-width: 300px;
+            backdrop-filter: blur(8px); z-index: 100;
+        }
+        #tooltip h3 { font-size: 14px; font-weight: 600; color: #fff; margin-bottom: 6px; }
+        #tooltip .row { font-size: 11px; color: #bbb; margin-bottom: 3px; }
+        #tooltip .row span { color: #fff; }
+
+        /* Bottom-right controls hint */
+        #controls-hint {
+            position: absolute; bottom: 16px; right: 16px;
+            font-size: 11px; color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<div id="sigma-container"></div>
+
+<div id="info-panel">
+    <h1>Homeopathy Research Co-Authorship Network</h1>
+    <p>Bibliometric pilot study (2015–2025) — authors connected by shared publications.
+       Data from OpenAlex.</p>
+    <div class="legend">
+        <span>Citations:</span>
+        <span>low</span>
+        <div class="legend-gradient"></div>
+        <span>high</span>
+    </div>
+    <div class="legend" style="margin-top:2px">
+        <span>Node size = number of publications in dataset</span>
+    </div>
+    <input type="text" id="search-box" placeholder="Search authors...">
+    <div id="search-results"></div>
+</div>
+
+<div id="tooltip">
+    <h3 id="tt-name"></h3>
+    <div id="tt-body"></div>
+</div>
+
+<div id="controls-hint">
+    Scroll to zoom · Drag to pan · Hover for details
+</div>
+
+<!-- Sigma.js v2 + Graphology from unpkg (known-working versions) -->
+<script src="https://unpkg.com/graphology@0.25.4/dist/graphology.umd.min.js"></script>
+<script src="https://unpkg.com/sigma@2.4.0/build/sigma.min.js"></script>
+
+<script>
+(async function () {
+    // Load pre-computed graph data
+    const response = await fetch('graph_data.json');
+    if (!response.ok) { console.error('Failed to load graph_data.json'); return; }
+    const data = await response.json();
+    console.log('Loaded', data.nodes.length, 'nodes,', data.edges.length, 'edges');
+
+    // Build graphology graph
+    const graph = new graphology.Graph({ type: 'undirected' });
+
+    data.nodes.forEach(n => {
+        graph.addNode(n.key, n.attributes);
+    });
+
+    data.edges.forEach(e => {
+        // Skip duplicate edges (graphology throws on multi-edges in simple graph)
+        if (!graph.hasEdge(e.source, e.target)) {
+            graph.addEdge(e.source, e.target, e.attributes);
+        }
+    });
+
+    // Track which node is hovered (must be declared before Sigma constructor
+    // because nodeReducer references it during initialization)
+    let hoveredNode = null;
+    const tooltip = document.getElementById('tooltip');
+    const ttName = document.getElementById('tt-name');
+    const ttBody = document.getElementById('tt-body');
+
+    // Initialize Sigma renderer
+    const container = document.getElementById('sigma-container');
+    const renderer = new Sigma(graph, container, {
+        renderLabels: true,
+        labelRenderedSizeThreshold: 8,   // show labels for nodes >= this pixel size
+        labelSize: 12,
+        labelColor: { color: '#e0e0e0' },
+        labelFont: '-apple-system, BlinkMacSystemFont, sans-serif',
+        defaultEdgeColor: 'rgba(255,255,255,0.06)',
+        defaultEdgeType: 'line',
+        edgeReducer: (edge, data) => {
+            return { ...data, color: 'rgba(255,255,255,0.06)', size: 0.5 };
+        },
+        nodeReducer: (node, data) => {
+            // Highlight neighbors on hover
+            if (hoveredNode && hoveredNode !== node && !graph.hasEdge(hoveredNode, node)) {
+                return { ...data, color: 'rgba(80,80,80,0.3)', label: '' };
+            }
+            return data;
+        },
+    });
+
+    // --- Hover tooltip ---
+    renderer.on('enterNode', ({ node, event }) => {
+        hoveredNode = node;
+        renderer.refresh();
+
+        const attrs = graph.getNodeAttributes(node);
+        ttName.textContent = attrs.label || node;
+
+        let rows = '';
+        if (attrs.primary_role) rows += `<div class="row">Role: <span>${attrs.primary_role}</span></div>`;
+        if (attrs.role_detail) rows += `<div class="row">Positions: <span>${attrs.role_detail.replace(/\|/g, ', ')}</span></div>`;
+        if (attrs.seed_works_count) rows += `<div class="row">Papers in dataset: <span>${attrs.seed_works_count}</span></div>`;
+        if (attrs.seed_citations) rows += `<div class="row">Seed citations: <span>${attrs.seed_citations}</span></div>`;
+        if (attrs.research_fields) rows += `<div class="row">Fields: <span>${attrs.research_fields}</span></div>`;
+        if (attrs.orcid) rows += `<div class="row">ORCID: <span>${attrs.orcid}</span></div>`;
+
+        // Count co-authors (neighbors)
+        const neighbors = graph.neighbors(node).length;
+        rows += `<div class="row">Co-authors in network: <span>${neighbors}</span></div>`;
+
+        ttBody.innerHTML = rows;
+        tooltip.style.display = 'block';
+    });
+
+    renderer.getMouseCaptor().on('mousemovebody', (e) => {
+        if (tooltip.style.display === 'block') {
+            tooltip.style.left = (e.original.clientX + 15) + 'px';
+            tooltip.style.top = (e.original.clientY + 15) + 'px';
+        }
+    });
+
+    renderer.on('leaveNode', () => {
+        hoveredNode = null;
+        tooltip.style.display = 'none';
+        renderer.refresh();
+    });
+
+    // --- Search ---
+    const searchBox = document.getElementById('search-box');
+    const searchResults = document.getElementById('search-results');
+
+    // Build name index for fast search
+    const nameIndex = [];
+    graph.forEachNode((node, attrs) => {
+        nameIndex.push({ key: node, label: (attrs.label || '').toLowerCase(), display: attrs.label || node });
+    });
+
+    searchBox.addEventListener('input', () => {
+        const query = searchBox.value.toLowerCase().trim();
+        searchResults.innerHTML = '';
+        if (query.length < 2) { searchResults.style.display = 'none'; return; }
+
+        const matches = nameIndex.filter(n => n.label.includes(query)).slice(0, 15);
+        if (matches.length === 0) { searchResults.style.display = 'none'; return; }
+
+        matches.forEach(m => {
+            const div = document.createElement('div');
+            div.className = 'result';
+            div.textContent = m.display;
+            div.addEventListener('click', () => {
+                // Center camera on this node
+                const attrs = graph.getNodeAttributes(m.key);
+                renderer.getCamera().animate({ x: attrs.x, y: attrs.y, ratio: 0.15 }, { duration: 600 });
+                searchResults.style.display = 'none';
+                searchBox.value = m.display;
+
+                // Simulate hover
+                hoveredNode = m.key;
+                renderer.refresh();
+            });
+            searchResults.appendChild(div);
+        });
+        searchResults.style.display = 'block';
+    });
+
+    // Close search results on outside click
+    document.addEventListener('click', (e) => {
+        if (!searchResults.contains(e.target) && e.target !== searchBox) {
+            searchResults.style.display = 'none';
+        }
+    });
+
+    // --- Camera centering on search result ---
+    // Click on graph background to deselect
+    renderer.on('clickStage', () => {
+        hoveredNode = null;
+        renderer.refresh();
+        searchBox.value = '';
+    });
+
+})();
+</script>
+</body>
+</html>
