@@ -2,15 +2,15 @@
 
 ## Graph Overview
 
-- **Total nodes:** 22287
-- **Total edges:** 57282
+- **Total nodes:** 22208
+- **Total edges:** 57240
 
 ### Nodes by type
 
 | Node type | Count |
 |-----------|-------|
 | work | 9588 |
-| author | 8351 |
+| author | 8272 |
 | institution | 2592 |
 | topic | 1191 |
 | funder | 466 |
@@ -21,7 +21,7 @@
 | Edge type | Count |
 |-----------|-------|
 | cited | 26248 |
-| affiliated | 10948 |
+| affiliated | 10906 |
 | authored | 10447 |
 | has_topic | 5647 |
 | located_in | 2553 |

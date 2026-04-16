@@ -15,15 +15,16 @@ Requires:
     data/author_profiles.json    (Phase 4)
 """
 
+import json
 import pickle
 import os
-from collections import Counter
+from collections import Counter, defaultdict
 from datetime import datetime
 
 import networkx as nx
 
 import config
-from utils import load_json, print_section, print_stat
+from utils import load_json, save_json, print_section, print_stat
 
 #===== NODE HELPERS =========================================================
 
@@ -201,6 +202,135 @@ def add_work_edges(G, work):
         add_funder_node(G, funder_id, g.get("funder_name"))
         G.add_edge(funder_id, work_id, edge_type="funded")
 
+#===== AUTHOR DEDUPLICATION ==================================================
+
+def find_duplicate_authors(G):
+    """
+    Find authors that share the same display name (case-insensitive,
+    whitespace-normalized). These are likely the same person split into
+    multiple OpenAlex profiles.
+
+    Returns a dict of {normalized_name: [list of author node IDs]},
+    only for names that appear more than once.
+    """
+    name_to_ids = defaultdict(list)
+    for node, data in G.nodes(data=True):
+        if data.get("node_type") != "author":
+            continue
+        name = data.get("label", "").strip()
+        if not name:
+            continue
+        # Normalize: lowercase, collapse whitespace, strip punctuation
+        normalized = " ".join(name.lower().split())
+        name_to_ids[normalized].append(node)
+
+    # Keep only names with 2+ IDs (the actual duplicates)
+    duplicates = {name: ids for name, ids in name_to_ids.items()
+                  if len(ids) > 1}
+    return duplicates
+
+
+def merge_duplicate_authors(G, duplicates):
+    """
+    Merge duplicate author nodes. For each set of duplicates:
+    1. Pick the canonical node (most edges = most data)
+    2. Redirect all edges from duplicates to the canonical node
+    3. Merge attributes (combine ORCIDs, sum counts)
+    4. Mark the label with * to indicate a merge happened
+    5. Remove the duplicate nodes
+
+    Returns a list of merge records for the report.
+    """
+    merge_log = []
+
+    for normalized_name, author_ids in duplicates.items():
+        # Pick canonical: the one with the most edges (best-connected profile)
+        author_ids_sorted = sorted(
+            author_ids,
+            key=lambda aid: G.degree(aid),
+            reverse=True
+        )
+        canonical_id = author_ids_sorted[0]
+        duplicate_ids = author_ids_sorted[1:]
+
+        canonical_data = G.nodes[canonical_id]
+        canonical_name = canonical_data.get("label", "")
+
+        # Collect info for the merge log
+        merge_record = {
+            "canonical_id": canonical_id,
+            "canonical_name": canonical_name,
+            "merged_ids": [],
+        }
+
+        for dup_id in duplicate_ids:
+            dup_data = dict(G.nodes[dup_id])
+            merge_record["merged_ids"].append({
+                "id": dup_id,
+                "name": dup_data.get("label", ""),
+                "orcid": dup_data.get("orcid", ""),
+                "edges": G.degree(dup_id),
+            })
+
+            # Merge ORCID if the canonical lacks one
+            if dup_data.get("orcid") and not canonical_data.get("orcid"):
+                canonical_data["orcid"] = dup_data["orcid"]
+
+            # Redirect all edges from the duplicate to the canonical node
+            # Incoming edges (something → duplicate)
+            for source, _, edata in list(G.in_edges(dup_id, data=True)):
+                if source == canonical_id:
+                    continue  # skip self-loops
+                if not G.has_edge(source, canonical_id):
+                    G.add_edge(source, canonical_id, **edata)
+                else:
+                    # Edge already exists — increment weight if applicable
+                    existing = G[source][canonical_id]
+                    if "weight" in existing and "weight" in edata:
+                        existing["weight"] += edata["weight"]
+
+            # Outgoing edges (duplicate → something)
+            for _, target, edata in list(G.out_edges(dup_id, data=True)):
+                if target == canonical_id:
+                    continue
+                if not G.has_edge(canonical_id, target):
+                    G.add_edge(canonical_id, target, **edata)
+                else:
+                    existing = G[canonical_id][target]
+                    if "weight" in existing and "weight" in edata:
+                        existing["weight"] += edata["weight"]
+
+            # Remove the duplicate node (and all its now-redirected edges)
+            G.remove_node(dup_id)
+
+        # Mark the canonical label with * to indicate a merge
+        canonical_data["label"] = canonical_name + " *"
+        canonical_data["merged_from"] = "|".join(
+            d["id"] for d in merge_record["merged_ids"]
+        )
+
+        merge_log.append(merge_record)
+
+    return merge_log
+
+
+def print_and_save_merge_report(merge_log):
+    """Print the duplicate author report and save to data/author_merges.json."""
+    print_section(f"AUTHOR DEDUPLICATION: {len(merge_log)} MERGES")
+
+    for rec in merge_log:
+        canonical = rec["canonical_name"]
+        merged = rec["merged_ids"]
+        ids_str = ", ".join(
+            f"{m['name']} ({m['edges']} edges, orcid={m['orcid'] or 'none'})"
+            for m in merged
+        )
+        print(f"  {canonical} * ← merged: {ids_str}")
+
+    # Save full merge log for reference
+    save_json(merge_log, "author_merges.json")
+
+
 #===== AUTHOR ROLE CLASSIFICATION ===========================================
 
 def compute_author_roles(G):
@@ -242,6 +372,36 @@ def compute_author_roles(G):
         G.nodes[aid]["role_detail"] = detail
 
     return author_positions
+
+#===== AUTHOR SEED METRICS ==================================================
+
+def compute_author_seed_metrics(G):
+    """
+    For ALL authors in the graph, compute metrics from their seed papers:
+      seed_works_count:  number of papers in the network
+      seed_citations:    sum of cited_by_count across their papers (proxy
+                         for impact within this field, available for everyone)
+
+    This runs before enrich_author_profiles so the Phase 4 enrichment
+    can overwrite seed_works_count with the more precise value if available.
+    """
+    for node, data in G.nodes(data=True):
+        if data.get("node_type") != "author":
+            continue
+
+        paper_count = 0
+        citation_sum = 0
+        for _, work_id, edata in G.out_edges(node, data=True):
+            if edata.get("edge_type") != "authored":
+                continue
+            paper_count += 1
+            work_data = G.nodes.get(work_id, {})
+            cites = work_data.get("cited_by_count", 0)
+            if isinstance(cites, (int, float)):
+                citation_sum += cites
+
+        data["seed_works_count"] = paper_count
+        data["seed_citations"] = citation_sum
 
 #===== AUTHOR PROFILE ENRICHMENT ===========================================
 
@@ -305,6 +465,14 @@ def main():
         add_work_node(G, w, is_seed=False)
         add_work_edges(G, w)
 
+    # Detect and merge duplicate authors (same name, different OpenAlex IDs)
+    print("  Detecting duplicate authors...")
+    duplicates = find_duplicate_authors(G)
+    print(f"    Found {len(duplicates)} duplicate name groups")
+    if duplicates:
+        merge_log = merge_duplicate_authors(G, duplicates)
+        print_and_save_merge_report(merge_log)
+
     # Classify each author's primary role (first/middle/last) based on
     # their most frequent position across all papers in the network
     print("  Computing author roles...")
@@ -314,7 +482,13 @@ def main():
     for role, count in role_counts.most_common():
         print(f"    {role}: {count} authors")
 
+    # Compute seed_works_count and seed_citations for ALL authors
+    # (available for everyone, not just the Phase 4 top 30)
+    print("  Computing author seed metrics...")
+    compute_author_seed_metrics(G)
+
     # Enrich author nodes with profile data from Phase 4
+    # (overwrites seed_works_count for top 30 with more precise values)
     print("  Enriching author profiles...")
     enrich_author_profiles(G, author_profiles)
 

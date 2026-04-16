@@ -9,7 +9,7 @@ id	label	weight
 8	Lauro Vargas	0
 9	Mahesh Mallappa	6
 10	Geoffrey Michael Gadd	0
-11	Nivedita Kundu	11
+11	Nivedita Kundu *	11
 12	Oleg Mosin	5
 13	Gaby Mergardt	9
 14	Javier I. Ordóñez	2
@@ -17,7 +17,7 @@ id	label	weight
 16	Sergey V. Gudkov	2
 17	Shiv Murty Singh	4
 18	Johanna Döring	5
-19	Divya Taneja	20
+19	Divya Taneja	18
 20	Priyanka Nim	8
 21	Hiral Shah	3
 22	Carlos Michel Ojeda-Silvera	4
@@ -36,10 +36,10 @@ id	label	weight
 35	Sergio Rodríguez	2
 36	Silvia Waisse	13
 37	Lenka Tenžera	3
-38	Amulya Ratna Sahoo	18
-39	Arun Kumar Gupta	14
+38	Amulya Ratna Sahoo	17
+39	Arun Kumar Gupta	13
 40	Camelia Berghian-Groșan	1
-41	Curt Kösters	6
+41	Curt Kösters	5
 42	Vasim R. Shaikh	5
 43	Helmut Roniger	14
 44	P. Lees	5
@@ -48,7 +48,7 @@ id	label	weight
 47	Sylvie Roke	3
 48	Peter Christian Endler	10
 49	William Delnet	9
-50	Rodrigo A. da Silva	4
+50	Rodrigo A. da Silva	5
 51	Sameer N. Goyal	1
 52	С. А. Тарасов	2
 53	Kosuke Sato	2
@@ -68,803 +68,793 @@ id	label	weight
 67	Raj Singh	4
 68	Subhas Singh	12
 69	Deepthi Gilla et al. Dr. Deepthi Gilla et al.	0
-70	Supriya Singh	2
-71	Francisco Rafael Martins Soto	7
-72	Solange Bósio Tedesco	4
-73	Bhuvaneswari Rajachandrasekar	5
-74	Seikh Swaif Ali	6
-75	Luísa A. Ferreira	3
-76	Saurav Arora	0
-77	Martine Goyens	5
-78	Gleyce Moreno Barbosa	15
-79	Ida K. Ø. Hansen	2
-80	Sandro Roberto Valentini	2
-81	Achintya Singha	11
-82	Л. И. Муртазина	2
-83	Yuqiu Chen	2
-84	Rafael Harduim	5
-85	José Eizayaga	1
-86	Johannes Hunger	9
-87	Relly Victoria Petrescu	3
-88	Abhishek Pramanik	8
-89	Linda Nurra	4
-90	Nikita Kepezhinskas	3
-91	Tatiana V. Kulichenko	6
-92	Iddo Pinkas	7
-93	Manjula Ghuliani	18
-94	Ricardo Visini	8
-95	Javier Montenegro	1
-96	Udaiveer Singh	14
-97	Claudine Katan	6
-98	J. Als‐Nielsen	4
-99	Jürgen Pannek	9
-100	Mara G. Freire	2
-101	Jens‐Otto Andersen	9
-102	Atheni Konar	10
-103	Vijay M. Tangde	1
-104	Thomas Keller	8
-105	Bibaswan Biswas	8
-106	João A. P. Coutinho	2
-107	Annekathrin Ücker	9
-108	Nílson Roberti Benites	7
-109	Flávia Carolina Souza de Oliveira	7
-110	Francis Rayns	6
-111	Inga V. Artemova	6
-112	Н.Н. Угарова	1
-113	Anuska Marcelino Alvares-Saraiva	10
-114	Tsviya Olender	7
-115	Paul Doesburg	21
-116	Halina Ekiert	4
-117	Renan Marino	0
-118	Takakazu Seki	10
-119	Stéṕhane Gin	2
-120	Saba Hosseinian	5
-121	Deepthi Gilla	2
-122	Naoual Boujedaini	3
-123	Cassiane Ubessi	4
-124	Mahima Sharma	9
-125	A. I. Konovalov	3
-126	Mohammad Qutubuddin	4
-127	S. P. Kulik	2
-128	Mischa Bonn	18
-129	Abanti Goswami	7
-130	Giovani Bravin Peres	12
-131	L. A. Dadinova	9
-132	Sandra Piras	6
-133	Thomas Reinhold	2
-134	Lynn Legg	15
-135	Cornellia Maute	5
-136	Lex Rutten	34
-137	Sulochana Singh	0
-138	Jean‐Paul Bourdineaud	3
-139	Sandhimita Mondal	2
-140	Petteri A. Vainikka	0
-141	Huang Wei Ling	0
-142	Petter Viksveen	8
-143	He‐Dong Bian	0
-144	Maristela Dutra-Corrêa	10
-145	Dionysios Tsintzas	3
-146	Raj Kumar Singh	6
-147	Franciele Karina da Veiga	4
-148	Fariba Rahimi	4
-149	Abdullah Ijaz Hussain	3
-150	Olivier Mathon	5
-151	Delmonte Roboredo	5
-152	Luana Rampazzo	7
-153	Fariba Rahimi	4
-154	Salvatore Chirumbolo	0
-155	Abhijit Chakma	2
-156	Frauke Musial	9
-157	Sandra Ávila Gaspar	6
-158	Satoshi Nihonyanagi	1
-159	Isabelle Kieffer	9
-160	Anisur Rahman Khuda‐Bukhsh	2
-161	Sabine D. Klein	4
-162	Susanne Pannek-Rademacher	1
-163	Cheshta Nagrath	18
-164	Albert Sundrum	1
-165	Julia Wright	6
-166	Anu Chawla	18
-167	Mark M. Turnbull	0
-168	Ted J. Kaptchuk	4
-169	Saranya Pullanchery	2
-170	Márcia Vargas Toledo	3
-171	Georgios M. Kontogeorgis	2
-172	Dor Ben‐Amotz	0
-173	Konstantinos Kelaidonis	6
-174	Mihael Drofenik	1
-175	David B. Mitzi	0
-176	Menachem Oberbaum	30
-177	Deepti Dewan	6
-178	Debora Olioso	6
-179	Lorenzetti Eloisa	3
-180	Bharat Kumar Reddy Sanapalli	6
-181	Rosângela Vieira de Andrade	4
-182	David M. Wilkins	3
-183	А. В. Сыроешкин	1
-184	Iain McDonald	1
-185	Nikita V. Penkov	3
-186	Martine Goyens	3
-187	Tandra Sarkar	10
-188	Suraia Parveen	7
-189	К. В. Шайтан	12
-190	В. В. Обухов	1
-191	Navita Bagdi	2
-192	Judith Stickdorn	1
-193	Ariane Briegel	2
-194	Stephen L. Buskin	10
-195	Ramesh Bawaskar	20
-196	Dilip H. Dagade	4
-197	Benjamin J Buffington	4
-198	Jonathan R. Lloyd	0
-199	Amjad Ali	7
-200	Edzard Ernst	1
-201	Wolfram W. Rudolph	1
-202	Sarabjit Sarkar	14
-203	Marcus Zulian Teixeira	0
-204	Nitin Magotra	11
-205	Smita N Nambison	1
-206	Mohammad Mohshinuzzaman	6
-207	G. Irmer	1
-208	Yu. A. Nikolaev	14
-209	Shifa Shaffique	7
-210	Ana Catarina Viana Valle	4
-211	Silvio Leite Monteiro da Silva	4
-212	Laura L. Pan	1
-213	Michael Frass	22
-214	Chintamani Nayak	14
-215	Roja Varanasi	27
-216	Munmun Koley	37
-217	Leoni Bonamin	2
-218	Maya Padmanabhan	13
-219	Yang Yang	4
-220	Fabiana Nabarro Ferraz	6
-221	Ivan A. Orlov	9
-222	Laurence Terzan	11
-223	Elhameh Nikkhah	4
-224	Andrey A. Mozhaev	9
-225	Jorge F. B. Pereira	2
-226	M. Yu. Skripkin	0
-227	Pankaj Gupta	16
-228	Sunil M. Raheja	7
-229	Gianfranco Maria Beghi	1
-230	Benjamin A. Palmer	1
-231	Alessandro Triolo	3
-232	Carolina Aquino	7
-233	Priya Mondal	5
-234	Jens Smiatek	0
-235	Abbas Delazar	4
-236	Anwar H Biswas	6
-237	Leonardo Felipe Faedo	8
-238	Sk. Swaif Ali	17
-239	Iris R. Bell	4
-240	Josef M. Schmidt	0
-241	Kanjaksha Ghosh	3
-242	Armin Springer	1
-243	Kate Hawke	4
-244	Ludovic Pelligand	5
-245	Malaya Kumar Ray	18
-246	Arun Bhargav Jadhav	1
-247	Tobias Weidner	2
-248	Márcia Cristina Braga Nunes Varricchio	6
-249	Hanuman Ram	1
-250	Md. Jahangir Alom	6
-251	Laura Kate Gadanec	6
-252	David A. Holwell	1
-253	Dana Ullman	0
-254	Rathin Chakravarty	6
-255	Md. Emrul Kayes	6
-256	Alexandre Giesel	3
-257	Rajat Chattopadhyay	2
-258	A. L. Chulichkov	12
-259	Hyeonseok Lee	0
-260	Denis Testemale	9
-261	Sukhen Das	12
-262	Yuki Nagata	14
-263	Tamara Denisova	5
-264	Maria Martha Bernardi	11
-265	Alberto Striolo	0
-266	Jean-Lionel Bagot	2
-267	Daulemys Batista-Sánchez	4
-268	Lutz Nuhn	1
-269	Michael Teut	18
-270	Anthony Zulli	6
-271	Mari Inês Caríssimi Boff	7
-272	Ingrid Theunissen	1
-273	Maksym V. Kovalenko	0
-274	Amit Srivastava	1
-275	Bilquis Hussain	7
-276	Tatsuhiko Ohto	12
-277	Dmitry O. Sinitsyn	13
-278	Shahzad Ali Shahid Chatha	3
-279	Ricardo Adriano Felito	5
-280	Meeta Gupta	19
-281	Paola Caria	6
-282	Christa Raak	7
-283	Nadezhda L. Pakhmutova	5
-284	Anupam Mukherjee	2
-285	Neta Varsano	7
-286	Joy Kumar Dey	2
-287	Yuya Oaki	2
-288	K. C. Muraleedharan	4
-289	Joonwoo Jeong	1
-290	Tim Jäger	16
-291	Luis M. De Leon Rodriguez	5
-292	Vicente Wagner Dias Casali	3
-293	Е. А. Кириченко	3
-294	Anezka Sokol	6
-295	Achim Stocker	8
-296	Bruno Reis	2
-297	Norina Jabeen	7
-298	Rachna Goenka	4
-299	И. С. Рыжкина	2
-300	Mark Fox‐Powell	2
-301	Miriam Athmann	13
-302	Gurudev Choubey	7
-303	Aditya Dilipkumar Patil	0
-304	Jean‐Louis Hazemann	9
-305	Sonja Hribar-Marko	3
-306	Claudia Scherr	28
-307	Sandra Würtenberger	6
-308	Stephan Baumgartner	37
-309	Amrit Kalsi	18
-310	Samy Ould‐Chikh	9
-311	Agnete E. Kristoffersen	4
-312	Н. Е. Сузина	7
-313	Fateme Mirzajani	6
-314	Daniel Bonn	4
-315	Nilesh Shah	1
-316	Parina Asgharian	4
-317	Mohammad Hossein Ghazanfari	3
-318	Kevin Pope	1
-319	Tamis Darbre	8
-320	Bruno F. Fortuoso	7
-321	Megan Bergkessel	0
-322	Tanmoy Maity	1
-323	Jean‐Louis Reymond	8
-324	Dvir Gur	7
-325	Konstantin Kartaschew	2
-326	Giuseppina Sanna	6
-327	Sian Moss	12
-328	Cármen Rodrı́guez-Jaramillo	3
-329	Julia K. Ostermann	2
-330	Rizwan Ahamed	4
-331	Indrani Chakraborty	5
-332	Priscilla Anne Melville	7
-333	Anil Khurana	48
-334	Timothy J. Egan	0
-335	Olga Russina	3
-336	Sabine De Jaegere	7
-337	Ian C. Bourg	0
-338	Etienne Capieaux	4
-339	Randolf Kauer	7
-340	Antonio Apicella	3
-341	Stephan N. Steinmann	5
-342	Vara Prasad Saka	7
-343	Mieke van Driel	4
-344	Nadine Ijaz	0
-345	Margaret A. Brimble	5
-346	Qamar Ullah	7
-347	Sheila Garcia	6
-348	Ellen H. G. Backus	13
-349	David King	4
-350	Anton S. Orekhov	9
-351	Tahei Tahara	1
-352	Shubhamoy Ghosh	12
-353	J. Couceiro	7
-354	Stephan Weber	12
-355	Jeffrey L. Blackburn	1
-356	Carla Holandino	32
-357	Xifan Wu	1
-358	Gheorghe Jurj	0
-359	Marilise Escobar Bürger	1
-360	Pascal Trempat	1
-361	Georg Meissner	8
-362	Daniel Probst	8
-363	Ivanhoe K. H. Leung	5
-364	Binit Dwivedi	6
-365	Leyla S. Namazova-Baranova	6
-366	Devika Shah	12
-367	Silvie Dumas	3
-368	Grazia Gonella	4
-369	I. A. Zlatsky	1
-370	Stephan Baumgartner	11
-371	Leila Cristina Mourão	2
-372	Smadar Levin‐Zaidman	7
-373	Girish Gupta	2
-374	Swati R Shinde	0
-375	Muhammad Rizwan	7
-376	Diana Keller	1
-377	Toshiko Ichiye	0
-378	Glenn M. Wolfe	1
-379	Harleen Kaur	8
-380	Н. Г. Лойко	14
-381	Gregory M. Cook	5
-382	Gitanjali Talele	1
-383	Julia Burkart	11
-384	Aurora E. Clark	4
-385	Kavita Sharma	18
-386	Marco Picchi	4
-387	Carlos Renato Zacharias	6
-388	Ethan A. Perets	1
-389	Jean Duckworth	1
-390	Ghulam Mustafa Kamal	3
-391	Pierre Dorfman	6
-392	Thilo Köhler	8
-393	Gerhard Mayer	0
-394	Silvia Madeddu	6
-395	Alexandre dos Santos Pyrrho	13
-396	Pedro Boff	12
-397	Godlaveti Vijay Narasimha Kumar	9
-398	Martin Loef	17
-399	Jürgen Schulte	2
-400	Nisanth Nambison	1
-401	Mesbah Uddin Md. Rezwanun Nayem	6
-402	Carlos Moacir Bonato	5
-403	Huib J. Bakker	1
-404	Christien Klein-Laansma	9
-405	Satyashree Patnaik	14
-406	Vasso Apostolopoulos	6
-407	Venício Féo da Veiga	17
-408	Anirban Sukul	13
-409	Anjali Miglani	18
-410	Moumita Chakraborty	17
-411	Maxim V. Petoukhov	9
-412	Lana Ribeiro Aguiar	4
-413	Hong‐Qing Liang	1
-414	Flávio Dantas	14
-415	Thayná Neves Cardoso	12
-416	Jagpreet Singh	1
-417	Mohit Rawat	1
-418	Romeu Carillo	2
-419	Fernando Abasolo‐Pacheco	4
-420	Ram Prasad	6
-421	Alain Manceau	6
-422	Anil Kumar Nain	3
-423	Christine Marosi	7
-424	Kesharsingh J. Patil	4
-425	Arvind Kumar	17
-426	Pieter Glatzel	6
-427	Sanjukta Mandal	1
-428	Erlete Rosalina Vuaden	7
-429	Jost Langhorst	2
-430	Agnieszka Szopa	4
-431	Ram Kumar Kudiyarasu	18
-432	Ilse Muchitsch	7
-433	Ilaria Marotti	4
-434	Hans R. Schultz	7
-435	Vitalie Văcăraș	2
-436	Seema Mahesh	7
-437	Jacky Even	6
-438	Cezmi A. Akdiş	1
-439	Olga I. Yablonskaya	2
-440	Basavaraj S Adi	1
-441	Tariq M. Khan	6
-442	Ziv Porat	7
-443	Igor Jerman	9
-444	Jerônimo Luiz Andriolo	4
-445	Udo Endruscheit	1
-446	Georgi Miloshev	5
-447	Rovier Verdi	8
-448	Kunal R. Patil	4
-449	Bernhard Pollner	1
-450	Gabriela M. Galli	7
-451	Cornelius Gropp	2
-452	Xavier Bantreil	1
-453	Katy Cooper	4
-454	P Radhika	2
-455	Leslie Leiserowitz	4
-456	A. Pia P. Kröger	1
-457	Е. В. Демкина	3
-458	Jean-Louis Demangeat	4
-459	Vaishali Shinde	10
-460	Manuela Thinesse-Mallwitz	5
-461	Vinayak Laxman Pachapur	1
-462	Juan Asbún‐Bojalil	3
-463	Rahul Kumar Singh	17
-464	Vera Luíza Capelozzi	1
-465	Jürgen Fritz	14
-466	Leoni Villano Bonamin	46
-467	A. Vannucci	1
-468	Hima Bindu Ponnam	3
-469	Xian Jun Loh	0
-470	Steven Cartwright	5
-471	Anupriya Chaudhary	8
-472	Radmila Razlog	5
-473	Arif Hussain Theruvath	4
-474	Valéria C. Santos‐Ebinuma	2
-475	Satinder Kaur Brar	1
-476	Zohar Eyal	7
-477	D Ramesh	9
-478	Gerhard Schwaab	2
-479	Katharina Gaertner	20
-480	В. К. Таточенко	6
-481	Colin L. Freeman	1
-482	Pramod Konthembath	18
-483	Xiaoqing Yu	9
-484	Terje Alræk	4
-485	Fariba Heshmati Afshar	4
-486	Leopoldo Aguilar-Faisal	3
-487	Kuo-Yang Chiang	9
-488	Holger Cramer	2
-489	Patrícia Glombowsky	7
-490	Ajay G. Namdeo	1
-491	Mark C.M. van Loosdrecht	0
-492	Silvana Márques de Araújo	6
-493	Valerio Di Lisio	3
-494	Patrícia Furtado Malard	4
-495	Olga S. Sokolova	13
-496	Jeffery A. Greathouse	0
-497	Peter Mojzeš	1
-498	Sarika K. Patil	4
-499	Mohan N Devasia	2
-500	Parth Aphale	2
-501	Patricia Tahan	9
-502	Sidiane Coltro-Roncato	7
-503	Treasure McGuire	4
-504	Corinne Kraus	4
-505	Dipanwita Majumdar	6
-506	Harald Walach	23
-507	Irene Lostalé‐Seijo	1
-508	Saeed Ahmed	5
-509	Tapas Kundu	3
-510	Xiaodong Liang	2
-511	Haseeb Anwar	7
-512	И. Н. Холодова	7
-513	John H. Harding	1
-514	Gregory K. Schenter	4
-515	Resmi Raveendran	4
-516	Simon J. Schlegel	6
-517	Frédéric Lamaty	1
-518	Ricardo Machado Kuster	14
-519	G. Yu. Lomakina	1
-520	E. V. Buravleva	2
-521	Oscar Mitsuo Yamashita	5
-522	Tapan Kumar Nath	14
-523	Antonio Aguilar‐Tapia	9
-524	Robert T. Mathie	19
-525	Baljeet Singh Meena	19
-526	ES Rajendran	0
-527	Mohit Mathur	0
-528	Olivier Proux	9
-529	Vladimir O. Popov	12
-530	Lucietta Betti	11
-531	Luiz Gustavo Griss	7
-532	Hafiz Muhammad Asif	7
-533	Maneet Parewa	20
-534	Maxime Pouvreau	4
-535	Debnath Ghosal	2
-536	Ramkumar Mondal	10
-537	Rajesh Shah	1
-538	Subhrasankha Das	1
-539	Faeze Mirzajani	1
-540	Christiane Maute	5
-541	Adriano Mitio Inagaki	5
-542	Davide Donelli	1
-543	U. Adler	0
-544	Nidhi Mahajan	3
-545	Ivone Vieira da Silva	5
-546	Prabhjeet Kaur	18
-547	Mônica Anghinoni Müller	5
-548	Roberta Loddo	6
-549	Elizabeth Thompson	7
-550	Hans‐Matti Blencke	2
-551	Maria Olga Kokornaczyk	16
-552	Jayesh Bellare	4
-553	Marco Antônio Camillo de Carvalho	5
-554	Jeeyoon Jeong	1
-555	Yogeshwari Gupta	0
-556	Ignat Ignatov	5
-557	Ursula Wolf	8
-558	David Martín	13
-559	O. I. Epstein	1
-560	Vishal Chadha	21
-561	Ramesh L. Gardas	0
-562	Tor Haug	2
-563	Michael L. Klein	1
-564	Thaísa Muriel Mioranza	7
-565	Gloria Y. Yeh	4
-566	Nizam Uddin	6
-567	Trine Stub	4
-568	Christian van Delden	8
-569	José Manuel Mazón‐Suástegui	7
-570	Ulrich Köpke	9
-571	Esperanza Fernández Martínez	2
-572	José Renato Stangarlin	7
-573	Sander Woutersen	4
-574	Andrea Mele	3
-575	Eleonora V. Shtykova	9
-576	Boris Y. Zaslavsky	3
-577	Johanna Zeise	3
-578	Y. R. Shen	1
-579	Biplab Kumar Paul	10
-580	Anila Rehman	5
-581	Arti Soren	11
-582	Afroz Shaikh	3
-583	Júlio César de Carvalho	0
-584	Ekane Peter Etape	0
-585	Petra Weiermayer	11
-586	Mariella Di Stefano	4
-587	Andreas Gleiß	5
-588	Э. В. Терешкин	12
-589	Alain Prat	9
-590	Mario Castelán	8
-591	Alexander Tournier	14
-592	Petter Viksveen	5
-593	Avital Wagner	1
-594	Arunava Nath	15
-595	Simo Huotari	0
-596	Ghulam Hussain	7
-597	Rosimar Maria Marques	2
-598	А. Н. Попов	12
-599	Heidi Abrahamse	1
-600	Emanuel B. Ferreira	7
-601	Eva Pereiro	4
-602	Mauro Rovezzi	15
-603	John Matsoukas	6
-604	Hilana dos Santos Sena Brunel	4
-605	Joanna Pajor	4
-606	Tayyeba Rehman	8
-607	Roberto Germano	0
-608	E. Rachel Roberts	6
-609	Barry W. Ninham	1
-610	Lukas Junk	1
-611	Araceli Avilés-Quevedo	3
-612	Sreelakshmy SR	1
-613	María Pilar Riveros Huckstadt	2
-614	Еlena A. Vishneva	6
-615	Biswaranjan Paital	4
-616	Kirill A. Lomachenko	5
-617	Lukas Knake	2
-618	Mihai Berteanu	0
-619	Egabrieli Garbin	4
-620	Roman Kamyshinsky	9
-621	Jithesh Thavarayil Kannoth	18
-622	В. О. Крутикова	3
-623	Chandragouda R. Patil	1
-624	A. L. Vasiliev	9
-625	Baranov Aa	6
-626	A. N. Uskov	6
-627	Hecson Jesser Segat	1
-628	MdIsmail Shaikh	0
-629	Milagro García‐Bernal	4
-630	Mayur Temgire	4
-631	Suneel Prajapati	9
-632	John E. Hallsworth	2
-633	Satarupa Sadhukhan	17
-634	Odair José Kuhn	7
-635	Ivan Di Bonaventura	8
-636	Claudia M. Witt	3
-637	Yakov Freed	1
-638	Muneeb Ur Rahman	7
-639	Roya Bornhütter	11
-640	В.Л. Воейков	3
-641	Natale Perchiazzi	0
-642	Padmalaya Rath	7
-643	Umakanta Prusty	14
-644	Ernane Ronie Martins	3
-645	Clare Relton	4
-646	Shashank Dokania	3
-647	Silvana Marques de AraÃojo	3
-648	Carolyn I. Pearce	4
-649	Sergey Kapishnikov	4
-650	Pyotr Panteleevich Radchevsky	1
-651	Qiujie Wang	6
-652	Egor Anatolievich Olkhovatov	1
-653	Soma Sukul	2
-654	А. К. Мартусевич	0
-655	Renu Bala	1
-656	Sofya V. Lushchekina	7
-657	Filipe Pereira Giardini Bonfim	3
-658	Denise Lessa Aleixo	7
-659	Sumit Ghosh	5
-660	Kumar Vivekanand	7
-661	Mohammad Hasan Badizad	3
-662	Broti Rissato Bruna	3
-663	Michel Van Wassenhoven	20
-664	Renu Arya	9
-665	Martin Whiting	5
-666	Debadatta Nayak	27
-667	Dr Parth Aphale	2
-668	Ekaterina Yu. Soshinskaya	9
-669	Alexandra Ciocănel	1
-670	Philip Augustine	4
-671	Martin Whitehead	5
-672	Rosana GonÃƒÆ’Ã‚Â§alves Rodrigues das Dores	3
-673	Romy Lauche	2
-674	Cyriac Abby Philips	4
-675	Andrea Dei	0
-676	Matthew C. Beard	1
-677	Л. И. Герасимова	5
-678	Jay Yasgur	0
-679	Jos M. J. Paulusse	1
-680	Bjørn Kvamme	0
-681	Ismael Coronado	2
-682	Saman Hosseinpour	6
-683	Raj Kumar Manchanda	85
-684	Digvijay Verma	6
-685	Vladimir N. Uversky	3
-686	Vesna Periček Krapež	3
-687	Alexander Dömlingꝉ	0
-688	Thomas Peinbauer	3
-689	Severino Alves	0
-690	Juliana Patrão de Paiva	13
-691	Luiz Figueira Pinto	0
-692	Rajaganapathy Lingeswaran	0
-693	Pankhuri Misra	15
-694	EN Sundaram	6
-695	Philippa Fibert	13
-696	Junke Jiang	6
-697	Márcia C. B. N. Varricchio	9
-698	Marcia Cristina Braga Nunes Varricchio	6
-699	Hossein Babaei	4
-700	К. Б. Терешкина	14
-701	Waltraud Scherer-Pongratz	3
-702	Aline Nunes	3
-703	Paulo Eduardo Mansur Hobaica	11
-704	Pedro P. Madeira	5
-705	Marcus Reif	9
-706	Brender Sharma	18
-707	Susanne Ulbrich-Zürni	18
-708	Andrey Moiseenko	5
-709	Grazia Trebbi	8
-710	Vinitha Edavattath Ramanan	0
-711	Clara Bonafini	5
-712	Simone Silmara Werner	4
-713	Pavel Kepezhinskas	3
-714	Paweł Klin	4
-715	Sonia Cortés	2
-716	Fortune Homsani	14
-717	Naval Kumar Verma	6
-718	Yu. M. Chesnokov	9
-719	Janice Pellow	1
-720	Elsa C. Y. Yan	1
-721	Bharti Gupta	12
-722	Jana Pilátová	1
-723	Indrani Chakraborty	8
-724	George Vithoulkas	11
-725	Edgard Costa de Vilhena	6
-726	Uli Kazmaier	1
-727	André L. Rossi	16
-728	Anamika Basu	17
-729	Kevin M. Rosso	4
-730	Roberta Ibba	6
-731	Wilhelm MosgÃ¶ller	4
-732	Giovanni Dinelli	5
-733	Bikash Biswas	1
-734	Bee‐Ha Gan	8
-735	Yair Litman	5
-736	G.F. Naterer	1
-737	Thiruvilla S. Mahadevan	2
-738	Huaiyu Yang	0
-739	Michelle L. Dossett	4
-740	Alin Laurențiu Tatu	1
-741	Martin Frei-Erb	16
-742	Florian Ion Tiberiu Petrescu	3
-743	Patrízia Ana Bricarello	0
-744	Petra Klement	12
-745	Paolo Bellavite	16
-746	Dionatan Ketzer Krysczun	4
-747	Aike Anneliese Kretzschmar	5
-748	Muhammad Hanif	3
-749	Raffaella Aversa	3
-750	Yurii F. Krupyanskii	12
-751	BK Chaudhuri	0
-752	Peter Lechleitner	8
-753	Emma del Carmen Macías-Cortés	3
-754	P. C. Endler	7
-755	Robbert van Haselen	8
-756	Loredana Torchetti	6
-757	Subhranil Saha	31
-758	Cristiane de Bona da Silva	4
-759	Mohammad Koleini	3
-760	Linda Ogrizek	3
-761	Adalberto C. von Ancken	4
-762	Pablo Maluenda-León	2
-763	Burke Lennihan	0
-764	Jianping Liu	4
-765	Min Liu	0
-766	Abhijit Dutta	1
-767	James Michael	13
-768	Feng Liu	6
-769	Adriana Ramos de Miranda	4
-770	Matteo Bonini	1
-771	Martin Wolf	0
-772	Surender Singh	5
-773	Ashish Dixit	1
-774	Mats Jong	7
-775	Shweta Singh	14
-776	Asim Kumar Das	7
-777	Aleksandro Schafer da Silva	7
-778	Adriana Passos Oliveira	15
-779	Jonathan Davidson	16
-780	Subhash Kaushik	10
-781	Shengping Zhang	5
-782	Aloke Kumar Ghosh	9
-783	Debbethi Bera	10
-784	Josiane Bentes Lopes	9
-785	Shumei Sun	10
-786	Papiya Nandy	12
-787	E. Rossi	4
-788	Nikolay Ivanov	5
-789	Sangita Saha	11
-790	Jan Schaefer	3
-791	Chun‐Chieh Yu	9
-792	Antonio Carta	6
-793	Wagner Gervazio	5
-794	Himanshu Shekhar	3
-795	Anastasia Petrova	3
-796	Fabiana Rodrigues de Santana	4
-797	Francisco José de Freitas	11
-798	A. Basu	4
-799	Xuan Meng	6
-800	Supriya Singh	6
-801	Mubarik Ali	7
-802	Graham J. Moore	6
-803	Saeed Ahmad	4
-804	Philippe Devos	6
-805	Federico E. Miraglia	0
-806	Érika Cristina Ferreira	4
-807	Klaus von Ammon	16
-808	Meera Sharma	14
-809	Mangala Rao	0
-810	Jennifer Jacobs	14
-811	Hongyuan Zhao	6
-812	Peter Fisher	17
-813	Eric Lahéra	9
-814	Nazmul Hasan	6
-815	Marcos Tadeu Varricchio	8
-816	Chitta Ranjan Mahata	2
-817	Prerna Kalra	5
-818	CR Mahata	0
-819	Praveen Oberai	17
-820	Nicolaas Busscher	9
-821	Stoil Karadzhov	5
-822	Antonio Maria Morselli‐Labate	1
-823	MuhammadMohsin Zaman	3
-824	Poonam Bandyopadhyay	12
-825	RajK Manchanda	15
-826	Yu. F. Krupyanskiǐ	11
-827	Nadezda Penkova	2
-828	Abdur Rahaman Shaikh	6
-829	Sevinj Maharramova	0
-830	Anil Khurana	22
-831	D. S. Bhar	10
-832	Garima Sachdeva	13
-833	Shantaram Govind Kane	4
-834	Nirmal Chandra Sukul	15
-835	RajK Manchanda	12
-836	L. I. Ilyenko	11
-837	Durga Shankar Bhar	8
-838	Elżbieta Malarczyk	0
-839	BhopalSingh Arya	6
-840	Aloísio Cunha de Carvalho	5
-841	Avishek Raaj	0
-842	Joyce Frye	14
-843	Subhash Kaushik	6
-844	Gérard Duru	0
-845	Ruma Basu	9
-846	Paul W. R. Harris	5
-847	Lidia Llanes-González	3
-848	Agnieszka Rzepiela	4
-849	Marialessandra Panozzo	4
-850	A. I. Potekaev	1
-851	Bharti Wadhwa	6
-852	WaheedMumtaz Abbasi	3
-853	Waheed Mumtaz Abbasi	6
-854	Jürgen Clausen	12
-855	Neelambika T. Meti	1
-856	Siva Rami Reddy E	1
-857	Nivedita Pande	5
-858	Г. И. Эль-Регистан	14
-859	PL Toutain	5
-860	Bindu Sharma	8
-861	Akshaya Kumar Hati	4
-862	Georgi Gluhchev	5
-863	D. Chambers	5
-864	Anil Vichitra	14
-865	Abhijit Chattopadhyay	10
-866	Arsalan Khan	7
-867	Chetna Deep Lamba	5
-868	Ka Lun Aaron To	1
-869	Renu Mittal	28
+70	Francisco Rafael Martins Soto	7
+71	Solange Bósio Tedesco	4
+72	Bhuvaneswari Rajachandrasekar	5
+73	Seikh Swaif Ali	6
+74	Luísa A. Ferreira	3
+75	Saurav Arora *	0
+76	Martine Goyens *	5
+77	Gleyce Moreno Barbosa	15
+78	Ida K. Ø. Hansen	2
+79	Sandro Roberto Valentini	2
+80	Achintya Singha	11
+81	Л. И. Муртазина	2
+82	Yuqiu Chen	2
+83	Rafael Harduim	5
+84	José Eizayaga	1
+85	Johannes Hunger	9
+86	Relly Victoria Petrescu	3
+87	Abhishek Pramanik	8
+88	Linda Nurra	4
+89	Nikita Kepezhinskas	3
+90	Tatiana V. Kulichenko	6
+91	Iddo Pinkas	7
+92	Manjula Ghuliani	18
+93	Ricardo Visini	8
+94	Javier Montenegro	1
+95	Udaiveer Singh	13
+96	Claudine Katan	6
+97	J. Als‐Nielsen	4
+98	Jürgen Pannek	9
+99	Mara G. Freire	2
+100	Jens‐Otto Andersen	9
+101	Atheni Konar	9
+102	Vijay M. Tangde	1
+103	Thomas Keller *	8
+104	Bibaswan Biswas	8
+105	João A. P. Coutinho	2
+106	Annekathrin Ücker	8
+107	Nílson Roberti Benites	7
+108	Flávia Carolina Souza de Oliveira	7
+109	Francis Rayns	6
+110	Inga V. Artemova	6
+111	Н.Н. Угарова	1
+112	Anuska Marcelino Alvares-Saraiva	10
+113	Tsviya Olender	7
+114	Paul Doesburg	21
+115	Halina Ekiert	4
+116	Renan Marino	0
+117	Takakazu Seki	10
+118	Stéṕhane Gin	2
+119	Saba Hosseinian	4
+120	Deepthi Gilla	2
+121	Naoual Boujedaini	3
+122	Cassiane Ubessi	4
+123	Mahima Sharma	9
+124	A. I. Konovalov	3
+125	Mohammad Qutubuddin	4
+126	S. P. Kulik	2
+127	Mischa Bonn	18
+128	Abanti Goswami	7
+129	Giovani Bravin Peres	12
+130	L. A. Dadinova	9
+131	Sandra Piras	6
+132	Thomas Reinhold	2
+133	Lynn Legg	15
+134	Cornellia Maute	4
+135	Lex Rutten	34
+136	Sulochana Singh	0
+137	Jean‐Paul Bourdineaud	3
+138	Sandhimita Mondal	2
+139	Petteri A. Vainikka	0
+140	Huang Wei Ling	0
+141	He‐Dong Bian	0
+142	Maristela Dutra-Corrêa	10
+143	Dionysios Tsintzas	3
+144	Raj Kumar Singh *	6
+145	Franciele Karina da Veiga	4
+146	Fariba Rahimi *	4
+147	Abdullah Ijaz Hussain	3
+148	Olivier Mathon	5
+149	Delmonte Roboredo	5
+150	Luana Rampazzo	7
+151	Salvatore Chirumbolo	0
+152	Abhijit Chakma	2
+153	Frauke Musial	9
+154	Sandra Ávila Gaspar	6
+155	Satoshi Nihonyanagi	1
+156	Isabelle Kieffer	9
+157	Anisur Rahman Khuda‐Bukhsh	2
+158	Sabine D. Klein	4
+159	Susanne Pannek-Rademacher	1
+160	Cheshta Nagrath	18
+161	Albert Sundrum	1
+162	Julia Wright	6
+163	Anu Chawla	18
+164	Mark M. Turnbull	0
+165	Ted J. Kaptchuk	4
+166	Saranya Pullanchery	2
+167	Márcia Vargas Toledo	3
+168	Georgios M. Kontogeorgis	2
+169	Dor Ben‐Amotz	0
+170	Konstantinos Kelaidonis	6
+171	Mihael Drofenik	1
+172	David B. Mitzi	0
+173	Menachem Oberbaum	30
+174	Deepti Dewan	6
+175	Debora Olioso	6
+176	Lorenzetti Eloisa	3
+177	Bharat Kumar Reddy Sanapalli	6
+178	Rosângela Vieira de Andrade	4
+179	David M. Wilkins	3
+180	А. В. Сыроешкин	1
+181	Iain McDonald	1
+182	Nikita V. Penkov	3
+183	Tandra Sarkar	9
+184	Suraia Parveen	7
+185	К. В. Шайтан	12
+186	В. В. Обухов	1
+187	Navita Bagdi	2
+188	Judith Stickdorn	1
+189	Ariane Briegel	2
+190	Stephen L. Buskin	10
+191	Ramesh Bawaskar	18
+192	Dilip H. Dagade	4
+193	Benjamin J Buffington	4
+194	Jonathan R. Lloyd	0
+195	Amjad Ali	7
+196	Edzard Ernst	1
+197	Wolfram W. Rudolph	1
+198	Sarabjit Sarkar	13
+199	Marcus Zulian Teixeira	0
+200	Nitin Magotra	11
+201	Smita N Nambison	1
+202	Mohammad Mohshinuzzaman	6
+203	G. Irmer	1
+204	Yu. A. Nikolaev	14
+205	Shifa Shaffique	7
+206	Ana Catarina Viana Valle	4
+207	Silvio Leite Monteiro da Silva	4
+208	Laura L. Pan	1
+209	Michael Frass	22
+210	Chintamani Nayak	14
+211	Roja Varanasi	25
+212	Munmun Koley *	37
+213	Leoni Bonamin	3
+214	Maya Padmanabhan	14
+215	Yang Yang *	4
+216	Fabiana Nabarro Ferraz	6
+217	Ivan A. Orlov	9
+218	Laurence Terzan	11
+219	Elhameh Nikkhah	4
+220	Andrey A. Mozhaev	9
+221	Jorge F. B. Pereira	2
+222	M. Yu. Skripkin	0
+223	Pankaj Gupta *	16
+224	Sunil M. Raheja	7
+225	Gianfranco Maria Beghi	1
+226	Benjamin A. Palmer	1
+227	Alessandro Triolo	3
+228	Carolina Aquino	7
+229	Priya Mondal	5
+230	Jens Smiatek	0
+231	Abbas Delazar	4
+232	Anwar H Biswas	6
+233	Leonardo Felipe Faedo	8
+234	Sk. Swaif Ali	17
+235	Iris R. Bell	4
+236	Josef M. Schmidt	0
+237	Kanjaksha Ghosh	3
+238	Armin Springer	1
+239	Kate Hawke	4
+240	Ludovic Pelligand	5
+241	Malaya Kumar Ray	18
+242	Arun Bhargav Jadhav	1
+243	Tobias Weidner	2
+244	Márcia Cristina Braga Nunes Varricchio	6
+245	Hanuman Ram	1
+246	Md. Jahangir Alom	6
+247	Laura Kate Gadanec	6
+248	David A. Holwell	1
+249	Dana Ullman	0
+250	Rathin Chakravarty	5
+251	Md. Emrul Kayes	6
+252	Alexandre Giesel	3
+253	Rajat Chattopadhyay	2
+254	A. L. Chulichkov	12
+255	Hyeonseok Lee	0
+256	Denis Testemale	9
+257	Sukhen Das	11
+258	Yuki Nagata	14
+259	Tamara Denisova	5
+260	Maria Martha Bernardi	11
+261	Alberto Striolo	0
+262	Jean-Lionel Bagot *	2
+263	Daulemys Batista-Sánchez	4
+264	Lutz Nuhn	1
+265	Michael Teut	17
+266	Anthony Zulli	6
+267	Mari Inês Caríssimi Boff	7
+268	Ingrid Theunissen	1
+269	Maksym V. Kovalenko	0
+270	Amit Srivastava	1
+271	Bilquis Hussain	7
+272	Tatsuhiko Ohto	12
+273	Dmitry O. Sinitsyn	13
+274	Shahzad Ali Shahid Chatha	3
+275	Ricardo Adriano Felito	5
+276	Meeta Gupta	19
+277	Paola Caria	6
+278	Christa Raak	7
+279	Nadezhda L. Pakhmutova	5
+280	Anupam Mukherjee	2
+281	Neta Varsano	7
+282	Joy Kumar Dey	2
+283	Yuya Oaki	2
+284	K. C. Muraleedharan	4
+285	Joonwoo Jeong	1
+286	Tim Jäger	15
+287	Luis M. De Leon Rodriguez	5
+288	Vicente Wagner Dias Casali	3
+289	Е. А. Кириченко	3
+290	Anezka Sokol	6
+291	Achim Stocker	8
+292	Bruno Reis	2
+293	Norina Jabeen	7
+294	Rachna Goenka	4
+295	И. С. Рыжкина	2
+296	Mark Fox‐Powell	2
+297	Miriam Athmann	13
+298	Gurudev Choubey	7
+299	Aditya Dilipkumar Patil	0
+300	Jean‐Louis Hazemann	9
+301	Sonja Hribar-Marko	3
+302	Claudia Scherr	27
+303	Sandra Würtenberger	6
+304	Stephan Baumgartner *	37
+305	Amrit Kalsi	18
+306	Samy Ould‐Chikh	9
+307	Agnete E. Kristoffersen	4
+308	Н. Е. Сузина	7
+309	Fateme Mirzajani	5
+310	Daniel Bonn	4
+311	Nilesh Shah	1
+312	Parina Asgharian	4
+313	Mohammad Hossein Ghazanfari	3
+314	Kevin Pope	1
+315	Tamis Darbre	8
+316	Bruno F. Fortuoso	7
+317	Megan Bergkessel	0
+318	Tanmoy Maity	1
+319	Jean‐Louis Reymond	8
+320	Dvir Gur	7
+321	Konstantin Kartaschew	2
+322	Giuseppina Sanna	6
+323	Sian Moss	12
+324	Cármen Rodrı́guez-Jaramillo	3
+325	Julia K. Ostermann	2
+326	Rizwan Ahamed	4
+327	Priscilla Anne Melville	7
+328	Anil Khurana *	57
+329	Timothy J. Egan	0
+330	Olga Russina	3
+331	Sabine De Jaegere	7
+332	Ian C. Bourg	0
+333	Etienne Capieaux	4
+334	Randolf Kauer	7
+335	Antonio Apicella	3
+336	Stephan N. Steinmann	5
+337	Vara Prasad Saka	7
+338	Mieke van Driel	4
+339	Nadine Ijaz	0
+340	Margaret A. Brimble	5
+341	Qamar Ullah	7
+342	Sheila Garcia	6
+343	Ellen H. G. Backus	13
+344	David King	4
+345	Anton S. Orekhov	9
+346	Tahei Tahara	1
+347	Shubhamoy Ghosh	12
+348	J. Couceiro	7
+349	Stephan Weber *	12
+350	Jeffrey L. Blackburn	1
+351	Carla Holandino	32
+352	Xifan Wu	1
+353	Gheorghe Jurj	0
+354	Marilise Escobar Bürger	1
+355	Pascal Trempat	1
+356	Georg Meissner	8
+357	Daniel Probst	8
+358	Ivanhoe K. H. Leung	5
+359	Binit Dwivedi	6
+360	Leyla S. Namazova-Baranova	6
+361	Devika Shah	12
+362	Silvie Dumas	3
+363	Grazia Gonella	4
+364	I. A. Zlatsky	1
+365	Leila Cristina Mourão	2
+366	Smadar Levin‐Zaidman	7
+367	Girish Gupta	2
+368	Swati R Shinde	0
+369	Muhammad Rizwan	7
+370	Diana Keller	1
+371	Toshiko Ichiye	0
+372	Glenn M. Wolfe	1
+373	Harleen Kaur	8
+374	Н. Г. Лойко	14
+375	Gregory M. Cook	5
+376	Gitanjali Talele	1
+377	Julia Burkart	11
+378	Aurora E. Clark	4
+379	Kavita Sharma *	18
+380	Marco Picchi	4
+381	Carlos Renato Zacharias	6
+382	Ethan A. Perets	1
+383	Jean Duckworth	1
+384	Ghulam Mustafa Kamal	3
+385	Pierre Dorfman *	10
+386	Thilo Köhler	8
+387	Gerhard Mayer	0
+388	Silvia Madeddu	6
+389	Alexandre dos Santos Pyrrho	13
+390	Pedro Boff	12
+391	Godlaveti Vijay Narasimha Kumar	9
+392	Martin Loef	17
+393	Jürgen Schulte	2
+394	Nisanth Nambison	1
+395	Mesbah Uddin Md. Rezwanun Nayem	6
+396	Carlos Moacir Bonato	5
+397	Huib J. Bakker	1
+398	Christien Klein-Laansma	9
+399	Satyashree Patnaik	13
+400	Vasso Apostolopoulos	6
+401	Venício Féo da Veiga	17
+402	Anirban Sukul	12
+403	Anjali Miglani	18
+404	Moumita Chakraborty	17
+405	Maxim V. Petoukhov	9
+406	Lana Ribeiro Aguiar	4
+407	Hong‐Qing Liang	1
+408	Flávio Dantas	14
+409	Thayná Neves Cardoso	12
+410	Jagpreet Singh	1
+411	Mohit Rawat	1
+412	Romeu Carillo	2
+413	Fernando Abasolo‐Pacheco	4
+414	Ram Prasad	7
+415	Alain Manceau	6
+416	Anil Kumar Nain	3
+417	Christine Marosi	7
+418	Kesharsingh J. Patil	4
+419	Arvind Kumar *	17
+420	Pieter Glatzel	6
+421	Sanjukta Mandal	1
+422	Erlete Rosalina Vuaden	7
+423	Jost Langhorst	2
+424	Agnieszka Szopa	4
+425	Ram Kumar Kudiyarasu	18
+426	Ilse Muchitsch	7
+427	Ilaria Marotti	4
+428	Hans R. Schultz	7
+429	Vitalie Văcăraș	2
+430	Seema Mahesh	7
+431	Jacky Even	6
+432	Cezmi A. Akdiş	1
+433	Olga I. Yablonskaya	2
+434	Basavaraj S Adi	1
+435	Tariq M. Khan	7
+436	Ziv Porat	7
+437	Igor Jerman	9
+438	Jerônimo Luiz Andriolo	4
+439	Udo Endruscheit	1
+440	Georgi Miloshev	5
+441	Rovier Verdi	8
+442	Kunal R. Patil	4
+443	Bernhard Pollner	1
+444	Gabriela M. Galli	7
+445	Cornelius Gropp	2
+446	Xavier Bantreil	1
+447	Katy Cooper	4
+448	P Radhika *	3
+449	Leslie Leiserowitz	4
+450	A. Pia P. Kröger	1
+451	Е. В. Демкина	3
+452	Jean-Louis Demangeat	4
+453	Vaishali Shinde	10
+454	Manuela Thinesse-Mallwitz	5
+455	Vinayak Laxman Pachapur	1
+456	Juan Asbún‐Bojalil	3
+457	Rahul Kumar Singh	17
+458	Vera Luíza Capelozzi	1
+459	Jürgen Fritz	14
+460	Leoni Villano Bonamin	47
+461	A. Vannucci	1
+462	Hima Bindu Ponnam	3
+463	Xian Jun Loh	0
+464	Steven Cartwright	5
+465	Anupriya Chaudhary	8
+466	Radmila Razlog *	6
+467	Arif Hussain Theruvath	4
+468	Valéria C. Santos‐Ebinuma	2
+469	Satinder Kaur Brar	1
+470	Zohar Eyal	7
+471	D Ramesh	9
+472	Gerhard Schwaab	2
+473	Katharina Gaertner	20
+474	В. К. Таточенко	6
+475	Colin L. Freeman	1
+476	Pramod Konthembath	18
+477	Xiaoqing Yu	9
+478	Terje Alræk	4
+479	Fariba Heshmati Afshar	4
+480	Leopoldo Aguilar-Faisal	3
+481	Kuo-Yang Chiang	9
+482	Holger Cramer	2
+483	Patrícia Glombowsky	7
+484	Ajay G. Namdeo	1
+485	Mark C.M. van Loosdrecht	0
+486	Silvana Márques de Araújo	6
+487	Valerio Di Lisio	3
+488	Patrícia Furtado Malard	4
+489	Olga S. Sokolova	13
+490	Jeffery A. Greathouse	0
+491	Peter Mojzeš	1
+492	Sarika K. Patil	4
+493	Mohan N Devasia	3
+494	Parth Aphale	2
+495	Patricia Tahan	9
+496	Sidiane Coltro-Roncato	7
+497	Treasure McGuire	4
+498	Corinne Kraus	4
+499	Dipanwita Majumdar	6
+500	Harald Walach *	23
+501	Irene Lostalé‐Seijo	1
+502	Saeed Ahmed	5
+503	Tapas Kundu	3
+504	Xiaodong Liang	2
+505	Haseeb Anwar	7
+506	И. Н. Холодова	7
+507	John H. Harding	1
+508	Gregory K. Schenter	4
+509	Resmi Raveendran	4
+510	Simon J. Schlegel	6
+511	Frédéric Lamaty	1
+512	Ricardo Machado Kuster	14
+513	G. Yu. Lomakina	1
+514	E. V. Buravleva	2
+515	Oscar Mitsuo Yamashita	5
+516	Tapan Kumar Nath	13
+517	Antonio Aguilar‐Tapia	9
+518	Robert T. Mathie	19
+519	Baljeet Singh Meena	19
+520	ES Rajendran	0
+521	Mohit Mathur	0
+522	Olivier Proux	9
+523	Vladimir O. Popov	12
+524	Lucietta Betti	11
+525	Luiz Gustavo Griss	7
+526	Hafiz Muhammad Asif	7
+527	Maneet Parewa	20
+528	Maxime Pouvreau	4
+529	Debnath Ghosal	2
+530	Ramkumar Mondal	10
+531	Rajesh Shah	1
+532	Subhrasankha Das	1
+533	Faeze Mirzajani	1
+534	Christiane Maute	4
+535	Adriano Mitio Inagaki	5
+536	Davide Donelli	1
+537	U. Adler	0
+538	Nidhi Mahajan	3
+539	Ivone Vieira da Silva	5
+540	Prabhjeet Kaur	18
+541	Mônica Anghinoni Müller	5
+542	Roberta Loddo	6
+543	Elizabeth Thompson	7
+544	Hans‐Matti Blencke	2
+545	Maria Olga Kokornaczyk	15
+546	Jayesh Bellare *	4
+547	Marco Antônio Camillo de Carvalho	5
+548	Jeeyoon Jeong	1
+549	Yogeshwari Gupta	0
+550	Ignat Ignatov	5
+551	Ursula Wolf	8
+552	David Martín	12
+553	O. I. Epstein	1
+554	Vishal Chadha	21
+555	Ramesh L. Gardas	0
+556	Tor Haug	2
+557	Michael L. Klein	1
+558	Thaísa Muriel Mioranza	7
+559	Gloria Y. Yeh	4
+560	Nizam Uddin	6
+561	Trine Stub	4
+562	Christian van Delden	8
+563	José Manuel Mazón‐Suástegui	7
+564	Ulrich Köpke	9
+565	Esperanza Fernández Martínez	2
+566	José Renato Stangarlin	7
+567	Sander Woutersen	4
+568	Andrea Mele	3
+569	Eleonora V. Shtykova	9
+570	Boris Y. Zaslavsky	3
+571	Johanna Zeise	3
+572	Y. R. Shen	1
+573	Biplab Kumar Paul	9
+574	Anila Rehman	5
+575	Arti Soren	12
+576	Afroz Shaikh	3
+577	Júlio César de Carvalho	0
+578	Ekane Peter Etape	0
+579	Petra Weiermayer	11
+580	Mariella Di Stefano	4
+581	Andreas Gleiß	5
+582	Э. В. Терешкин	12
+583	Alain Prat	9
+584	Mario Castelán	8
+585	Alexander Tournier	13
+586	Petter Viksveen *	11
+587	Avital Wagner	1
+588	Arunava Nath	15
+589	Simo Huotari	0
+590	Ghulam Hussain	7
+591	Rosimar Maria Marques	2
+592	А. Н. Попов	12
+593	Heidi Abrahamse	2
+594	Emanuel B. Ferreira	7
+595	Eva Pereiro	4
+596	Mauro Rovezzi	15
+597	John Matsoukas	6
+598	Hilana dos Santos Sena Brunel	4
+599	Joanna Pajor	4
+600	Tayyeba Rehman	8
+601	Roberto Germano	0
+602	E. Rachel Roberts	6
+603	Barry W. Ninham	1
+604	Lukas Junk	1
+605	Araceli Avilés-Quevedo	3
+606	Sreelakshmy SR	1
+607	María Pilar Riveros Huckstadt	2
+608	Еlena A. Vishneva	6
+609	Biswaranjan Paital	4
+610	Kirill A. Lomachenko	5
+611	Lukas Knake	2
+612	Mihai Berteanu	0
+613	Egabrieli Garbin	4
+614	Roman Kamyshinsky	9
+615	Jithesh Thavarayil Kannoth	18
+616	В. О. Крутикова	3
+617	Chandragouda R. Patil	1
+618	A. L. Vasiliev	9
+619	Baranov Aa	6
+620	A. N. Uskov	6
+621	Hecson Jesser Segat	1
+622	MdIsmail Shaikh	0
+623	Milagro García‐Bernal	4
+624	Mayur Temgire	4
+625	Suneel Prajapati	9
+626	John E. Hallsworth	2
+627	Satarupa Sadhukhan	17
+628	Odair José Kuhn	7
+629	Ivan Di Bonaventura	8
+630	Claudia M. Witt	3
+631	Yakov Freed	1
+632	Muneeb Ur Rahman	7
+633	Roya Bornhütter	11
+634	В.Л. Воейков	3
+635	Natale Perchiazzi	0
+636	Padmalaya Rath	8
+637	Umakanta Prusty	13
+638	Ernane Ronie Martins	3
+639	Clare Relton	3
+640	Shashank Dokania	3
+641	Silvana Marques de AraÃojo	3
+642	Carolyn I. Pearce	4
+643	Sergey Kapishnikov	4
+644	Pyotr Panteleevich Radchevsky	1
+645	Qiujie Wang	6
+646	Egor Anatolievich Olkhovatov	1
+647	Soma Sukul	2
+648	А. К. Мартусевич	0
+649	Renu Bala	1
+650	Sofya V. Lushchekina	7
+651	Filipe Pereira Giardini Bonfim	3
+652	Denise Lessa Aleixo	7
+653	Sumit Ghosh	5
+654	Kumar Vivekanand	7
+655	Mohammad Hasan Badizad	3
+656	Broti Rissato Bruna	3
+657	Michel Van Wassenhoven	19
+658	Renu Arya	9
+659	Martin Whiting	5
+660	Debadatta Nayak	26
+661	Dr Parth Aphale	2
+662	Ekaterina Yu. Soshinskaya	9
+663	Alexandra Ciocănel	1
+664	Philip Augustine	4
+665	Martin Whitehead	5
+666	Rosana GonÃƒÆ’Ã‚Â§alves Rodrigues das Dores	3
+667	Romy Lauche	2
+668	Cyriac Abby Philips	4
+669	Andrea Dei	0
+670	Matthew C. Beard	1
+671	Л. И. Герасимова	5
+672	Jay Yasgur	0
+673	Jos M. J. Paulusse	1
+674	Bjørn Kvamme	0
+675	Ismael Coronado	2
+676	Saman Hosseinpour	6
+677	Raj Kumar Manchanda	83
+678	Digvijay Verma *	6
+679	Vladimir N. Uversky	3
+680	Vesna Periček Krapež	3
+681	Alexander Dömlingꝉ	0
+682	Thomas Peinbauer	3
+683	Severino Alves	0
+684	Juliana Patrão de Paiva	13
+685	Luiz Figueira Pinto	0
+686	Rajaganapathy Lingeswaran	0
+687	Pankhuri Misra	15
+688	EN Sundaram	6
+689	Philippa Fibert	12
+690	Junke Jiang	6
+691	Márcia C. B. N. Varricchio	9
+692	Marcia Cristina Braga Nunes Varricchio	6
+693	Hossein Babaei	4
+694	К. Б. Терешкина	14
+695	Waltraud Scherer-Pongratz	3
+696	Aline Nunes	3
+697	Paulo Eduardo Mansur Hobaica	11
+698	Pedro P. Madeira	5
+699	Marcus Reif	9
+700	Brender Sharma	18
+701	Susanne Ulbrich-Zürni	18
+702	Andrey Moiseenko	5
+703	Grazia Trebbi	8
+704	Vinitha Edavattath Ramanan	0
+705	Clara Bonafini	5
+706	Simone Silmara Werner	4
+707	Pavel Kepezhinskas	3
+708	Paweł Klin	4
+709	Sonia Cortés	2
+710	Fortune Homsani	14
+711	Naval Kumar Verma	6
+712	Yu. M. Chesnokov	9
+713	Janice Pellow	1
+714	Elsa C. Y. Yan	1
+715	Bharti Gupta	12
+716	Jana Pilátová	1
+717	Indrani Chakraborty *	8
+718	George Vithoulkas	11
+719	Edgard Costa de Vilhena	6
+720	Uli Kazmaier	1
+721	André L. Rossi	16
+722	Anamika Basu	17
+723	Kevin M. Rosso	4
+724	Roberta Ibba	6
+725	Wilhelm MosgÃ¶ller	4
+726	Giovanni Dinelli	5
+727	Bikash Biswas	1
+728	Bee‐Ha Gan	8
+729	Yair Litman	5
+730	G.F. Naterer	1
+731	Thiruvilla S. Mahadevan	2
+732	Huaiyu Yang	0
+733	Michelle L. Dossett	4
+734	Alin Laurențiu Tatu	1
+735	Martin Frei-Erb	15
+736	Florian Ion Tiberiu Petrescu	3
+737	Patrízia Ana Bricarello	0
+738	Petra Klement	12
+739	Paolo Bellavite	16
+740	Dionatan Ketzer Krysczun	4
+741	Aike Anneliese Kretzschmar	5
+742	Muhammad Hanif	3
+743	Raffaella Aversa	3
+744	Yurii F. Krupyanskii	12
+745	BK Chaudhuri	0
+746	Peter Lechleitner	8
+747	Emma del Carmen Macías-Cortés	3
+748	P. C. Endler	7
+749	Robbert van Haselen	8
+750	Loredana Torchetti	5
+751	Subhranil Saha	31
+752	Cristiane de Bona da Silva	4
+753	Mohammad Koleini	3
+754	Linda Ogrizek	3
+755	Adalberto C. von Ancken	5
+756	Pablo Maluenda-León	2
+757	Burke Lennihan	0
+758	Jianping Liu	4
+759	Min Liu	0
+760	Abhijit Dutta	1
+761	James Michael	13
+762	Feng Liu	6
+763	Adriana Ramos de Miranda	5
+764	Matteo Bonini	1
+765	Martin Wolf	0
+766	Surender Singh	5
+767	Ashish Dixit	1
+768	Mats Jong	7
+769	Asim Kumar Das	7
+770	Aleksandro Schafer da Silva	7
+771	Adriana Passos Oliveira	15
+772	Jonathan Davidson	16
+773	Subhash Kaushik *	16
+774	Shengping Zhang	5
+775	Aloke Kumar Ghosh	9
+776	Debbethi Bera	10
+777	Josiane Bentes Lopes	9
+778	Shumei Sun	10
+779	Papiya Nandy	11
+780	E. Rossi	4
+781	Nikolay Ivanov	5
+782	Sangita Saha	11
+783	Jan Schaefer	3
+784	Chun‐Chieh Yu	9
+785	Antonio Carta	6
+786	Wagner Gervazio	5
+787	Himanshu Shekhar	3
+788	Anastasia Petrova	3
+789	Fabiana Rodrigues de Santana	4
+790	Francisco José de Freitas	11
+791	A. Basu	4
+792	Xuan Meng	6
+793	Supriya Singh *	8
+794	Mubarik Ali	7
+795	Graham J. Moore	6
+796	Saeed Ahmad *	4
+797	Philippe Devos	5
+798	Federico E. Miraglia	0
+799	Érika Cristina Ferreira	4
+800	Klaus von Ammon	15
+801	Meera Sharma	13
+802	Mangala Rao	0
+803	Jennifer Jacobs	14
+804	Hongyuan Zhao	6
+805	Peter Fisher *	17
+806	Eric Lahéra	9
+807	Nazmul Hasan *	6
+808	Marcos Tadeu Varricchio	8
+809	Chitta Ranjan Mahata	2
+810	Prerna Kalra	5
+811	CR Mahata	0
+812	Praveen Oberai *	20
+813	Nicolaas Busscher	9
+814	Stoil Karadzhov	5
+815	Antonio Maria Morselli‐Labate	1
+816	MuhammadMohsin Zaman	3
+817	Poonam Bandyopadhyay	11
+818	RajK Manchanda *	28
+819	Yu. F. Krupyanskiǐ	11
+820	Nadezda Penkova	2
+821	Abdur Rahaman Shaikh	6
+822	Sevinj Maharramova	0
+823	D. S. Bhar	9
+824	Garima Sachdeva	13
+825	Shantaram Govind Kane	4
+826	Nirmal Chandra Sukul	14
+827	L. I. Ilyenko	11
+828	Durga Shankar Bhar	8
+829	Elżbieta Malarczyk	0
+830	BhopalSingh Arya	6
+831	Aloísio Cunha de Carvalho	5
+832	Avishek Raaj	0
+833	Joyce Frye	14
+834	Gérard Duru	0
+835	Ruma Basu	9
+836	Paul W. R. Harris	5
+837	Lidia Llanes-González *	3
+838	Agnieszka Rzepiela	4
+839	Marialessandra Panozzo	4
+840	A. I. Potekaev	1
+841	Bharti Wadhwa	6
+842	WaheedMumtaz Abbasi	3
+843	Waheed Mumtaz Abbasi	6
+844	Jürgen Clausen	12
+845	Neelambika T. Meti	1
+846	Siva Rami Reddy E	1
+847	Nivedita Pande	5
+848	Г. И. Эль-Регистан	14
+849	PL Toutain	5
+850	Bindu Sharma	9
+851	Akshaya Kumar Hati	4
+852	Georgi Gluhchev	5
+853	D. Chambers	5
+854	Anil Vichitra	13
+855	Abhijit Chattopadhyay	10
+856	Arsalan Khan	7
+857	Chetna Deep Lamba *	9
+858	Ka Lun Aaron To	1
+859	Renu Mittal	26

@@ -1,0 +1,896 @@
+[
+  {
+    "canonical_id": "https://openalex.org/A5113913597",
+    "canonical_name": "Chetna Deep Lamba",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5092166569",
+        "name": "Chetna Deep Lamba",
+        "orcid": "",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5072133008",
+    "canonical_name": "Petter Viksveen",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5019928599",
+        "name": "Petter Viksveen",
+        "orcid": "https://orcid.org/0000-0003-2361-8404",
+        "edges": 4
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5039035887",
+    "canonical_name": "Stephan Baumgartner",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5047094283",
+        "name": "Stephan Baumgartner",
+        "orcid": "https://orcid.org/0000-0001-5772-8981",
+        "edges": 8
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5042595951",
+    "canonical_name": "Anil Khurana",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5109941628",
+        "name": "Anil Khurana",
+        "orcid": "",
+        "edges": 8
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5048642882",
+    "canonical_name": "Kavita Sharma",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5104005138",
+        "name": "Kavita Sharma",
+        "orcid": "",
+        "edges": 1
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5066710305",
+    "canonical_name": "Jayesh Bellare",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5103126184",
+        "name": "Jayesh Bellare",
+        "orcid": "",
+        "edges": 3
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5034226594",
+    "canonical_name": "Jean-Lionel Bagot",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5088218174",
+        "name": "Jean-Lionel BAGOT",
+        "orcid": "",
+        "edges": 1
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5108063232",
+    "canonical_name": "Peter Fisher",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5005287742",
+        "name": "Peter Fisher",
+        "orcid": "https://orcid.org/0000-0002-7388-720X",
+        "edges": 2
+      },
+      {
+        "id": "https://openalex.org/A5104138751",
+        "name": "Peter Fisher",
+        "orcid": "https://orcid.org/0000-0002-8667-5660",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5101948632",
+    "canonical_name": "Shruti Jain",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5080344081",
+        "name": "Shruti Jain",
+        "orcid": "https://orcid.org/0000-0002-9340-8800",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5037529035",
+    "canonical_name": "Jyoti Sachdeva",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5107540826",
+        "name": "Jyoti Sachdeva",
+        "orcid": "",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5014640185",
+    "canonical_name": "Thomas Keller",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5033458864",
+        "name": "Thomas Keller",
+        "orcid": "https://orcid.org/0000-0002-8100-6900",
+        "edges": 1
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5103737293",
+    "canonical_name": "Saeed Ahmad",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5101587121",
+        "name": "Saeed Ahmad",
+        "orcid": "https://orcid.org/0009-0005-8775-9486",
+        "edges": 4
+      },
+      {
+        "id": "https://openalex.org/A5089246997",
+        "name": "Saeed Ahmad",
+        "orcid": "https://orcid.org/0000-0001-9291-7059",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5109437408",
+    "canonical_name": "RajK Manchanda",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5110443502",
+        "name": "RajK Manchanda",
+        "orcid": "",
+        "edges": 7
+      },
+      {
+        "id": "https://openalex.org/A5108475263",
+        "name": "RajK Manchanda",
+        "orcid": "",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5063298502",
+    "canonical_name": "Harald Walach",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5118710192",
+        "name": "Harald Walach",
+        "orcid": "",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5108607991",
+    "canonical_name": "Praveen Oberai",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5112389137",
+        "name": "Praveen Oberai",
+        "orcid": "",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5103392541",
+    "canonical_name": "Supriya Singh",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5010355604",
+        "name": "Supriya Singh",
+        "orcid": "https://orcid.org/0000-0003-3555-5447",
+        "edges": 3
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5015400225",
+    "canonical_name": "Kaushik Das",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5002239126",
+        "name": "Kaushik Das",
+        "orcid": "https://orcid.org/0000-0002-3718-8233",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5100610930",
+    "canonical_name": "Anita Sharma",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5101730121",
+        "name": "Anita Sharma",
+        "orcid": "https://orcid.org/0000-0003-3375-3394",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5044790443",
+    "canonical_name": "Stephan Weber",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5037990670",
+        "name": "Stephan Weber",
+        "orcid": "https://orcid.org/0000-0003-0335-4691",
+        "edges": 1
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5001863676",
+    "canonical_name": "Nivedita Kundu",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5042470428",
+        "name": "Nivedita Kundu",
+        "orcid": "https://orcid.org/0000-0002-1925-2342",
+        "edges": 1
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5030085825",
+    "canonical_name": "Munmun Koley",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5112219766",
+        "name": "Munmun Koley",
+        "orcid": "",
+        "edges": 1
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5101762482",
+    "canonical_name": "Shweta Singh",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5101762480",
+        "name": "Shweta Singh",
+        "orcid": "https://orcid.org/0000-0002-3211-3531",
+        "edges": 3
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5036264179",
+    "canonical_name": "Richa Pant",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5078823284",
+        "name": "Richa Pant",
+        "orcid": "https://orcid.org/0000-0002-8134-0423",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5101459871",
+    "canonical_name": "Paolo Bernardi",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5009191571",
+        "name": "Paolo Bernardi",
+        "orcid": "https://orcid.org/0000-0001-9187-3736",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5088180170",
+    "canonical_name": "Indrani Chakraborty",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5042075062",
+        "name": "Indrani Chakraborty",
+        "orcid": "https://orcid.org/0000-0003-0055-0697",
+        "edges": 3
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5030758366",
+    "canonical_name": "Pankaj Gupta",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5100746367",
+        "name": "Pankaj Gupta",
+        "orcid": "https://orcid.org/0000-0002-1963-7998",
+        "edges": 3
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5112047674",
+    "canonical_name": "Lidia Llanes-González",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5079883472",
+        "name": "Lidia Llanes-González",
+        "orcid": "",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5072744276",
+    "canonical_name": "Arun Kumar",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5103376525",
+        "name": "Arun Kumar",
+        "orcid": "",
+        "edges": 3
+      },
+      {
+        "id": "https://openalex.org/A5066123421",
+        "name": "Arun Kumar",
+        "orcid": "",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5101894170",
+    "canonical_name": "Subhash Kaushik",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5111107750",
+        "name": "Subhash Kaushik",
+        "orcid": "",
+        "edges": 4
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5080441414",
+    "canonical_name": "Vikram Singh",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5024425293",
+        "name": "Vikram Singh",
+        "orcid": "https://orcid.org/0000-0002-2450-396X",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5108268182",
+    "canonical_name": "Nazmul Hasan",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5104636459",
+        "name": "Nazmul Hasan",
+        "orcid": "https://orcid.org/0009-0009-5467-7491",
+        "edges": 1
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5112074715",
+    "canonical_name": "Gustav Dobos",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5110071304",
+        "name": "Gustav Dobos",
+        "orcid": "",
+        "edges": 3
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5090033795",
+    "canonical_name": "V KumaraVel",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5033328612",
+        "name": "V Kumaravel",
+        "orcid": "",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5058061865",
+    "canonical_name": "P Radhika",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5087870297",
+        "name": "P Radhika",
+        "orcid": "",
+        "edges": 2
+      },
+      {
+        "id": "https://openalex.org/A5037360539",
+        "name": "P Radhika",
+        "orcid": "",
+        "edges": 1
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5053966533",
+    "canonical_name": "Arvind Kumar",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5109064144",
+        "name": "Arvind Kumar",
+        "orcid": "https://orcid.org/0009-0005-0339-8354",
+        "edges": 3
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5102957128",
+    "canonical_name": "Priyanka Singh",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5084681123",
+        "name": "Priyanka Singh",
+        "orcid": "https://orcid.org/0000-0001-7654-5339",
+        "edges": 1
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5101613566",
+    "canonical_name": "Neha Sharma",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5100772847",
+        "name": "Neha Sharma",
+        "orcid": "https://orcid.org/0000-0002-7486-2186",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5111072382",
+    "canonical_name": "Ankit Gupta",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5028104812",
+        "name": "Ankit Gupta",
+        "orcid": "https://orcid.org/0000-0001-7877-6333",
+        "edges": 1
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5100629991",
+    "canonical_name": "Rahul Singh",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5101730500",
+        "name": "Rahul Singh",
+        "orcid": "https://orcid.org/0000-0002-3534-2532",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5059735631",
+    "canonical_name": "Radmila Razlog",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5063225989",
+        "name": "Radmila Razlog",
+        "orcid": "",
+        "edges": 1
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5020581174",
+    "canonical_name": "Raj Kumar Singh",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5069689828",
+        "name": "Raj Kumar Singh",
+        "orcid": "https://orcid.org/0000-0002-3576-8971",
+        "edges": 1
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5011543980",
+    "canonical_name": "Martine Goyens",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5026321969",
+        "name": "Martine Goyens",
+        "orcid": "",
+        "edges": 2
+      },
+      {
+        "id": "https://openalex.org/A5009669910",
+        "name": "Martine Goyens",
+        "orcid": "",
+        "edges": 1
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5049116894",
+    "canonical_name": "Pierre Dorfman",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5114963773",
+        "name": "Pierre Dorfman",
+        "orcid": "",
+        "edges": 1
+      },
+      {
+        "id": "https://openalex.org/A5114963757",
+        "name": "Pierre Dorfman",
+        "orcid": "",
+        "edges": 1
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5119082019",
+    "canonical_name": "Mitra Ghaziani",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5119082081",
+        "name": "Mitra Ghaziani",
+        "orcid": "",
+        "edges": 2
+      },
+      {
+        "id": "https://openalex.org/A5119082026",
+        "name": "Mitra Ghaziani",
+        "orcid": "",
+        "edges": 1
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5021011282",
+    "canonical_name": "Fariba Rahimi",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5021500622",
+        "name": "Fariba Rahimi",
+        "orcid": "https://orcid.org/0000-0002-8174-6976",
+        "edges": 6
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5047909325",
+    "canonical_name": "Michael Joyce",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5102704933",
+        "name": "Michael Joyce",
+        "orcid": "https://orcid.org/0000-0002-9013-4365",
+        "edges": 3
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5083125890",
+    "canonical_name": "Digvijay Verma",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5101132711",
+        "name": "Digvijay Verma",
+        "orcid": "",
+        "edges": 1
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5109713235",
+    "canonical_name": "Morgana Teixeira Lima Castelo Branco",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5096717851",
+        "name": "Morgana Teixeira Lima Castelo Branco",
+        "orcid": "https://orcid.org/0000-0003-1962-0456",
+        "edges": 1
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5067190532",
+    "canonical_name": "Simone da Silva",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5002267351",
+        "name": "Simone da Silva",
+        "orcid": "https://orcid.org/0000-0002-1818-283X",
+        "edges": 1
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5100392329",
+    "canonical_name": "Wei Wang",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5105159571",
+        "name": "Wei Wang",
+        "orcid": "https://orcid.org/0009-0009-8053-2800",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5100367412",
+    "canonical_name": "Gang Wang",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5121456316",
+        "name": "Gang Wang",
+        "orcid": "",
+        "edges": 2
+      },
+      {
+        "id": "https://openalex.org/A5100367477",
+        "name": "Gang Wang",
+        "orcid": "https://orcid.org/0009-0000-8262-2951",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5100349524",
+    "canonical_name": "Lei Liu",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5100349476",
+        "name": "Lei Liu",
+        "orcid": "https://orcid.org/0000-0001-6290-8602",
+        "edges": 3
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5047598001",
+    "canonical_name": "Yue Ma",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5101677796",
+        "name": "Yue Ma",
+        "orcid": "https://orcid.org/0000-0002-4797-5185",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5057942792",
+    "canonical_name": "Jing Xu",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5101552257",
+        "name": "Jing Xu",
+        "orcid": "https://orcid.org/0000-0001-9845-3304",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5033921521",
+    "canonical_name": "Enrico Bergamaschi",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5058571756",
+        "name": "Enrico Bergamaschi",
+        "orcid": "https://orcid.org/0000-0001-6725-8426",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5106572670",
+    "canonical_name": "Lei Li",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5100440395",
+        "name": "Lei Li",
+        "orcid": "https://orcid.org/0000-0003-1963-5033",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5050152302",
+    "canonical_name": "Sourav Chakraborty",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5006558425",
+        "name": "Sourav Chakraborty",
+        "orcid": "https://orcid.org/0000-0002-6798-0061",
+        "edges": 1
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5100615915",
+    "canonical_name": "Ke Song",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5100615912",
+        "name": "Ke Song",
+        "orcid": "https://orcid.org/0000-0002-4063-4732",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5011476748",
+    "canonical_name": "Saurav Arora",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5110690899",
+        "name": "Saurav Arora",
+        "orcid": "",
+        "edges": 1
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5119082025",
+    "canonical_name": "Seyedeh Saba Hosseinian Ghamsari",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5119082082",
+        "name": "Seyedeh Saba Hosseinian Ghamsari",
+        "orcid": "",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5100778160",
+    "canonical_name": "Sen Ma",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5076736040",
+        "name": "Sen Ma",
+        "orcid": "https://orcid.org/0000-0001-7363-0845",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5028205051",
+    "canonical_name": "Antoine Demonceaux",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5022438384",
+        "name": "Antoine Demonceaux",
+        "orcid": "",
+        "edges": 3
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5100661800",
+    "canonical_name": "Weizhen Liu",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5100661803",
+        "name": "Weizhen Liu",
+        "orcid": "https://orcid.org/0000-0002-4402-3293",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5100379640",
+    "canonical_name": "Liangliang Zhang",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5100379655",
+        "name": "Liangliang Zhang",
+        "orcid": "https://orcid.org/0000-0003-1108-8258",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5114908294",
+    "canonical_name": "Cristina-Daniela Cîmpean",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5073625265",
+        "name": "Cristina-Daniela Cîmpean",
+        "orcid": "",
+        "edges": 1
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5111201237",
+    "canonical_name": "Christopher P. Landee",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5082685807",
+        "name": "Christopher P. Landee",
+        "orcid": "https://orcid.org/0000-0002-2905-9511",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5030289736",
+    "canonical_name": "Yang Yang",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5057685328",
+        "name": "Yang Yang",
+        "orcid": "https://orcid.org/0000-0001-5318-5385",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5035968290",
+    "canonical_name": "Ki Woo Kim",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5101643562",
+        "name": "Ki Woo Kim",
+        "orcid": "https://orcid.org/0000-0002-7010-0336",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5100662285",
+    "canonical_name": "Wei Zhang",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5100415140",
+        "name": "Wei Zhang",
+        "orcid": "https://orcid.org/0000-0002-3323-4095",
+        "edges": 2
+      }
+    ]
+  },
+  {
+    "canonical_id": "https://openalex.org/A5081986508",
+    "canonical_name": "Dieter Melchart",
+    "merged_ids": [
+      {
+        "id": "https://openalex.org/A5022566732",
+        "name": "Dieter Melchart",
+        "orcid": "",
+        "edges": 1
+      }
+    ]
+  }
+]

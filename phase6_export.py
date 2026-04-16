@@ -89,17 +89,11 @@ def build_coauthorship_network(G):
             if edge_data.get("edge_type") == "authored":
                 authors_on_paper.append(pred)
 
-        # Add author nodes to the co-authorship graph
+        # Add author nodes to the co-authorship graph, copying ALL attributes
         for aid in authors_on_paper:
             if aid not in coauthor_G.nodes:
-                node_data = G.nodes[aid]
-                coauthor_G.add_node(
-                    aid,
-                    label=node_data.get("label", ""),
-                    orcid=node_data.get("orcid", ""),
-                    seed_works_count=node_data.get("seed_works_count", 0),
-                    research_fields=node_data.get("research_fields", ""),
-                )
+                node_data = dict(G.nodes[aid])
+                coauthor_G.add_node(aid, **node_data)
 
         # Connect every pair of co-authors on this paper
         for a1, a2 in combinations(authors_on_paper, 2):
@@ -470,9 +464,18 @@ def main():
     trimmed_gexf = os.path.join(config.DATA_DIR, "homeopathy_network_trimmed.gexf")
     export_gexf(T, trimmed_gexf, cap_citations=100)
 
-    # 3. Build co-authorship projection from trimmed network for VOSviewer
-    print_section("EXPORTING VOSVIEWER CO-AUTHORSHIP (trimmed)")
+    # 3. Build co-authorship projection and export as GEXF + VOSviewer CSVs.
+    # This is an authors-only network where edges = shared papers.
+    print_section("EXPORTING CO-AUTHORSHIP NETWORK")
     coauthor_G = build_coauthorship_network(T)
+    print(f"  Co-authorship network: {coauthor_G.number_of_nodes()} authors, "
+          f"{coauthor_G.number_of_edges()} co-authorship links")
+
+    # GEXF for Gephi Lite (authors-only, direct edges)
+    coauthor_gexf = os.path.join(config.DATA_DIR, "coauthorship_network.gexf")
+    export_gexf(coauthor_G, coauthor_gexf, cap_citations=100)
+
+    # CSVs for VOSviewer
     map_path = os.path.join(config.DATA_DIR, "coauthor_map.csv")
     net_path = os.path.join(config.DATA_DIR, "coauthor_net.csv")
     export_vosviewer_csvs(coauthor_G, map_path, net_path)
@@ -484,7 +487,8 @@ def main():
 
     print(f"\n  Phase 6 complete. Output files in {config.DATA_DIR}/")
     print("  - homeopathy_network_full.gexf     → Archive (22K nodes)")
-    print("  - homeopathy_network_trimmed.gexf  → Explore in Gephi")
+    print("  - homeopathy_network_trimmed.gexf  → Heterogeneous network")
+    print("  - coauthorship_network.gexf        → Authors-only network")
     print("  - coauthor_map.csv                 → VOSviewer map file")
     print("  - coauthor_net.csv                 → VOSviewer network file")
     print("  - summary_stats.md                 → Summary statistics")
