@@ -48,11 +48,12 @@
         }
         #search-results .result:hover { background: rgba(240,140,30,0.15); }
 
-        /* Hover tooltip */
+        /* Hover tooltip — fixed to bottom-left so it never covers the graph */
         #tooltip {
             position: absolute; display: none; pointer-events: none;
+            bottom: 16px; left: 16px;
             background: rgba(20, 20, 40, 0.95); border: 1px solid rgba(255,255,255,0.12);
-            border-radius: 8px; padding: 12px 14px; max-width: 300px;
+            border-radius: 8px; padding: 12px 14px; max-width: 340px;
             backdrop-filter: blur(8px); z-index: 100;
         }
         #tooltip h3 { font-size: 14px; font-weight: 600; color: #fff; margin-bottom: 6px; }
@@ -133,21 +134,58 @@
     const container = document.getElementById('sigma-container');
     const renderer = new Sigma(graph, container, {
         renderLabels: true,
-        labelRenderedSizeThreshold: 8,   // show labels for nodes >= this pixel size
-        labelSize: 12,
-        labelColor: { color: '#e0e0e0' },
-        labelFont: '-apple-system, BlinkMacSystemFont, sans-serif',
+        labelRenderedSizeThreshold: 6,
+        // Custom label renderer: draws a dark rounded box behind each name
+        labelRenderer: function(context, data, settings) {
+            const fontSize = settings.labelSize || 12;
+            const font = `600 ${fontSize}px -apple-system, BlinkMacSystemFont, sans-serif`;
+            context.font = font;
+
+            const label = data.label;
+            if (!label) return;
+
+            const textWidth = context.measureText(label).width;
+            const padX = 4, padY = 2;
+            const boxX = data.x + data.size + 3;
+            const boxY = data.y - fontSize / 2 - padY;
+            const boxW = textWidth + padX * 2;
+            const boxH = fontSize + padY * 2;
+
+            // Dark rounded background
+            context.fillStyle = 'rgba(10, 10, 30, 0.75)';
+            context.beginPath();
+            context.roundRect(boxX - padX, boxY, boxW, boxH, 3);
+            context.fill();
+
+            // White text
+            context.fillStyle = '#ffffff';
+            context.fillText(label, boxX, data.y + fontSize / 3);
+        },
         defaultEdgeColor: 'rgba(255,255,255,0.06)',
         defaultEdgeType: 'line',
-        edgeReducer: (edge, data) => {
-            return { ...data, color: 'rgba(255,255,255,0.06)', size: 0.5 };
-        },
         nodeReducer: (node, data) => {
-            // Highlight neighbors on hover
-            if (hoveredNode && hoveredNode !== node && !graph.hasEdge(hoveredNode, node)) {
-                return { ...data, color: 'rgba(80,80,80,0.3)', label: '' };
+            if (!hoveredNode) return data;
+            // Hovered node: show label
+            if (node === hoveredNode) {
+                return { ...data, highlighted: true, forceLabel: true };
             }
-            return data;
+            // Neighbor: keep color, force label visible
+            if (graph.hasEdge(hoveredNode, node)) {
+                return { ...data, forceLabel: true };
+            }
+            // Everyone else: dim and hide label
+            return { ...data, color: 'rgba(80,80,80,0.2)', label: '' };
+        },
+        edgeReducer: (edge, data) => {
+            if (!hoveredNode) {
+                return { ...data, color: 'rgba(255,255,255,0.06)', size: 0.5 };
+            }
+            // Highlight edges connected to hovered node
+            const [source, target] = graph.extremities(edge);
+            if (source === hoveredNode || target === hoveredNode) {
+                return { ...data, color: 'rgba(240,160,50,0.4)', size: 1.5 };
+            }
+            return { ...data, color: 'rgba(255,255,255,0.02)', size: 0.3 };
         },
     });
 
@@ -176,10 +214,7 @@
     });
 
     renderer.getMouseCaptor().on('mousemovebody', (e) => {
-        if (tooltip.style.display === 'block') {
-            tooltip.style.left = (e.original.clientX + 15) + 'px';
-            tooltip.style.top = (e.original.clientY + 15) + 'px';
-        }
+        // Tooltip is now fixed in bottom-left, no mouse tracking needed
     });
 
     renderer.on('leaveNode', () => {

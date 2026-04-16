@@ -49,7 +49,7 @@ def citation_to_color(value, min_val, max_val):
     return f"rgb({r},{g},{b})"
 
 
-def size_interpolate(value, min_val, max_val, size_min=3, size_max=25):
+def size_interpolate(value, min_val, max_val, size_min=2, size_max=15):
     """
     Map seed_works_count to node size, interpolated between size_min and size_max.
     Uses square root scaling so high-count nodes don't dominate too much.
