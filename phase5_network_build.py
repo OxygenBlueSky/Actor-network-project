@@ -201,6 +201,48 @@ def add_work_edges(G, work):
         add_funder_node(G, funder_id, g.get("funder_name"))
         G.add_edge(funder_id, work_id, edge_type="funded")
 
+#===== AUTHOR ROLE CLASSIFICATION ===========================================
+
+def compute_author_roles(G):
+    """
+    For each author, determine their primary role (first / middle / last)
+    based on which position they most frequently occupy across all papers.
+
+    'first' typically = lead researcher / PhD student
+    'last'  typically = senior author / PI
+    'middle' = collaborator
+
+    Stored as node attributes:
+      primary_role:  the most common position (e.g. "last")
+      role_detail:   counts string (e.g. "first:5|middle:2|last:20")
+    """
+    author_positions = {}  # {author_id: Counter of positions}
+
+    for source, target, edata in G.edges(data=True):
+        if edata.get("edge_type") != "authored":
+            continue
+        # authored edges go author → work
+        author_id = source
+        position = edata.get("position", "")
+        if not position:
+            continue
+        if author_id not in author_positions:
+            author_positions[author_id] = Counter()
+        author_positions[author_id][position] += 1
+
+    for aid, pos_counts in author_positions.items():
+        if aid not in G.nodes:
+            continue
+        # Most common position = primary role
+        primary_role = pos_counts.most_common(1)[0][0]
+        G.nodes[aid]["primary_role"] = primary_role
+        # Detailed breakdown for tooltips
+        detail = "|".join(f"{pos}:{count}"
+                          for pos, count in pos_counts.most_common())
+        G.nodes[aid]["role_detail"] = detail
+
+    return author_positions
+
 #===== AUTHOR PROFILE ENRICHMENT ===========================================
 
 def enrich_author_profiles(G, profiles):
@@ -262,6 +304,15 @@ def main():
     for w in expanded_refs:
         add_work_node(G, w, is_seed=False)
         add_work_edges(G, w)
+
+    # Classify each author's primary role (first/middle/last) based on
+    # their most frequent position across all papers in the network
+    print("  Computing author roles...")
+    author_positions = compute_author_roles(G)
+    role_counts = Counter(G.nodes[aid].get("primary_role", "?")
+                          for aid in author_positions)
+    for role, count in role_counts.most_common():
+        print(f"    {role}: {count} authors")
 
     # Enrich author nodes with profile data from Phase 4
     print("  Enriching author profiles...")

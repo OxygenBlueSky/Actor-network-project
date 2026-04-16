@@ -37,11 +37,17 @@ def export_gexf(G, filepath, cap_citations=None):
     """
     G_copy = G.copy()
     for node, data in G_copy.nodes(data=True):
-        # Add a capped citation count for usable color gradients
-        if cap_citations and "cited_by_count" in data:
-            raw = data["cited_by_count"]
-            if isinstance(raw, (int, float)):
-                data["citations_capped"] = min(raw, cap_citations)
+        # Add capped citation counts for usable color gradients.
+        # Raw values are preserved; use the _capped versions for coloring.
+        if cap_citations:
+            if "cited_by_count" in data:
+                raw = data["cited_by_count"]
+                if isinstance(raw, (int, float)):
+                    data["citations_capped"] = min(raw, cap_citations)
+            if "author_cited_by" in data:
+                raw = data["author_cited_by"]
+                if isinstance(raw, (int, float)):
+                    data["author_cited_by_capped"] = min(raw, cap_citations * 10)
 
         for key, val in data.items():
             if isinstance(val, bool):
